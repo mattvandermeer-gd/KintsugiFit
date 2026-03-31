@@ -265,5 +265,5 @@ model-viewer{
 width: 600px;
 height: 600px;
 pointer-events: none;  
-display: inline-block;          
+display: block;          
 }
