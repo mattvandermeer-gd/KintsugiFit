@@ -47,6 +47,14 @@
                                 <div class="shapeThree"></div>
                                 <div class="shapeFour"></div>
                                 <div class="shapeFive"></div>
+                                <div class="model-container">
+                                    <model-viewer src="/model/runningblade1.glb" interaction-prompt="none" camera-controls disable-tap disable-zoom="pan-y" min-camera-orbit="auto auto 10m" max-camera-orbit="auto auto 15m"  camera-orbit="calc(-0.8rad + env(window-scroll-y) * 4rad) calc(70deg + env(window-scroll-y) * 120deg) calc(5m - env(window-scroll-y) * 10m)" ar ar-modes="webxr scene-viewer quick-look" camera-target="0m 0.5m 0m" camera-controls disable-tap="neutral" poster="poster.webp" shadow-intensity="1">
+                                        <div class="progress-bar hide" slot="progress-bar">
+                                            <div class="update-bar"></div>
+                                        </div>
+
+                                    </model-viewer>
+                                </div>
                             </div>
 
 
