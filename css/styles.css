@@ -252,9 +252,9 @@ h2{
 
 
 .model-container{
-width: 600px;
+ width: 600px;
 height: 600px;
-position: absolute;
+position: relative;
 margin-left: auto;
 pointer-events: none;
 }
@@ -262,6 +262,6 @@ pointer-events: none;
 model-viewer{
 width: 600px;
 height: 600px;
-pointer-events: none;  
-display: block;          
+pointer-events: none;
+            
 }
