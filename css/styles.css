@@ -264,5 +264,6 @@ padding-top: 120px;
 model-viewer{
 width: 600px;
 height: 600px;
-pointer-events: none;            
+pointer-events: none;  
+display: inline-block;          
 }
