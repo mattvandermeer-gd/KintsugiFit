@@ -349,9 +349,34 @@ top: 8rem;
 
 
 .textBox1{
+width: 25.5rem;
+  height: 8.25rem;
+  top: 9.563rem;
+  position: relative;
+  margin-left: 13.5rem;
+}
+
+
+.textBox2{
+
     width: 25.5rem;
     height: 8.25rem;
-    top: 9.563rem;
+    top: 26.813rem;
+    position: relative;
+    margin-left: 2.875rem;
+
+    
+}
+
+.textBox3{
+
+    width: 25.563rem;
+    height: 7.5rem;
+    top: 47.188rem;
+    position: relative;
+    margin-left: 27.75rem;
+
+    
 }
 
 
@@ -361,7 +386,6 @@ h3{
     color: #81D3F0;
     font-family: POPPINSMEDI;
 
-
 }
 
 p{
@@ -370,4 +394,6 @@ p{
     font-family: PROXIMAREG;
 
 }
+
+
 
