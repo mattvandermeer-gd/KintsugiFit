@@ -254,11 +254,13 @@ h2{
 
 
 model-viewer{
-width: 600px;
-height: 600px;
+width: 43.75rem;
+height: 43.75rem;
 pointer-events: none;
 display: block;
 position: absolute;
 contain: strict;
+margin-left: 33rem;
+top: 8rem;
             
 }
