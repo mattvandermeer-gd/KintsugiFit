@@ -251,17 +251,14 @@ h2{
 }
 
 
-.model-container{
- width: 600px;
-height: 600px;
-position: relative;
-margin-left: auto;
-pointer-events: none;
-}
 
-.model-viewer{
+
+model-viewer{
 width: 600px;
 height: 600px;
 pointer-events: none;
+display: block;
+position: absolute;
+contain: strict;
             
 }
