@@ -264,3 +264,23 @@ margin-left: 33rem;
 top: 8rem;
             
 }
+
+.second{
+    height: 96.813rem;
+}
+
+
+
+.backgroundSecond{
+    background-image:url('../images/trail.jpg'); 
+    height: 96.813rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #6B1234;
+    background-blend-mode: soft-light;
+    display: block;
+    position: absolute;
+    z-index: -8;
+}
