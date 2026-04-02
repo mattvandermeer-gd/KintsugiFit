@@ -74,7 +74,7 @@
           
           </section>
           <section class="second">
-                <div class="backgroundSecond">s
+                <div class="backgroundSecond">
                     
                 </div>
 
@@ -106,6 +106,17 @@
                             <p>Light weight, 3D printed ABS and Nylon. All materials are durable, sturdy and consistent.</p>
                         </div>
                     </div>
+                        <model-viewer src="Socket1.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="0.87" environment-image="aircraft_workshop_01_1k.hdr" shadow-softness="0.98" exposure="0.94" auto-rotate>
+                        <div class="progress-bar hide" slot="progress-bar">
+                            <div class="update-bar"></div>
+                        </div>
+                        <button slot="ar-button" id="ar-button">
+                            View in your space
+                        </button>
+                        <div id="ar-prompt">
+                            <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+                        </div>
+                    </model-viewer>
                     
                 </div>
           </section>
