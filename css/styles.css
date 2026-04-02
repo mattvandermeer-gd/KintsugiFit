@@ -148,11 +148,7 @@ ul{
     z-index: -9;
 }
 
-.mainSection{
-width: 79.5rem;
-height: 53.563rem;
 
-}
 
 
 .textHolder{
@@ -164,15 +160,20 @@ height: 53.563rem;
 
 }
 
+.shapeHolder1{
+
+}
+
 
 
 h1{
-    font-size: 6.25rem;
-    font-family: TERMINABOLD;
-    color: #6B1234;
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    padding-left: 1.5rem;
+    font-size: 5.3rem;
+  font-family: TERMINABOLD;
+  color: #6B1234;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  padding-left: 1.5rem;
+  align-self: start;
 
 }
 
@@ -181,10 +182,11 @@ h1{
 
 h2{
     font-size: 2rem;
-    font-family: PROXIMASEMI;
-    color: #6B1234;
-    writing-mode: vertical-rl;
- transform: rotate(180deg);
+  font-family: PROXIMASEMI;
+  color: #6B1234;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  align-self: baseline;
 
 }
 
