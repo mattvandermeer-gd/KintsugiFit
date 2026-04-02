@@ -267,6 +267,10 @@ top: 8rem;
 
 .second{
     height: 96.813rem;
+     background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
