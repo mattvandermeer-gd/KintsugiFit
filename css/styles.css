@@ -399,12 +399,12 @@ p{
 
 
 #socket{
-    width: 700px;
-    height: 700px;
-    pointer-events: none;
-    display: block;
-    position: absolute;
-    contain: strict;
-    margin-left: 33rem;
-    top: 8rem;
+   width: 700px;
+  height: 700px;
+  pointer-events: none;
+  display: block;
+  position: absolute;
+  contain: strict;
+  margin-left: 43rem;
+  padding-top: 95rem;
 }
