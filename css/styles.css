@@ -214,14 +214,13 @@ h2{
 
 
 .shapeThree{
-    width: 18.75rem;
     height: 33.75rem;
-    background-color: #6B1234;
-    mix-blend-mode: hard-light;
-    position: relative;
-    margin-left: auto;
-    top: 6.8rem;
-    aspect-ratio: 0.556;
+  background-color: #6B1234;
+  mix-blend-mode: hard-light;
+  position: absolute;
+  margin-left: 972px;
+  top: 196px;
+  aspect-ratio: 0.556;
     clip-path: shape(from 4.52% 70.37%,hline to 22.14%,curve to 26.67% 72.88% with 24.64% 70.37%/26.67% 71.5%,line to 26.67% 97.49%,curve to 31.19% 100% with 26.67% 98.87%/28.69% 100%,hline to 55.48%,curve to 60% 97.49% with 57.97% 100%/60% 98.87%,line to 60% 43.25%,curve to 64.52% 40.74% with 60% 41.87%/62.03% 40.74%,line to 95.48% 40.74%,curve to 100% 38.23% with 97.97% 40.74%/100% 39.62%,line to 100% 30.67%,curve to 98.67% 28.89% with 100% 30%/99.52% 29.37%,line to 47.99% 0.74%,curve to 44.79% 0% with 47.14% 0.27%/45.99% 0%,line to 24.52% 0%,curve to 20% 2.51% with 22.03% 0%/20% 1.13%,line to 20% 13.47%,curve to 22.01% 15.56% with 20% 14.31%/20.76% 15.09%,line to 47.57% 25.02%,curve to 45.06% 29.63% with 51.29% 26.4%/49.54% 29.63%,line to 24.53% 29.63%,curve to 20% 32.14% with 22.03% 29.63%/20% 30.75%,line to 20% 47.49%,curve to 15.48% 50% with 20% 48.87%/17.98% 50%,hline to 4.52%,curve to 0% 52.51% with 2.03% 50%/0% 51.12%,line to 0% 67.86%,curve to 4.52% 70.37% with 0% 69.24%/2.03% 70.37%,vline to 70.37%,close);
 }
 
