@@ -154,29 +154,15 @@ height: 53.563rem;
 
 }
 
-.sectionHolder{
-    display: flex;
-}
-
 
 .textHolder{
     margin-right: auto;
     padding-top:3.125rem;
     display: flex;
-    
+    height: 90%;
 
 
 }
-
-
-
-.shapeHolder1{
-    display: flex;
-    margin-left: 60.75rem;
-
-}
-
-
 
 
 
