@@ -106,7 +106,11 @@
                             <p>Light weight, 3D printed ABS and Nylon. All materials are durable, sturdy and consistent.</p>
                         </div>
                     </div>
-                        <model-viewer id="socket" src="./socket/sockettwo.glb"  ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="0.55" shadow-softness="0.65" exposure="0.65" auto-rotate> </model-viewer>
+                        <model-viewer id="socket" src="./socket/sockettwo.glb"interaction-prompt="none" camera-controls="" disable-tap="" disable-zoom="pan-y" ar="" ar-modes="webxr scene-viewer quick-look" poster="poster.webp" ar-status="not-presenting" camera-target="0m 1m 0m" shadow-intensity="0" max-camera-orbit="auto auto 8m" min-camera-orbit="auto auto 8m" camera-orbit="calc(-0.3rad + env(window-scroll-y) * 8rad) calc(70deg + env(window-scroll-y) * -10deg) calc(5m - env(window-scroll-y) * 20m)">
+                                                        <div class="progress-bar hide" slot="progress-bar">
+                                                            <div class="update-bar"></div>
+                                                        </div>
+                         </model-viewer>
                     
                 </div>
           </section>
