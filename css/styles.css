@@ -69,17 +69,8 @@
 
 
 .container {
-    width: 79.5rem;
+    width: 80%;
     margin: 0 auto;
-}
-
-
-@media (max-width: 1000px) {
-  .container { margin: 0 auto; }
-}
-
-@media (max-width: 800px) {
-  .container { margin: 0 auto; }
 }
 
 
