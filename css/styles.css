@@ -154,6 +154,10 @@ height: 53.563rem;
 
 }
 
+.sectionHolder{
+    display: flex;
+}
+
 
 .textHolder{
     margin-right: auto;
