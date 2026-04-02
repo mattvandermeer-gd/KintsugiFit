@@ -149,19 +149,24 @@ ul{
 }
 
 
+.mainSection{
+    display: flex;
+    padding-top:3.125rem;
+    width: 1272px;
+}
+
 
 
 .textHolder{
     margin-right: auto;
-    padding-top:3.125rem;
-    display: flex;
-    height: 90%;
+    
+   
 
 
 }
 
 .shapeHolder1{
-
+    width: 947px;
 }
 
 
