@@ -153,6 +153,7 @@ ul{
     display: flex;
     padding-top:3.125rem;
     width: 1272px;
+    height: 859px;
 }
 
 
@@ -161,11 +162,11 @@ ul{
     margin-right: auto;
     width: 140px;
     height: 597px;
+    display: flex;
     
-   
-
-
 }
+
+
 
 .shapeHolder1{
     width: 947px;
