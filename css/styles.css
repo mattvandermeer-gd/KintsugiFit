@@ -426,8 +426,9 @@ p{
   pointer-events: none;
   position: absolute;
   contain: strict;
-  padding-left: 39rem;
-    flex-wrap: wrap;
+  left: 44rem;
+  flex-wrap: wrap;
+  overflow: hidden;
 }
 
 
@@ -435,9 +436,8 @@ p{
 width: 420px;
   height: 700px;
   pointer-events: none;
-  flex-wrap: wrap;
- position: absolute;
+  position: absolute;
   contain: strict;
-  padding-left: 47rem;
-  padding-top: 87rem;
+  left: 877px;
+  top: 1514px;
 }
