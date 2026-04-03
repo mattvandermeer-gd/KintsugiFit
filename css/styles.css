@@ -271,10 +271,20 @@ h2{
 
 
 
+.model-container{
+    overflow-x: clip;
+
+}
 
 
 model-viewer{
 
+pointer-events: none;
+display: block;
+position: absolute;
+contain: strict;
+margin-left: 33rem;
+top: 8rem;
 overflow-x:clip;
 
             
@@ -386,7 +396,6 @@ width: 25.5rem;
     position: relative;
     margin-left: 40.5rem;
 
-
     
 }
 
@@ -415,17 +424,6 @@ p{
     color: #81D3F0;
     font-family: PROXIMAREG;
 
-}
-
-#runner{
-    width: 420px;
-  height: 700px;
-  pointer-events: none;
-display: block;
-position: absolute;
-contain: strict;
-margin-left: 33rem;
-top: 8rem;
 }
 
 
