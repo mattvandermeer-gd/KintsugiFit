@@ -228,7 +228,7 @@ h2{
 
 
 .shapeTwo{
-    height: 30.375rem;
+    height: clamp(20rem, 40vw, 30.375rem);
   aspect-ratio: 0.613;
   position: absolute;
   margin-left: 293px;
