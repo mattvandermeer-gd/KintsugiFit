@@ -239,7 +239,7 @@ h2{
 
 
 .shapeThree{
-  height: 33.75rem;
+  height: clamp(20rem, 40vw, 33.75rem);
   background-color: #6B1234;
   mix-blend-mode: hard-light;
   position: absolute;
@@ -252,8 +252,8 @@ h2{
 
 
 .shapeFour{
-    width: 32.25rem;
-  height: 25.25rem;
+    width: clamp(15rem, 30vw, 32.25rem);
+    height: clamp(12rem, 25vw, 25.25rem);
   background-color: #81D3F0;
   mix-blend-mode: multiply;
   position: absolute;
@@ -266,7 +266,7 @@ h2{
 
 .shapeFive{
     aspect-ratio: 1.13;
-    width: 25.5rem;
+    width: clamp(12rem, 25vw, 25.5rem);
     background-color:#81D3F0;
     mix-blend-mode: multiply;
     position: absolute;
