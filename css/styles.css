@@ -432,7 +432,7 @@ p{
   display: block;
   position: absolute;
   contain: strict;
-  padding-left: 39rem;
+  left: 50%;
 
 }
 
@@ -458,7 +458,7 @@ width: 420px;
 
 
         #runner {
-            width: 200px;
+            width: 300px;
             height: 500px;
             pointer-events: none;
             display: block;
@@ -469,31 +469,31 @@ width: 420px;
     }
 
     .shapeOne{
-        width: 30%;
+        width: 20%;
         
 
     }
 
     .shapeTwo{
-        width: 30%;
+        width: 20%;
         
 
     }
 
     .shapeThree{
-        width: 30%;
+        width: 20%;
        
 
     }
 
     .shapeFour{
-        width: 30%;
+        width: 20%;
        
 
     }
 
     .shapeFive{
-        width: 30%;
+        width: 20%;
         
 
     }
