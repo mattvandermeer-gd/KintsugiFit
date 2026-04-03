@@ -277,7 +277,6 @@ pointer-events: none;
 display: block;
 position: absolute;
 contain: strict;
-margin-left: 33rem;
 top: 8rem;
 overflow-x:clip;
 
@@ -429,7 +428,7 @@ p{
   position: absolute;
   contain: strict;
   padding-left: 39rem;
-  
+
 }
 
 
