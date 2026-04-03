@@ -467,6 +467,12 @@ width: 420px;
         
     }
 
+
+      .shapeHolder1 {
+        order: 1;
+        width: 100%;
+    }
+
     .shapeOne{
         width: 20%;
         height: 20%;
