@@ -70,8 +70,10 @@
 
 
 .container {
-    width: min(79.5em, 95%);
+    
     margin: 0 auto;
+    max-width: 1272px ;
+    display: flex;
 
 }
 
