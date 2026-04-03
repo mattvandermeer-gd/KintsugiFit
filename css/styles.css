@@ -427,6 +427,18 @@ p{
 }
 
 
+#runner{
+   width: 420px;
+  height: 700px;
+  pointer-events: none;
+  display: block;
+  position: absolute;
+  contain: strict;
+  padding-left: 14rem;
+  padding-top: 87rem;
+}
+
+
 #socket{
    width: 420px;
   height: 700px;
@@ -434,6 +446,6 @@ p{
   display: block;
   position: absolute;
   contain: strict;
-  padding-left: 43rem;
+  padding-left: 16rem;
   padding-top: 87rem;
 }
