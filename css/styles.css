@@ -77,19 +77,23 @@ body{
 
 
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-
-
-
-
 .first{
     height: 61.688rem;
 
 }
+
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    aspect-ratio: 14 / 9;
+}
+
+
+
+
+
 
 .headerText{
 font-family: PROXIMASEMI;
