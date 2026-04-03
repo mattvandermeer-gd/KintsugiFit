@@ -201,14 +201,20 @@ h2{
 
 
 
-.shapeHolder1{
-    width: 948px;
-    margin-right: auto;
-    
+.shapeHolder1 {
+    flex: 1;
+    min-width: 300px;
+    position: relative;
+    min-height: 400px;
 }
 
+.shapeOne, .shapeTwo, .shapeThree, .shapeFour, .shapeFive {
+    position: absolute;
+}
+
+
 .shapeOne{
-    width: 25.5rem;
+    width: clamp(15rem, 30vw, 25.5rem);
   aspect-ratio: 2.957;
   position: absolute;
   margin-left: 183px;
