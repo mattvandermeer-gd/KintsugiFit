@@ -274,7 +274,7 @@ h2{
 model-viewer{
 
 pointer-events: none;
-display: block;
+display: flex;
 position: absolute;
 contain: strict;
 top: 8rem;
@@ -424,11 +424,10 @@ p{
  width: 500px;
   height: 700px;
   pointer-events: none;
-  display: block;
   position: absolute;
   contain: strict;
   padding-left: 39rem;
-
+    flex-wrap: wrap;
 }
 
 
@@ -436,7 +435,7 @@ p{
 width: 420px;
   height: 700px;
   pointer-events: none;
-  display: block;
+  flex-wrap: wrap;
  position: absolute;
   contain: strict;
   padding-left: 47rem;
