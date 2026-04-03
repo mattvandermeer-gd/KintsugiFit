@@ -159,6 +159,7 @@ ul{
     padding-top: 3.125rem;
     width: 1272px;
     height: 859px;
+    position: relative;
     
 }
 
@@ -204,6 +205,7 @@ h2{
 .shapeHolder1{
     width: 948px;
     margin-right: auto;
+    position: absolute;
     
 }
 
