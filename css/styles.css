@@ -450,7 +450,7 @@ width: 420px;
 
 
 
-@media (max-width: 756px) {
+@media (max-width: 800px) {
     .first {
         min-height: auto;
         
@@ -468,4 +468,9 @@ width: 420px;
         
     }
 
+    .shapeOne{
+        width: 80%;
 
+    }
+
+}
