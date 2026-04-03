@@ -271,12 +271,6 @@ h2{
 
 
 
-.model-container{
-    overflow-x: clip;
-
-}
-
-
 model-viewer{
 
 pointer-events: none;
@@ -428,24 +422,23 @@ p{
 
 
 #runner{
-   width: 420px;
+ width: 500px;
   height: 700px;
   pointer-events: none;
   display: block;
   position: absolute;
   contain: strict;
-  padding-left: 14rem;
-  padding-top: 87rem;
+  padding-left: 39rem;
 }
 
 
 #socket{
-   width: 420px;
+width: 420px;
   height: 700px;
   pointer-events: none;
   display: block;
-  position: absolute;
+ position: absolute;
   contain: strict;
-  padding-left: 16rem;
+  padding-left: 47rem;
   padding-top: 87rem;
 }
