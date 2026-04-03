@@ -450,7 +450,7 @@ width: 420px;
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
     .first {
         min-height: auto;
         
@@ -469,7 +469,32 @@ width: 420px;
     }
 
     .shapeOne{
-        width: 80%;
+        width: 30%;
+        
+
+    }
+
+    .shapeTwo{
+        width: 30%;
+        
+
+    }
+
+    .shapeThree{
+        width: 30%;
+       
+
+    }
+
+    .shapeFour{
+        width: 30%;
+       
+
+    }
+
+    .shapeFive{
+        width: 30%;
+        
 
     }
 
