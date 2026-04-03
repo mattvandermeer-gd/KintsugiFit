@@ -159,7 +159,7 @@ ul{
 
 
 .textHolder{
-    margin-right: auto;
+    
     width: 140px;
     height: 597px;
     display: flex;
@@ -170,6 +170,7 @@ ul{
 
 .shapeHolder1{
     width: 947px;
+    margin-right: auto;
 }
 
 
