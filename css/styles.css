@@ -183,7 +183,7 @@ ul{
 
 
 .shapeHolder1{
-    width: 947px;
+    width: fit-content;
     margin-right: auto;
      max-width: 100%;
     height: auto;
