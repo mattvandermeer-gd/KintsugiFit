@@ -70,10 +70,8 @@
 
 
 .container {
-    
+    width: min(79.5em, 95%);
     margin: 0 auto;
-    max-width: 1272px ;
-    display: flex;
 
 }
 
@@ -157,11 +155,10 @@ ul{
 
 
 .mainSection{
+    display: flex;
     padding-top: 3.125rem;
     width: 1272px;
     height: 859px;
-    position: relative;
-    flex-shrink: 1;
     
 }
 
@@ -207,9 +204,6 @@ h2{
 .shapeHolder1{
     width: 948px;
     margin-right: auto;
-    position: absolute;
-    flex-shrink: 1;
-    padding: 10px;
     
 }
 
