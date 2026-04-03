@@ -442,3 +442,83 @@ width: 420px;
   padding-left: 47rem;
   padding-top: 87rem;
 }
+
+
+
+@media (max-width: 480px) {
+    .first {
+        min-height: auto;
+        padding: 1rem;
+    }
+
+
+        .container, .container2 {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+
+    @media (max-width: 480px) {
+    .first {
+        min-height: auto;
+        padding: 1rem;
+    }
+
+    .container, .container2 {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    h1 {
+        writing-mode: horizontal-tb;
+        transform: none;
+        padding-left: 0;
+        font-size: clamp(1.5rem, 5vw, 2rem);
+    }
+
+    h2 {
+        writing-mode: horizontal-tb;
+        transform: none;
+        font-size: clamp(1rem, 3vw, 1.5rem);
+    }
+
+    ul {
+        gap: 1rem;
+        font-size: 0.65rem;
+    }
+
+    .logo {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .mainSection {
+        padding-top: 1rem;
+    }
+
+    .textHolder2 {
+        padding: 1rem;
+    }
+
+    .textBox1, .textBox2, .textBox3 {
+        max-width: 100%;
+    }
+
+    #runner, #socket {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 5 / 7;
+    }
+
+    .background, .backgroundSecond {
+        background-attachment: scroll;
+    }
+
+    .shapeOne, .shapeTwo, .shapeThree, .shapeFour, .shapeFive {
+        display: none;
+    }
+
+    .shapeSix, .shapeSeven, .shapeEight {
+        display: none;
+    }
+}
