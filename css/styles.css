@@ -427,14 +427,15 @@ p{
 
 
 #runner{
- width: 500px;
-  height: 700px;
-  pointer-events: none;
-  position: absolute;
-  contain: strict;
-  left: 44rem;
-  flex-wrap: wrap;
-  overflow: hidden;
+    width: clamp(250px, 50vw, 500px);
+    height: clamp(300px, 60vw, 700px);
+    pointer-events: none;
+    position: absolute;
+    contain: strict;
+    left: 62%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
 }
 
 
