@@ -67,11 +67,6 @@
 
 }
 
-body
-{
-    overflow-x: hidden;
-}
-
 
 
 .container {
@@ -207,9 +202,8 @@ h2{
 
 
 .shapeHolder1{
-    flex: 1;
-    min-width: 300px;
-    min-height: 400px;
+    width: 948px;
+    margin-right: auto;
     
 }
 
@@ -433,7 +427,7 @@ p{
   display: block;
   position: absolute;
   contain: strict;
-  left: 50%;
+  padding-left: 39rem;
 
 }
 
@@ -451,61 +445,5 @@ width: 420px;
 
 
 
-@media (max-width: 1200px) {
-    .first {
-        min-height: auto;
-        
-    }
 
 
-        #runner {
-            width: 400px;
-            pointer-events: none;
-            display: block;
-            position: absolute;
-            contain: strict;
-
-        
-    }
-
-
-      .shapeHolder1 {
-        order: 1;
-        width: 100%;
-    }
-
-    .shapeOne{
-        width: 20%;
-
-        
-
-    }
-
-    .shapeTwo{
-        width: 20%;
-
-        
-
-    }
-
-    .shapeThree{
-        width: 20%;
-
-
-    }
-
-    .shapeFour{
-        width: 20%;
-
-       
-
-    }
-
-    .shapeFive{
-        width: 20%;
-
-        
-
-    }
-
-}
