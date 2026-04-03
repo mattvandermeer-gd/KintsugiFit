@@ -201,71 +201,72 @@ h2{
 
 
 
-.shapeHolder1 {
-    flex: 1;
-    min-width: 300px;
-    position: relative;
-    min-height: 400px;
+.shapeHolder1{
+    width: 948px;
+    margin-right: auto;
+    
 }
 
-.shapeOne, .shapeTwo, .shapeThree, .shapeFour, .shapeFive {
-    position: absolute;
+.shapeOne{
+    width: 25.5rem;
+  aspect-ratio: 2.957;
+  position: absolute;
+  margin-left: 183px;
+  background-color: #81D3F0;
+  mix-blend-mode: multiply;
+    clip-path: shape(from 97.34% 50%,line to 70.26% 50%,curve to 68.39% 52.25% with 69.56% 50%/68.89% 50.81%,line to 52.65% 97.75%,curve to 50.77% 100% with 52.15% 99.19%/51.48% 100%,line to 19.34% 100%,curve to 17.52% 97.9% with 18.67% 100%/18.01% 99.25%,line to 0.83% 52.27%,curve to 0% 46.69% with 0.3% 50.82%/0% 48.81%,line to 0% 7.67%,curve to 2.65% 0% with 0% 3.44%/1.19% 0%,line to 14.64% 0%,curve to 17.29% 7.67% with 16.1% 0%/17.29% 3.44%,line to 17.29% 29.83%,curve to 19.95% 37.5% with 17.29% 34.06%/18.48% 37.5%,line to 50.25% 37.5%,curve to 52.9% 29.83% with 51.71% 37.5%/52.9% 34.06%,line to 52.9% 7.67%,curve to 55.55% 0% with 52.9% 3.44%/54.09% 0%,line to 85.36% 0%,curve to 87.23% 2.25% with 86.06% 0%/86.74% 0.81%,line to 99.22% 36.9%,curve to 97.34% 50% with 100.89% 41.74%/99.71% 50%,close);
 }
 
-.shapeOne {
-    width: clamp(15rem, 30vw, 25.5rem);
-    aspect-ratio: 2.957;
-    background-color: #81D3F0;
-    mix-blend-mode: multiply;
-    left: 50%;
-    top: 10%;
-    transform: translateX(-50%);
-    clip-path: shape(from 97.34% 50%,line to 70.26% 50%,curve to 68.39% 52.25% with 69.56% 50%/68.89% 50.81%,line to 52.65% 97.75%,curve to 50.77% 100% with 52.15% 99.19%/51.48% 100%,line to 19.3%...);
+
+
+
+
+.shapeTwo{
+    height: 30.375rem;
+  aspect-ratio: 0.613;
+  position: absolute;
+  margin-left: 293px;
+  background-color: #6B1234;
+  mix-blend-mode: hard-light;
+    clip-path: shape(from 75% 2.48%,line to 75% 28.18%,curve to 70.67% 30.65% with 75% 29.55%/73.06% 30.65%,line to 29.34% 30.65%,curve to 25% 33.13% with 26.94% 30.65%/25% 31.76%,line to 25% 54.66%,curve to 29.34% 57.14% with 25% 56.03%/26.94% 57.14%,line to 47.33% 57.14%,curve to 51.67% 59.62% with 49.73% 57.14%/51.67% 58.25%,line to 51.67% 84.04%,curve to 56.01% 86.51% with 51.67% 85.41%/53.61% 86.51%,line to 95.66% 86.51%,curve to 100% 88.99% with 98.06% 86.51%/100% 87.62%,line to 100% 97.52%,curve to 95.66% 100% with 100% 98.89%/98.06% 100%,line to 29.34% 100%,curve to 25% 97.52% with 26.94% 100%/25% 98.89%,line to 25% 73.91%,curve to 20.67% 71.43% with 25% 72.54%/23.06% 71.43%,line to 4.34% 71.43%,curve to 0% 68.95% with 1.94% 71.43%/0% 70.32%,line to 0% 29.6%,curve to 1.27% 27.85% with 0% 28.94%/0.46% 28.31%,line to 23.73% 15.01%,curve to 26.8% 14.29% with 24.54% 14.55%/25.65% 14.29%,line to 45.66% 14.29%,curve to 50% 11.81% with 48.06% 14.29%/50% 13.18%,line to 50% 2.48%,curve to 54.34% 0% with 50% 1.11%/51.94% 0%,line to 70.67% 0%,curve to 75% 2.48% with 73.06% 0%/75% 1.11%,close);
 }
 
-.shapeTwo {
-    height: clamp(20rem, 40vw, 30.375rem);
-    aspect-ratio: 0.613;
-    background-color: #6B1234;
-    mix-blend-mode: hard-light;
-    left: 50%;
-    top: 15%;
-    transform: translateX(-35%);
-    clip-path: shape(from 75% 2.48%,line to 75% 28.18%,curve to 70.67% 30.65% with 75% 29.55%/73.06% 30.65%,line to 29.34% 30.65%,curve to 25% 33.13% with 26.94% 30.65%/25% 31.76%,line to 25% 54%...);
+
+.shapeThree{
+  height: 33.75rem;
+  background-color: #6B1234;
+  mix-blend-mode: hard-light;
+  position: absolute;
+  margin-left: 832px;
+    top: 206px;
+  aspect-ratio: 0.556;
+    clip-path: shape(from 4.52% 70.37%,hline to 22.14%,curve to 26.67% 72.88% with 24.64% 70.37%/26.67% 71.5%,line to 26.67% 97.49%,curve to 31.19% 100% with 26.67% 98.87%/28.69% 100%,hline to 55.48%,curve to 60% 97.49% with 57.97% 100%/60% 98.87%,line to 60% 43.25%,curve to 64.52% 40.74% with 60% 41.87%/62.03% 40.74%,line to 95.48% 40.74%,curve to 100% 38.23% with 97.97% 40.74%/100% 39.62%,line to 100% 30.67%,curve to 98.67% 28.89% with 100% 30%/99.52% 29.37%,line to 47.99% 0.74%,curve to 44.79% 0% with 47.14% 0.27%/45.99% 0%,line to 24.52% 0%,curve to 20% 2.51% with 22.03% 0%/20% 1.13%,line to 20% 13.47%,curve to 22.01% 15.56% with 20% 14.31%/20.76% 15.09%,line to 47.57% 25.02%,curve to 45.06% 29.63% with 51.29% 26.4%/49.54% 29.63%,line to 24.53% 29.63%,curve to 20% 32.14% with 22.03% 29.63%/20% 30.75%,line to 20% 47.49%,curve to 15.48% 50% with 20% 48.87%/17.98% 50%,hline to 4.52%,curve to 0% 52.51% with 2.03% 50%/0% 51.12%,line to 0% 67.86%,curve to 4.52% 70.37% with 0% 69.24%/2.03% 70.37%,vline to 70.37%,close);
 }
 
-.shapeThree {
-    height: clamp(20rem, 40vw, 33.75rem);
-    background-color: #6B1234;
-    mix-blend-mode: hard-light;
-    aspect-ratio: 0.556;
-    left: 50%;
-    top: 20%;
-    transform: translateX(25%);
-    clip-path: shape(from 4.52% 70.37%,hline to 22.14%,curve to 26.67% 72.88% with 24.64% 70.37%/26.67% 71.5%,line to 26.67% 97.49%,curve to 31.19% 100% with 26.67% 98.87%/28.69% 100%,hline to 55%...);
+
+
+.shapeFour{
+    width: 32.25rem;
+  height: 25.25rem;
+  background-color: #81D3F0;
+  mix-blend-mode: multiply;
+  position: absolute;
+  aspect-ratio: 1.277;
+  margin-left: 616px;
+  top: 28.8rem;
+    clip-path: shape(from 3.02% 78.62%,line to 30.63% 78.62%,curve to 33.48% 74.98% with 32.2% 78.62%/33.48% 76.99%,line to 33.48% 25.35%,curve to 36.33% 21.71% with 33.48% 23.34%/34.76% 21.71%,line to 51% 21.71%,curve to 53.85% 18.07% with 52.57% 21.71%/53.85% 20.08%,line to 53.85% 3.64%,curve to 56.7% 0% with 53.85% 1.63%/55.13% 0%,line to 74.98% 0%,curve to 76.67% 3.64% with 76.55% 0%/76.67% 1.63%,line to 76.67% 37.81%,curve to 79.52% 41.45% with 76.67% 39.82%/77.95% 41.45%,line to 97.15% 41.45%,curve to 100% 45.08% with 98.72% 41.45%/100% 43.08%,line to 100% 53.6%,curve to 97.15% 57.24% with 100% 55.61%/98.72% 57.24%,line to 87.38% 57.24%,curve to 84.53% 60.88% with 85.81% 57.24%/84.53% 58.87%,line to 84.53% 74.98%,curve to 81.68% 78.62% with 84.53% 76.99%/83.25% 78.62%,line to 52.83% 78.62%,curve to 49.98% 82.26% with 51.26% 78.62%/49.98% 80.25%,line to 49.98% 96.36%,curve to 47.13% 100% with 49.98% 98.37%/48.7% 100%,line to 2.85% 100%,curve to 0% 96.31% with 1.26% 100%/-0.02% 98.34%,line to 0.17% 82.2%,curve to 3.02% 78.62% with 0.19% 80.21%/1.46% 78.62%,line to 3.02% 78.62%,close);
+
 }
 
-.shapeFour {
-    width: clamp(15rem, 30vw, 32.25rem);
-    height: clamp(12rem, 25vw, 25.25rem);
-    background-color: #81D3F0;
-    mix-blend-mode: multiply;
-    aspect-ratio: 1.277;
-    left: 50%;
-    top: 45%;
-    transform: translateX(-5%);
-    clip-path: shape(from 3.02% 78.62%,line to 30.63% 78.62%,curve to 33.48% 74.98% with 32.2% 78.62%/33.48% 76.99%,line to 33.48% 25.35%,curve to 36.33% 21.71% with 33.48% 23.34%/34.76% 21.71%,l%...);
-}
-
-.shapeFive {
+.shapeFive{
     aspect-ratio: 1.13;
-    width: clamp(12rem, 25vw, 25.5rem);
-    background-color: #81D3F0;
+    width: 25.5rem;
+    background-color:#81D3F0;
     mix-blend-mode: multiply;
-    left: 50%;
-    top: 55%;
-    transform: translateX(-25%);
-    clip-path: shape(from 99.99% 91.24%,line to 99.99% 8.69%,curve to 94.59% 0% with 100.19% 3.86%/97.85% 0%,line to 72.33% 0%,curve to 66.43% 8.67% with 69.07% 0%/66.43% 3.88%,line to 66.43% 41%...);
+    position: absolute;
+    margin-left: 108px;
+    top: 39.1rem;
+    clip-path: shape(from 99.99% 91.24%,line to 99.99% 8.69%,curve to 94.59% 0% with 100.19% 3.86%/97.85% 0%,line to 72.33% 0%,curve to 66.43% 8.67% with 69.07% 0%/66.43% 3.88%,line to 66.43% 41.33%,curve to 60.52% 50% with 66.43% 46.12%/63.78% 50%,line to 34.79% 50%,curve to 30.62% 52.54% with 33.23% 50%/31.73% 50.92%,line to 0% 100%,line to 99.99% 100%,curve to 99.99% 91.24% with 99.99% 94.14%/99.99% 96.03%,close);
 }
 
 
