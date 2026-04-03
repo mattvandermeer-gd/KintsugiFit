@@ -279,12 +279,13 @@ h2{
 
 model-viewer{
 
-pointer-events: none;
-display: flex;
-position: absolute;
-contain: strict;
-top: 8rem;
-overflow-x:clip;
+    pointer-events: none;
+    display: flex;
+    position: absolute;
+    contain: strict;
+    overflow: hidden;
+    width: clamp(250px, 50vw, 500px);
+    height: clamp(300px, 60vw, 700px);
 
             
 }
