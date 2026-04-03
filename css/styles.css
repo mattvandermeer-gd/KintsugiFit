@@ -270,7 +270,7 @@ h2{
     mix-blend-mode: multiply;
     position: absolute;
     left: 15%;
-    top: 24%;
+    top: 72%;
     clip-path: shape(from 99.99% 91.24%,line to 99.99% 8.69%,curve to 94.59% 0% with 100.19% 3.86%/97.85% 0%,line to 72.33% 0%,curve to 66.43% 8.67% with 69.07% 0%/66.43% 3.88%,line to 66.43% 41.33%,curve to 60.52% 50% with 66.43% 46.12%/63.78% 50%,line to 34.79% 50%,curve to 30.62% 52.54% with 33.23% 50%/31.73% 50.92%,line to 0% 100%,line to 99.99% 100%,curve to 99.99% 91.24% with 99.99% 94.14%/99.99% 96.03%,close);
 }
 
