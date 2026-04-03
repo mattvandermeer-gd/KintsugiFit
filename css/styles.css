@@ -67,6 +67,11 @@
 
 }
 
+body
+{
+    overflow: hidden;
+}
+
 
 
 .container {
@@ -448,14 +453,19 @@ width: 420px;
 @media (max-width: 756px) {
     .first {
         min-height: auto;
-        padding: 1rem;
+        
     }
 
 
         #runner {
-        width: 100%;
-        height: auto;
-        aspect-ratio: 5 / 7;
+            width: 200px;
+            height: 500px;
+            pointer-events: none;
+            display: block;
+            position: absolute;
+            contain: strict;
+
+        
     }
 
 
