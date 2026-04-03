@@ -271,21 +271,10 @@ h2{
 
 
 
-.model-container{
-    overflow-x: clip;
-
-}
 
 
 model-viewer{
-width: 43.75rem;
-height: 43.75rem;
-pointer-events: none;
-display: block;
-position: absolute;
-contain: strict;
-margin-left: 33rem;
-top: 8rem;
+
 overflow-x:clip;
 
             
@@ -397,6 +386,7 @@ width: 25.5rem;
     position: relative;
     margin-left: 40.5rem;
 
+
     
 }
 
@@ -427,14 +417,25 @@ p{
 
 }
 
+#runner{
+    width: 420px;
+  height: 700px;
+  pointer-events: none;
+display: block;
+position: absolute;
+contain: strict;
+margin-left: 33rem;
+top: 8rem;
+}
+
 
 #socket{
-   width: 700px;
+   width: 420px;
   height: 700px;
   pointer-events: none;
   display: block;
   position: absolute;
   contain: strict;
-  margin-left: 43rem;
+  padding-left: 43rem;
   padding-top: 87rem;
 }
