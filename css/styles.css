@@ -214,7 +214,7 @@ h2{
 }
 
 .shapeOne{
-    width: 25.5rem;
+    width: 27vw;
   aspect-ratio: 2.957;
   position: absolute;
     left: 29%;
@@ -228,7 +228,7 @@ h2{
 
 
 .shapeTwo{
-    height: 30.375rem;
+    width: 20vw;
   aspect-ratio: 0.613;
   position: absolute;
   left: 36%;
@@ -239,7 +239,7 @@ h2{
 
 
 .shapeThree{
-  height: 33.75rem;
+  width: 20vw;
   background-color: #6B1234;
   mix-blend-mode: hard-light;
   position: absolute;
@@ -252,8 +252,7 @@ h2{
 
 
 .shapeFour{
-    width: 32.25rem;
-  height: 25.25rem;
+  width: 34.2vw;
   background-color: #81D3F0;
   mix-blend-mode: multiply;
   position: absolute;
