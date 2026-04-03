@@ -426,13 +426,13 @@ p{
 
 
 #runner{
- width: 500px;
-  height: 700px;
+ width: 48vw;
+  height: 74vh;
   pointer-events: none;
   display: block;
   position: absolute;
   contain: strict;
-  padding-left: 39rem;
+  left: 41%;
 
 }
 
