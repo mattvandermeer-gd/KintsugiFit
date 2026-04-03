@@ -207,8 +207,9 @@ h2{
 
 
 .shapeHolder1{
-    width: 948px;
-    margin-right: auto;
+    flex: 1;
+    min-width: 300px;
+    min-height: 400px;
     
 }
 
@@ -475,34 +476,34 @@ width: 420px;
 
     .shapeOne{
         width: 20%;
-        height: 20%;
+
         
 
     }
 
     .shapeTwo{
         width: 20%;
-        height: 20%;
+
         
 
     }
 
     .shapeThree{
         width: 20%;
-       height: 20%;
+
 
     }
 
     .shapeFour{
         width: 20%;
-        height: 20%;
+
        
 
     }
 
     .shapeFive{
         width: 20%;
-        height: 20%;
+
         
 
     }
