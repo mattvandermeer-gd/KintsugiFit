@@ -286,6 +286,7 @@ position: absolute;
 contain: strict;
 margin-left: 33rem;
 top: 8rem;
+overflow-x:clip;
 
             
 }
