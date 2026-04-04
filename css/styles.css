@@ -497,14 +497,15 @@ model-viewer{
   display: block;
   position: absolute;
   contain: strict;
-  margin-left: 21rem;
   top: 8rem;
   scale: 0.8;
+  margin-left: 18rem;
 }
 
 
 #socket{
     margin-left: -15rem;
+
 }
 
 }
