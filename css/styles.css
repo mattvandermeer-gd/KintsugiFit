@@ -453,6 +453,26 @@ width: 59.25em;
   position: absolute;
   }
 
+  .shapeTwo{
+  mix-blend-mode: hard-light;
 
-    
+}
+
+.shapeThree{
+  mix-blend-mode: hard-light;
+
+}
+
+model-viewer{
+    width: 43.75rem;
+  height: 43.75rem;
+  pointer-events: none;
+  display: block;
+  position: absolute;
+  contain: strict;
+  margin-left: 21rem;
+  top: 8rem;
+  scale: 0.8;
+}
+}
 
