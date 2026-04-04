@@ -440,3 +440,44 @@ p{
   margin-left: 43rem;
   padding-top: 87rem;
 }
+
+
+@media (width < 1100px) {
+  .textHolder2 {
+    padding: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.textBox1{
+    width: 60%;
+    padding-left: 8em;
+  padding-top: 3em;
+}
+
+
+.textBox2{
+    width: 60%;
+    padding-left: 8em;
+  padding-top: 22em;
+}
+
+
+.textBox3{
+    width: 60%;
+    padding-top: 20em;
+  padding-left: 16em;
+}
+
+.shapeSix{
+    height: 64%;
+}
+
+.shapeSeven{
+    width: 30%;
+    margin-left: 33.3rem;
+}
+
+.shapeEight{
+    width: 40%;
+    margin-left: 33.3rem;
+}
