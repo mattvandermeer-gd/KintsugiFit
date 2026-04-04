@@ -85,9 +85,11 @@ body{
 
 
 .container {
-    width: 80%;
-    margin: 0 auto;
-    aspect-ratio: 14 / 9;
+  margin: 0 auto;
+  max-width: 1272px;
+  min-width: 480px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 
@@ -319,9 +321,13 @@ top: 8rem;
 
 
 .container2{
-     width: 80%;
-    margin: 0 auto;
-    aspect-ratio: 14 / 9;
+
+  margin: 0 auto;
+
+  max-width: 1272px;
+  min-width: 480px;
+  padding-left: 30px;
+  padding-right: 30px;
 
 }
 
