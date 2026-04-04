@@ -442,36 +442,4 @@ p{
 }
 
 
-@media (width < 1400px) {
-  .shapeHolder1{
-    scale: 0.8;
-    width: 59.25em;
-  margin-right: auto;
-  max-width: 100%;
-  height: auto;
-  position: absolute;
-  }
-
-  .shapeTwo{
-  mix-blend-mode: hard-light;
-
-}
-
-.shapeThree{
-  mix-blend-mode: hard-light;
-
-}
-
-model-viewer{
-    width: 43.75rem;
-  height: 43.75rem;
-  pointer-events: none;
-  display: block;
-  position: absolute;
-  contain: strict;
-  margin-left: 21rem;
-  top: 8rem;
-  scale: 0.8;
-}
-}
 
