@@ -561,11 +561,11 @@ model-viewer{
 }
 
 .shapeThree{
-    height: 24.375em;
+    height: 20.5em;
     background-color: #6B1234;
     mix-blend-mode: hard-light;
     position: absolute;
-    margin-left: 38.188em;
+    margin-left: 31.563em;
     top: 298px;
     aspect-ratio: 0.556;
     clip-path: shape(from 4.52% 70.37%,hline to 22.14%,curve to 26.67% 72.88% with 24.64% 70.37%/26.67% 71.5%,line to 26.67% 97.49%,curve to 31.19% 100% with 26.67% 98.87%/28.69% 100%,hline to 55.48%,curve to 60% 97.49% with 57.97% 100%/60% 98.87%,line to 60% 43.25%,curve to 64.52% 40.74% with 60% 41.87%/62.03% 40.74%,line to 95.48% 40.74%,curve to 100% 38.23% with 97.97% 40.74%/100% 39.62%,line to 100% 30.67%,curve to 98.67% 28.89% with 100% 30%/99.52% 29.37%,line to 47.99% 0.74%,curve to 44.79% 0% with 47.14% 0.27%/45.99% 0%,line to 24.52% 0%,curve to 20% 2.51% with 22.03% 0%/20% 1.13%,line to 20% 13.47%,curve to 22.01% 15.56% with 20% 14.31%/20.76% 15.09%,line to 47.57% 25.02%,curve to 45.06% 29.63% with 51.29% 26.4%/49.54% 29.63%,line to 24.53% 29.63%,curve to 20% 32.14% with 22.03% 29.63%/20% 30.75%,line to 20% 47.49%,curve to 15.48% 50% with 20% 48.87%/17.98% 50%,hline to 4.52%,curve to 0% 52.51% with 2.03% 50%/0% 51.12%,line to 0% 67.86%,curve to 4.52% 70.37% with 0% 69.24%/2.03% 70.37%,vline to 70.37%,close);
@@ -573,14 +573,14 @@ model-viewer{
 
 
 .shapeFour{
-    width: 23.625em;
-    height: 21.938em;
+    width: 19.938em;
+    height: 15.625em;
     background-color: #81D3F0;
     mix-blend-mode: multiply;
     position: absolute;
     aspect-ratio: 1.277;
-    margin-left: 28.125em;
-    top: 30.8rem;
+    margin-left: 23em;
+    top: 28.8rem;
     clip-path: shape(from 3.02% 78.62%,line to 30.63% 78.62%,curve to 33.48% 74.98% with 32.2% 78.62%/33.48% 76.99%,line to 33.48% 25.35%,curve to 36.33% 21.71% with 33.48% 23.34%/34.76% 21.71%,line to 51% 21.71%,curve to 53.85% 18.07% with 52.57% 21.71%/53.85% 20.08%,line to 53.85% 3.64%,curve to 56.7% 0% with 53.85% 1.63%/55.13% 0%,line to 74.98% 0%,curve to 76.67% 3.64% with 76.55% 0%/76.67% 1.63%,line to 76.67% 37.81%,curve to 79.52% 41.45% with 76.67% 39.82%/77.95% 41.45%,line to 97.15% 41.45%,curve to 100% 45.08% with 98.72% 41.45%/100% 43.08%,line to 100% 53.6%,curve to 97.15% 57.24% with 100% 55.61%/98.72% 57.24%,line to 87.38% 57.24%,curve to 84.53% 60.88% with 85.81% 57.24%/84.53% 58.87%,line to 84.53% 74.98%,curve to 81.68% 78.62% with 84.53% 76.99%/83.25% 78.62%,line to 52.83% 78.62%,curve to 49.98% 82.26% with 51.26% 78.62%/49.98% 80.25%,line to 49.98% 96.36%,curve to 47.13% 100% with 49.98% 98.37%/48.7% 100%,line to 2.85% 100%,curve to 0% 96.31% with 1.26% 100%/-0.02% 98.34%,line to 0.17% 82.2%,curve to 3.02% 78.62% with 0.19% 80.21%/1.46% 78.62%,line to 3.02% 78.62%,close);
 }
 
