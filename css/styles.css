@@ -501,5 +501,11 @@ model-viewer{
   top: 8rem;
   scale: 0.8;
 }
+
+
+#socket{
+    margin-left: -15rem;
+}
+
 }
 
