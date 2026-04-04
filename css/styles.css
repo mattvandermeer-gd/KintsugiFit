@@ -192,7 +192,7 @@ ul{
 
 
 h1{
-    font-size: 5.3rem;
+  font-size: clamp(4rem, 6vw, 5.4rem);
   font-family: TERMINABOLD;
   color: #6B1234;
   writing-mode: vertical-rl;
@@ -206,7 +206,7 @@ h1{
 
 
 h2{
-    font-size: 2rem;
+  font-size: clamp(1.4rem, 2vw, 2rem);
   font-family: PROXIMASEMI;
   color: #6B1234;
   writing-mode: vertical-rl;
