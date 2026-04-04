@@ -774,9 +774,9 @@ model-viewer{
 
 
 .textBox3{
-    width: 18.5em;
-    height: 9.125em;
-    top: 45em;
+    width: 27.6em;
+    height: 7.5rem;
+    top: 46em;
     position: relative;
     margin-left: 9.625em;
 }
@@ -802,7 +802,7 @@ model-viewer{
     margin-left: 19.188em;
     aspect-ratio: 1.051;
     clip-path: shape(from 56.26% 91.03%,line to 56.26% 96.16%,curve to 52.61% 100% with 56.26% 98.28%/54.63% 100%,line to 32.29% 100%,curve to 28.65% 96.16% with 30.28% 100%/28.65% 98.28%,line to 28.65% 72.55%,curve to 25% 68.71% with 28.65% 70.43%/27.02% 68.71%,line to 3.64% 68.71%,curve to 0% 64.87% with 1.63% 68.71%/0% 66.99%,line to 0% 49.58%,curve to 3.64% 45.73% with 0% 47.45%/1.63% 45.73%,line to 58.63% 45.73%,curve to 62.27% 41.89% with 60.64% 45.73%/62.27% 44.01%,line to 62.27% 3.84%,curve to 65.92% 0% with 62.27% 1.72%/63.91% 0%,line to 81.05% 0%,curve to 84.69% 3.84% with 83.06% 0%/84.69% 1.72%,line to 84.69% 45.02%,curve to 85.76% 47.74% with 84.69% 46.04%/85.08% 47.01%,line to 98.92% 61.61%,curve to 96.35% 68.16% with 101.22% 64.03%/99.6% 68.16%,line to 87.72% 68.16%,curve to 84.07% 72% with 85.71% 68.16%/84.07% 69.88%,line to 84.07% 79.97%,curve to 80.43% 83.81% with 84.07% 82.09%/82.44% 83.81%,line to 60% 83.81%,curve to 56.36% 87.53% with 58.03% 83.81%/56.42% 85.46%,line to 56.26% 91.03%,close);
-     margin-top: 39.4em;
+    margin-top: 36.4em;
 }
 
 
@@ -821,6 +821,14 @@ model-viewer{
     top: 17.7em;
     position: relative;
     margin-left: 9.625em;
+}
+
+h3{
+    font-size:1.438rem;
+}
+
+p{
+    font-size:1rem;
 }
 
 
