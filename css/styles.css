@@ -380,6 +380,18 @@ top: 8rem;
 
 }
 
+a{
+color: #6B1134;
+text-decoration: none;
+transition: color 300ms ease-in;
+
+}
+
+
+a:hover {
+  color: #FF746C;
+}
+
 .textHolder2{
     width: 79.5rem;
     height: 86.813rem;
