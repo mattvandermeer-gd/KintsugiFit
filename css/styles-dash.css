@@ -81,7 +81,7 @@ body{
 
   background-size: cover;
 
-   min-height: 100vh;
+ 
   margin: 0;
 
       background-color: #81D3F0;
@@ -93,18 +93,18 @@ body{
 
 
 .container {
-  margin: 0 auto;
+margin: 0 auto;
   max-width: 1272px;
   min-width: 420px;
   padding-left: 30px;
   padding-right: 30px;
+  min-height: 100vh;
   
 
 }
 
 .bodyHolder{
     width: 1272px;
-    height: 840px;
     position: relative;
     display: flex;
 
@@ -168,26 +168,25 @@ body{
 
 
 .headerShape{
-    position: absolute;
-     width: 100%;
-    height: 170px;
-    top: 14px;
-    aspect-ratio: 7.146;
-    aspect-ratio: 7.482;
-    clip-path: shape(from 98.82% 0%,line to 1.18% 0%,curve to 0% 8.82% with 0.53% 0%/0% 3.95%,line to 0% 41.76%,curve to 1.18% 50.59% with 0% 46.64%/0.53% 50.59%,line to 24.29% 50.59%,curve to 25.47% 59.41% with 24.94% 50.59%/25.47% 54.54%,line to 25.47% 91.18%,curve to 26.65% 100% with 25.47% 96.05%/26% 100%,line to 98.82% 100%,curve to 100% 91.18% with 99.47% 100%/100% 96.05%,line to 100% 8.82%,curve to 98.82% 0% with 100% 3.95%/99.47% 0%,close);
-    background-color: #6B1234;
-    mix-blend-mode: hard-light;
-    display: flex;
-  justify-content: center;
-  transition: width 200ms ease-out;
+        position: absolute;
+         width: 100%;
+        height: 150px;
+        aspect-ratio: 7.146;
+        aspect-ratio: 7.482;
+        clip-path: shape(from 98.82% 0%,line to 1.18% 0%,curve to 0% 8.82% with 0.53% 0%/0% 3.95%,line to 0% 41.76%,curve to 1.18% 50.59% with 0% 46.64%/0.53% 50.59%,line to 24.29% 50.59%,curve to 25.47% 59.41% with 24.94% 50.59%/25.47% 54.54%,line to 25.47% 91.18%,curve to 26.65% 100% with 25.47% 96.05%/26% 100%,line to 98.82% 100%,curve to 100% 91.18% with 99.47% 100%/100% 96.05%,line to 100% 8.82%,curve to 98.82% 0% with 100% 3.95%/99.47% 0%,close);
+        background-color: #6B1234;
+        mix-blend-mode: hard-light;
+        display: flex;
+      justify-content: center;
+      transition: width 200ms ease-out;
 }
 
 
 .bodyShape{
 position: absolute;
 width: 100%;
-height: 720px;
-top: 124px;
+height: 80vh;
+top: 100px;
 aspect-ratio: 1.531;
 clip-path: shape(from 22.01% 0%,curve to 23.58% 2.41% with 22.88% 0%/23.58% 1.08%,vline to 9.27%,curve to 25.16% 11.67% with 23.58% 10.6%/24.29% 11.67%,hline to 98.43%,curve to 100% 14.08% with 99.3% 11.67%/100% 12.75%,vline to 97.59%,curve to 98.43% 100% with 100% 98.92%/99.3% 100%,hline to 1.57%,curve to 0% 97.59% with 0.7% 100%/0% 98.92%,vline to 13.96%,vline to 11.67%,vline to 2.41%,curve to 1.57% 0% with 0% 1.08%/0.7% 0%,hline to 7.55%,line to 22.01% 0%,close);
 background-color: #81D3F0;
@@ -207,9 +206,9 @@ font-family: PROXIMASEMI;
   z-index: 99;
   display: flex;
   justify-content: space-between;
-  padding: 1rem 6.5em;
+  padding: 0.5rem 6.5em;
   position: absolute;
-  top: 133px;
+  top: 110px;
   transition: width 200ms ease-out;
  
 }
@@ -249,7 +248,7 @@ display: flex;
 
   .buttonHolder{
 
-    padding: 1rem 5rem;
+    padding: 0.5rem 5rem;
    
    
   }
@@ -271,15 +270,16 @@ display: flex;
 
 @media (max-width: 1055px) {
   
-
   .bodyShape{
     width: 60%;
+    
   
  
   }
 
   .headerShape{
     width: 60%;
+    
   }
 
 
@@ -289,7 +289,7 @@ ul{
 
 
 .buttonHolder{
-    padding: 1rem 3rem;
+    padding: 0.5rem 3rem;
 }
 
 
