@@ -108,10 +108,39 @@ margin: 0 auto;
     position: relative;
     display: flex;
 
+
+}
+
+h3{
+   font-size: clamp(0.7rem, 4vh, 1.2rem);
+   font-family: PROXIMASEMI;
+    color: #6B1234;
+    margin: 0;
+
+
 }
 
 
+h1 {
+  font-size: clamp(0.8rem, 5vh, 1.2rem);
+  font-family: PROXIMAREG;
+  color: #6B1234;
+  margin: 0;
+}
 
+h2 {
+  font-size: clamp(1rem, 4vh, 1.5rem);
+  font-family: PROXIMASEMI;
+  color: #6B1234;
+  margin: 0;
+}
+
+p {
+  font-size: clamp(0.6rem, 3vh, 1rem);
+  font-family: PROXIMAREG;
+  color: #6B1234;
+  margin: 0;
+}
 
 
 .symbolHolder{
@@ -159,11 +188,7 @@ margin: 0 auto;
      margin-left: 30px;
 
     
-    
-
-
 }
-
 
 
 
@@ -185,13 +210,16 @@ margin: 0 auto;
 .bodyShape{
 position: absolute;
 width: 100%;
-height: 80vh;
+height: 85vh;
 top: 100px;
 aspect-ratio: 1.531;
 clip-path: shape(from 22.01% 0%,curve to 23.58% 2.41% with 22.88% 0%/23.58% 1.08%,vline to 9.27%,curve to 25.16% 11.67% with 23.58% 10.6%/24.29% 11.67%,hline to 98.43%,curve to 100% 14.08% with 99.3% 11.67%/100% 12.75%,vline to 97.59%,curve to 98.43% 100% with 100% 98.92%/99.3% 100%,hline to 1.57%,curve to 0% 97.59% with 0.7% 100%/0% 98.92%,vline to 13.96%,vline to 11.67%,vline to 2.41%,curve to 1.57% 0% with 0% 1.08%/0.7% 0%,hline to 7.55%,line to 22.01% 0%,close);
 background-color: #81D3F0;
 mix-blend-mode: multiply;
 transition: width 200ms ease-out;
+align-items: center;
+  display: flex;
+  justify-content: center;
 
 
 
@@ -210,12 +238,28 @@ font-family: PROXIMASEMI;
   position: absolute;
   top: 110px;
   transition: width 200ms ease-out;
- 
+ width: 100%;
 }
 
 
+.learnMore{
+background-color: #6B1234;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  top: 70%;
+  border: none;
+  border-radius: 12px;
+  mix-blend-mode: hard-light;
 
 
+}
 
 
 
@@ -227,6 +271,228 @@ display: flex;
 
 
 }
+
+.insideHolder{
+    height: 68vh;
+    align-content: center;
+    display: flex;
+  position: absolute;
+
+
+}
+
+.firstTextHolder {
+position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(5px, 2vh, 15px);
+  padding: clamp(15px, 3vw, 25px);
+  box-sizing: border-box;
+  left: 6%;
+  top: 36%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  mix-blend-mode: hard-light;
+}
+
+
+.secondTextHolder {
+position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: last baseline;
+  box-sizing: border-box;
+  left: 13%;
+  top: 88%;
+  mix-blend-mode: hard-light;
+ 
+  
+
+}
+
+
+.thirdTextHolder {
+position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: last baseline;
+  box-sizing: border-box;
+  left: 16%;
+  top: 24%;
+  mix-blend-mode: hard-light;
+ 
+  
+
+}
+
+
+
+.fourthTextHolder {
+position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(5px, 2vh, 15px);
+  padding: clamp(15px, 3vw, 25px);
+  box-sizing: border-box;
+ left: 29%;
+  top: 57%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  mix-blend-mode: hard-light;
+ 
+  
+
+}
+
+
+.fifthTextHolder {
+position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(5px, 2vh, 15px);
+  padding: clamp(15px, 3vw, 25px);
+  box-sizing: border-box;
+  left: 44%;
+  top: 69%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+ 
+    mix-blend-mode: hard-light;
+  
+
+}
+
+
+
+.sixTextHolder {
+position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(5px, 2vh, 15px);
+  padding: clamp(15px, 3vw, 25px);
+  box-sizing: border-box;
+  left: 50%;
+  top: 34%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  align-items: last baseline;
+  mix-blend-mode: hard-light;
+ 
+  
+
+}
+
+
+.sevenTextHolder {
+position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(5px, 2vh, 15px);
+  padding: clamp(15px, 3vw, 25px);
+  box-sizing: border-box;
+  left: 52%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  align-items: last baseline;
+  mix-blend-mode: hard-light;
+ 
+  
+
+}
+
+
+.eightTextHolder {
+position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(5px, 2vh, 15px);
+  padding: clamp(15px, 3vw, 25px);
+  box-sizing: border-box;
+ left: 70%;
+  top: 34%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  mix-blend-mode: hard-light;
+  align-items: last baseline;
+
+  
+
+}
+
+
+
+.nineTextHolder {
+position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(5px, 2vh, 15px);
+  padding: clamp(15px, 3vw, 25px);
+  box-sizing: border-box;
+ left: 70%;
+  top: 64%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  align-items: last baseline;
+  mix-blend-mode: hard-light;
+
+  
+
+}
+
+.tenTextHolder {
+position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(5px, 2vh, 15px);
+  padding: clamp(15px, 3vw, 25px);
+  box-sizing: border-box;
+ left: 82%;
+  top: 9%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  align-items: last baseline;
+  mix-blend-mode: hard-light;
+
+  
+
+}
+
+
+
+
+
+.firstShape{
+    height: 70vh;
+    background-color: #BAEDFF;
+    aspect-ratio: 1.723;
+    clip-path: shape(from 62.5% 38.99%,hline to 70.64%,curve to 71.78% 40.95% with 71.27% 38.99%/71.78% 39.87%,vline to 58.65%,curve to 70.64% 60.6% with 71.78% 59.73%/71.27% 60.6%,hline to 62.5%,curve to 61.36% 62.56% with 61.87% 60.6%/61.36% 61.48%,vline to 96.42%,curve to 62.5% 98.38% with 61.36% 97.5%/61.87% 98.38%,hline to 67.95%,curve to 69.08% 96.42% with 68.57% 98.38%/69.08% 97.5%,vline to 88.17%,curve to 70.22% 86.22% with 69.08% 87.09%/69.59% 86.22%,hline to 78.36%,curve to 79.5% 84.26% with 78.99% 86.22%/79.5% 85.34%,vline to 31.65%,curve to 78.36% 29.69% with 79.5% 30.57%/78.99% 29.69%,hline to 62.5%,curve to 61.36% 31.65% with 61.87% 29.69%/61.36% 30.57%,vline to 37.03%,curve to 62.5% 38.99% with 61.36% 38.11%/61.87% 38.99%,close,move to 37.5% 18.92%,curve to 38.64% 20.88% with 38.13% 18.92%/38.64% 19.8%,vline to 58.4%,curve to 39.77% 60.36% with 38.64% 59.48%/39.15% 60.36%,hline to 57.95%,curve to 59.09% 62.32% with 58.58% 60.36%/59.09% 61.24%,vline to 77%,curve to 57.95% 78.96% with 59.09% 78.08%/58.58% 78.96%,hline to 38.64%,hline to 35.7%,hline to 21.59%,curve to 20.45% 77% with 20.96% 78.96%/20.45% 78.08%,vline to 47.96%,curve to 19.32% 46% with 20.45% 46.88%/19.95% 46%,hline to 15.44%,curve to 14.3% 44.05% with 14.81% 46%/14.3% 45.13%,vline to 20.88%,curve to 15.44% 18.92% with 14.3% 19.8%/14.81% 18.92%,hline to 20.45%,hline to 37.5%,close,move to 40.91% 45.46%,vline to 54.49%,curve to 42.05% 56.44% with 40.91% 55.57%/41.42% 56.44%,hline to 68.13%,curve to 69.27% 54.49% with 68.76% 56.44%/69.27% 55.57%,vline to 45.62%,curve to 68.13% 43.66% with 69.27% 44.54%/68.76% 43.66%,hline to 60.23%,curve to 59.09% 41.71% with 59.6% 43.66%/59.09% 42.79%,vline to 29.69%,curve to 57.95% 27.73% with 59.09% 28.61%/58.58% 27.73%,hline to 42.05%,curve to 40.91% 29.69% with 41.42% 27.73%/40.91% 28.61%,vline to 43.66%,vline to 45.46%,close,move to 24.84% 11.91%,line to 24.84% 5.88%,curve to 23.7% 3.92% with 24.84% 4.79%/24.33% 3.92%,line to 7.17% 3.99%,curve to 6.39% 4.52% with 6.88% 3.99%/6.6% 4.18%,line to 0.54% 14%,curve to 0% 16.09% with 0.2% 14.55%/0% 15.3%,line to 0% 62.99%,curve to 1.85% 65.94% with 0% 64.62%/0.83% 65.94%,line to 8.8% 65.94%,curve to 10.65% 68.9% with 9.82% 65.94%/10.65% 67.27%,line to 10.65% 97.05%,curve to 12.5% 100% with 10.65% 98.68%/11.48% 100%,line to 36.79% 100%,curve to 38.64% 97.05% with 37.81% 100%/38.64% 98.68%,line to 38.64% 85.92%,curve to 36.79% 82.97% with 38.64% 84.29%/37.81% 82.97%,line to 19.98% 82.97%,curve to 18.14% 80.02% with 18.96% 82.97%/18.14% 81.65%,line to 18.14% 51.87%,curve to 16.29% 48.92% with 18.14% 50.24%/17.31% 48.92%,line to 13.74% 48.92%,curve to 11.89% 45.96% with 12.72% 48.92%/11.89% 47.59%,line to 11.89% 17.81%,curve to 13.74% 14.86% with 11.89% 16.18%/12.72% 14.86%,line to 23% 14.86%,curve to 24.84% 11.91% with 24.02% 14.86%/24.84% 13.54%,close,move to 92.94% 0%,hline to 86.67%,hline to 72.73%,curve to 71.59% 1.96% with 72.1% 0%/71.59% 0.88%,vline to 21.18%,curve to 72.73% 23.14% with 71.59% 22.26%/72.1% 23.14%,hline to 80.61%,curve to 81.74% 25.1% with 81.23% 23.14%/81.74% 24.02%,vline to 45.53%,vline to 83.85%,curve to 82.88% 85.81% with 81.74% 84.93%/82.25% 85.81%,hline to 91%,curve to 92.14% 83.85% with 91.63% 85.81%/92.14% 84.93%,vline to 73.16%,curve to 93.28% 71.21% with 92.14% 72.08%/92.65% 71.21%,hline to 98.86%,curve to 100% 69.25% with 99.49% 71.21%/100% 70.33%,vline to 1.96%,curve to 98.86% 0% with 100% 0.88%/99.49% 0%,hline to 92.94%,close);  display: block;
+  position: relative;
+  text-align: center;
+  animation-name: slideDownAnimation;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
+  animation-direction: normal;
+  animation-fill-mode: both;
+
+
+}
+
+
+@keyframes slideDownAnimation {
+  0% { transform: translateY(-100px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+
 
 
 
@@ -244,6 +510,12 @@ display: flex;
   .headerShape{
     width: 80%;
   }
+
+  .firstShape{
+    scale: 80%;
+}
+
+
 
 
   .buttonHolder{
@@ -280,6 +552,11 @@ display: flex;
   .headerShape{
     width: 60%;
     
+  }
+
+
+  .firstShape{
+    scale: 60%;
   }
 
 
