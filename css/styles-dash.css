@@ -99,9 +99,53 @@ margin: 0 auto;
   padding-left: 30px;
   padding-right: 30px;
   min-height: 100vh;
+
   
 
 }
+
+
+.containerTwo {
+margin: 0 auto;
+  max-width: 1272px;
+  min-width: 420px;
+  padding-left: 30px;
+  padding-right: 30px;
+  min-height: 100vh;
+
+
+  
+
+}
+
+.containerThree {
+margin: 0 auto;
+  max-width: 1272px;
+  min-width: 420px;
+  padding-left: 30px;
+  padding-right: 30px;
+  min-height: 100vh;
+
+
+  
+
+}
+
+
+.containerFour {
+margin: 0 auto;
+  max-width: 1272px;
+  min-width: 420px;
+  padding-left: 30px;
+  padding-right: 30px;
+  min-height: 100vh;
+  
+
+}
+
+
+
+
 
 .bodyHolder{
     width: 1272px;
@@ -110,6 +154,8 @@ margin: 0 auto;
 
 
 }
+
+
 
 h3{
    font-size: clamp(0.7rem, 4vh, 1.2rem);
@@ -163,15 +209,30 @@ p {
      height: 3em;
      display: block;
      margin-right: auto;
+     transition: 500ms ease-out;
      
 }
+
+
+.logo:hover{
+  background-image:url('../images/logo.png'); 
+  background-repeat: no-repeat;
+  background-size:contain;
+  width: 3em;
+     height: 3em;
+     display: block;
+     background-color: lightblue;
+     border-radius: 12px;
+     transition: 500ms ease-out;
+}
+
 
 .ai{
     background-image:url('../images/ai.png'); 
     background-repeat: no-repeat;
     background-size:contain;
-     width: 4em;
-     height: 4em;
+     width: 3em;
+     height: 3em;
      display: block;
 
 
@@ -182,8 +243,8 @@ p {
       background-image:url('../images/settings.png'); 
     background-repeat: no-repeat;
     background-size:contain;
-     width: 3em;
-     height: 3em;
+   width: 2.3em;
+  height: 2.3em;
      display: block;
      margin-left: 30px;
 
@@ -206,6 +267,52 @@ p {
       transition: width 200ms ease-out;
 }
 
+.headerShapeTwo{
+        position: absolute;
+         width: 100%;
+        height: 150px;
+    aspect-ratio: 7.088;
+    clip-path: shape(from 98.82% 0%,line to 1.18% 0%,curve to 0% 8.36% with 0.53% 0%/0% 3.74%,line to 0% 47.92%,line to 0% 90.83%,curve to 1.18% 99.18% with 0% 95.44%/0.53% 99.18%,line to 22.41% 99.18%,curve to 23.58% 90.83% with 23.06% 99.18%/23.58% 95.44%,line to 23.58% 56.28%,curve to 24.76% 47.92% with 23.58% 51.66%/24.11% 47.92%,line to 49.76% 47.92%,curve to 50.94% 56.28% with 50.42% 47.92%/50.94% 51.66%,line to 50.94% 91.64%,curve to 52.13% 100% with 50.94% 96.27%/51.47% 100.01%,line to 98.82% 99.2%,curve to 100% 90.85% with 99.47% 99.19%/100% 95.45%,line to 100% 8.36%,curve to 98.82% 0% with 100% 3.74%/99.47% 0%,close);
+       background-color: #6B1234;
+        mix-blend-mode: hard-light;
+        display: flex;
+      justify-content: center;
+      transition: width 200ms ease-out;
+}
+
+
+.headerShapeThree{
+        position: absolute;
+         width: 100%;
+        height: 150px;
+  aspect-ratio: 7.146;
+  clip-path: shape(from 98.82% 0%,line to 1.18% 0%,curve to 0% 8.43% with 0.53% 0%/0% 3.77%,line to 0% 48.31%,line to 0% 91.57%,curve to 1.18% 100% with 0% 96.23%/0.53% 100%,line to 23.58% 100%,line to 47.88% 100%,curve to 49.06% 91.57% with 48.53% 100%/49.06% 96.23%,line to 49.06% 56.74%,curve to 50.24% 48.31% with 49.06% 52.09%/49.58% 48.31%,line to 75.24% 48.31%,curve to 76.42% 56.74% with 75.89% 48.31%/76.42% 52.09%,line to 76.42% 91.57%,curve to 77.59% 100% with 76.42% 96.23%/76.94% 100%,line to 98.82% 100%,curve to 100% 91.57% with 99.47% 100%/100% 96.23%,line to 100% 8.43%,curve to 98.82% 0% with 100% 3.77%/99.47% 0%,close);
+
+       background-color: #6B1234;
+        mix-blend-mode: hard-light;
+        display: flex;
+      justify-content: center;
+      transition: width 200ms ease-out;
+}
+
+
+.headerShapeFour{
+        position: absolute;
+         width: 100%;
+        height: 150px;
+      aspect-ratio: 7.086;
+      clip-path: shape(from 98.82% 0%,line to 1.18% 0%,curve to 0% 8.36% with 0.53% 0%/0% 3.74%,line to 0% 47.91%,line to 0% 90.81%,curve to 1.18% 99.16% with 0% 95.42%/0.53% 99.16%,line to 23.58% 99.16%,line to 50.94% 100%,line to 73.35% 100%,curve to 74.53% 91.64% with 74% 100%/74.53% 96.26%,line to 74.53% 56.27%,curve to 75.71% 47.91% with 74.53% 51.65%/75.06% 47.91%,line to 98.82% 47.91%,curve to 100% 39.55% with 99.47% 47.91%/100% 44.17%,vline to 8.36%,curve to 98.82% 0% with 100% 3.74%/99.47% 0%,close);
+
+
+       background-color: #6B1234;
+        mix-blend-mode: hard-light;
+        display: flex;
+      justify-content: center;
+      transition: width 200ms ease-out;
+}
+
+
+
 
 .bodyShape{
 position: absolute;
@@ -226,8 +333,67 @@ align-items: center;
 }
 
 
+.bodyShapeTwo{
+position: absolute;
+width: 100%;
+height: 85vh;
+top: 100px;
+  aspect-ratio: 1.531;
+  clip-path: shape(from 49.06% 2.41%,curve to 47.48% 0% with 49.06% 1.08%/48.35% 0%,hline to 27.04%,curve to 25.47% 2.41% with 26.18% 0%/25.47% 1.08%,vline to 9.27%,curve to 23.9% 11.67% with 25.47% 10.6%/24.77% 11.67%,hline to 23.58%,hline to 1.49%,curve to 0% 13.96% with 0.67% 11.67%/0% 12.7%,vline to 97.59%,curve to 1.57% 100% with 0% 98.92%/0.7% 100%,hline to 98.43%,curve to 100% 97.59% with 99.3% 100%/100% 98.92%,vline to 14.08%,curve to 98.43% 11.67% with 100% 12.75%/99.3% 11.67%,hline to 50.63%,curve to 49.06% 9.27% with 49.76% 11.67%/49.06% 10.6%,vline to 2.41%,close);
+background-color: #81D3F0;
+mix-blend-mode: multiply;
+transition: width 200ms ease-out;
+align-items: center;
+  display: flex;
+  justify-content: center;
 
-.buttonHolder{
+
+
+}
+
+.bodyShapeThree{
+position: absolute;
+width: 100%;
+height: 85vh;
+top: 100px;
+aspect-ratio: 1.531;
+clip-path: shape(from 23.58% 11.67%,hline to 25.47%,hline to 49.37%,curve to 50.94% 9.27% with 50.24% 11.67%/50.94% 10.6%,vline to 2.41%,curve to 52.52% 0% with 50.94% 1.08%/51.65% 0%,hline to 72.96%,curve to 74.53% 2.41% with 73.82% 0%/74.53% 1.08%,vline to 9.27%,curve to 76.1% 11.67% with 74.53% 10.6%/75.23% 11.67%,hline to 98.43%,curve to 100% 14.08% with 99.3% 11.67%/100% 12.75%,vline to 97.59%,curve to 98.43% 100% with 100% 98.92%/99.3% 100%,hline to 1.57%,curve to 0% 97.59% with 0.7% 100%/0% 98.92%,vline to 13.96%,curve to 1.49% 11.67% with 0% 12.7%/0.67% 11.67%,hline to 23.58%,close);
+background-color: #81D3F0;
+mix-blend-mode: multiply;
+transition: width 200ms ease-out;
+align-items: center;
+  display: flex;
+  justify-content: center;
+
+
+
+}
+
+
+
+.bodyShapeFour{
+position: absolute;
+width: 100%;
+height: 85vh;
+top: 100px;
+
+  aspect-ratio: 1.532;
+  clip-path: shape(from 23.58% 11.62%,hline to 25.47%,hline to 49.06%,hline to 74.84%,curve to 76.42% 9.21% with 75.71% 11.62%/76.42% 10.54%,vline to 2.41%,curve to 77.99% 0% with 76.42% 1.08%/77.12% 0%,hline to 98.43%,curve to 100% 2.41% with 99.3% 0%/100% 1.08%,vline to 11.62%,vline to 97.59%,curve to 98.43% 100% with 100% 98.92%/99.3% 100%,hline to 1.57%,curve to 0% 97.59% with 0.7% 100%/0% 98.92%,vline to 13.91%,curve to 1.49% 11.62% with 0% 12.64%/0.67% 11.62%,hline to 23.58%,close);
+
+background-color: #81D3F0;
+mix-blend-mode: multiply;
+transition: width 200ms ease-out;
+align-items: center;
+  display: flex;
+  justify-content: center;
+
+
+
+}
+
+
+
+.listHolder{
 font-family: PROXIMASEMI;
   font-size: 1rem;
   color: #81D3F0;
@@ -239,7 +405,137 @@ font-family: PROXIMASEMI;
   top: 110px;
   transition: width 200ms ease-out;
  width: 100%;
+
 }
+
+
+
+.buttonHolder{
+font-family: PROXIMASEMI;
+  font-size: 1rem;
+  color: #81D3F0;
+  z-index: 9999;
+  display: flex;
+  justify-content: space-between;
+
+  position: absolute;
+  top: 100px;
+  transition: width 200ms ease-out;
+  width: 100%;
+
+}
+
+
+.dashboardButton {
+  background: none;
+  border: none;
+  padding: 15px 30px;
+  margin: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit; /* Keeps accessibility for keyboard users */
+  appearance: none; /* Removes OS-specific native styling */
+  color: #81D3F0;
+  width: 300px;
+  height: 50px;
+  transition: border-radius 400ms ease-out;
+
+
+}
+
+
+.dashboardButton:hover{
+  border: solid;
+  border-color: #81D3F0;
+  border-width: 5px;
+  border-radius: 15px;
+  transition: border-radius 400ms ease-out;
+
+}
+
+
+
+
+.designButton {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit; /* Keeps accessibility for keyboard users */
+  appearance: none; /* Removes OS-specific native styling */
+  color: #81D3F0;
+  width: 300px;
+  height: 50px;
+   transition: border-radius 400ms ease-out;
+}
+
+
+.designButton:hover{
+  border: solid;
+  border-color: #81D3F0;
+  border-width: 5px;
+  border-radius: 15px;
+  transition: border-radius 400ms ease-out;
+
+}
+
+
+.communityButton {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit; /* Keeps accessibility for keyboard users */
+  appearance: none; /* Removes OS-specific native styling */
+  border-color: #81D3F0;
+  width: 300px;
+  height: 50px;
+  transition: border-radius 400ms ease-out;
+}
+
+.communityButton:hover{
+  border: solid;
+  border-color: #81D3F0;
+  border-width: 5px;
+  border-radius: 15px;
+  transition: border-radius 400ms ease-out;
+
+}
+
+
+
+.healthServicesButton {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit; /* Keeps accessibility for keyboard users */
+  appearance: none; /* Removes OS-specific native styling */
+  color: #81D3F0;
+  width: 300px;
+  height: 50px;
+  transition: border-color 400ms ease-out;
+}
+
+
+
+.healthServicesButton:hover{
+  border: solid;
+  border-color: #81D3F0;
+  border-width: 5px;
+  border-radius: 15px;
+  transition: border-color 400ms ease-out;
+
+}
+
+
+
 
 
 .learnMore{
@@ -507,24 +803,80 @@ position: absolute;
  
   }
 
+  .bodyShapeTwo{
+    width: 80%;
+  
+ 
+  }
+
   .headerShape{
     width: 80%;
   }
+
+  .headerShapeTwo{
+    width: 80%;
+  }
+
+
+  .headerShapeThree{
+    width: 80%;
+  }
+
+    .bodyShapeThree{
+    width: 80%;
+  
+ 
+  }
+
+
+  .headerShapeFour{
+    width: 80%;
+  }
+
+    .bodyShapeFour{
+    width: 80%;
+  
+ 
+  }
+
 
   .firstShape{
     scale: 80%;
 }
 
-
-
-
-  .buttonHolder{
-
-    padding: 0.5rem 5rem;
-   
-   
+  .listHolder{
+    padding: 0.5rem 5em;
   }
 
+
+  .dashboardButton{
+    width: 240px;
+    height: 50px;
+  }
+
+  .designButton{
+    width: 240px;
+    height: 50px;
+    left: 259px;
+    position: absolute;
+  }
+
+
+.communityButton{
+    width: 240px;
+    height: 50px;
+    position: absolute;
+    left: 519px;
+  }
+
+
+  .healthServicesButton{
+    width: 240px;
+    height: 50px;
+    left: 778px;
+    position: absolute;
+  
+  }
 
   ul{
     gap: 182px;
@@ -553,6 +905,44 @@ position: absolute;
     width: 60%;
     
   }
+    .bodyShapeTwo{
+    width: 60%;
+    
+  
+ 
+  }
+
+  .headerShapeTwo{
+    width: 60%;
+    
+  }
+
+
+    .bodyShapeThree{
+    width: 60%;
+    
+  
+ 
+  }
+
+  .headerShapeThree{
+    width: 60%;
+    
+  }
+
+   .bodyShapeFour{
+    width: 60%;
+    
+  
+ 
+  }
+
+  .headerShapeFour{
+    width: 60%;
+    
+  }
+
+
 
 
   .firstShape{
@@ -565,8 +955,10 @@ ul{
 }
 
 
-.buttonHolder{
-    padding: 0.5rem 3rem;
+
+
+.listHolder{
+  padding: 0.5rem 3em;
 }
 
 
