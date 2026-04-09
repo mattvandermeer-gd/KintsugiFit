@@ -156,9 +156,18 @@ margin: 0 auto;
 }
 
 
+h4{
+  font-size: clamp(0.75rem, 2vh, 1.1rem);
+   font-family: PROXIMASEMI;
+    color: #6B1234;
+    margin: 0;
+
+}
+
+
 
 h3{
-   font-size: clamp(0.7rem, 4vh, 1.2rem);
+   font-size: clamp(0.75rem, 2.5vh, 1.5rem);
    font-family: PROXIMASEMI;
     color: #6B1234;
     margin: 0;
@@ -168,21 +177,21 @@ h3{
 
 
 h1 {
-  font-size: clamp(0.8rem, 5vh, 1.2rem);
+  font-size: clamp(0.9rem, 3vh, 1.5rem);
   font-family: PROXIMAREG;
   color: #6B1234;
   margin: 0;
 }
 
 h2 {
-  font-size: clamp(1rem, 4vh, 1.5rem);
+  font-size: clamp(1rem, 3.5vh, 1.8rem);
   font-family: PROXIMASEMI;
   color: #6B1234;
   margin: 0;
 }
 
 p {
-  font-size: clamp(0.6rem, 3vh, 1rem);
+  font-size: clamp(0.65rem, 2vh, 1.1rem);
   font-family: PROXIMAREG;
   color: #6B1234;
   margin: 0;
@@ -545,11 +554,8 @@ background-color: #6B1234;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
   cursor: pointer;
-  position: absolute;
-  top: 70%;
+  position: relative;
   border: none;
   border-radius: 12px;
   mix-blend-mode: hard-light;
@@ -570,6 +576,16 @@ display: flex;
 
 .insideHolder{
     height: 68vh;
+    align-content: center;
+    display: flex;
+  position: absolute;
+
+
+}
+
+
+.insideHolderTwo{
+    height: 50vh;
     align-content: center;
     display: flex;
   position: absolute;
@@ -728,12 +744,11 @@ position: absolute;
 position: absolute;
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: clamp(5px, 2vh, 15px);
   padding: clamp(15px, 3vw, 25px);
   box-sizing: border-box;
- left: 70%;
-  top: 64%;
+  left: 70%;
+  top: 50vh;
   transform: translate(-50%, -50%);
   width: fit-content;
   align-items: last baseline;
@@ -764,6 +779,184 @@ position: absolute;
 
 
 
+.elevenTextHolder{
+position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(5px, 2vh, 15px);
+  padding: clamp(15px, 3vw, 25px);
+  box-sizing: border-box;
+  left: 9%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: hard-light;
+  height: 30%;
+  justify-content: center;
+  align-content: center;
+}
+
+
+.twelveTextHolder{
+position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(5px, 2vh, 15px);
+  padding: clamp(15px, 3vw, 25px);
+  box-sizing: border-box;
+  left: 30%;
+  top: 31%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: hard-light;
+  height: 30%;
+  justify-content: center;
+  align-content: center;
+}
+
+
+.thirteenTextHolder{
+position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(10px, 30vh, 20px);
+  padding: clamp(20px, 10vw, 25px);
+  box-sizing: border-box;
+  left: 24%;
+  top: 59%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: hard-light;
+  height: 30%;
+  justify-content: center;
+  align-content: center;
+}
+
+
+
+.fourteenTextHolder{
+position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: last baseline;
+  gap: clamp(10px, 30vh, 15px);
+  box-sizing: border-box;
+  left: 55%;
+  top: 38%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: hard-light;
+  width: 23%;
+}
+
+
+.fifteenTextHolder{
+position: absolute;
+  display: flex;
+  flex-direction: column;
+
+  gap: clamp(7px, 3vh, 10px);
+  box-sizing: border-box;
+  left: 59%;
+  top: 58%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: hard-light;
+  width: 13%;
+  height: 5vh;
+}
+
+
+
+
+
+
+.smallButtonHolder{
+font-family: PROXIMASEMI;
+  font-size: 1rem;
+  color: #81D3F0;
+  z-index: 9999;
+  position: absolute;
+  top: 83%;
+  transition: width 200ms ease-out;
+  width: 20%;
+  height: 10%;
+  background-color: #6B1234;
+  mix-blend-mode: hard-light;
+  text-align: center;
+  align-content: center;
+  border-radius: 12px;
+  left: 2%;
+}
+
+
+
+.smallButtonHolderTwo{
+font-family: PROXIMASEMI;
+  font-size: 1rem;
+  color: #81D3F0;
+  z-index: 9999;
+  position: absolute;
+  top: 32%;
+  transition: width 200ms ease-out;
+  width: 20%;
+  height: 10%;
+  background-color: #6B1234;
+  mix-blend-mode: hard-light;
+  text-align: center;
+  align-content: center;
+  border-radius: 12px;
+  left: 73%;
+}
+
+
+
+.smallMap{
+width: 40%;
+  height: 40%;
+  position: absolute;
+  display: flex;
+  align-content: center;
+  background-image: url('../images/map.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 45%;
+  left: 73%;
+
+}
+
+
+.smallPros{
+width: 15%;
+  height: 15%;
+  position: absolute;
+  display: flex;
+  align-content: center;
+  background-image: url('../images/object.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 67%;
+  left: 55%;
+
+}
+
+
+
+
+
+
+.plusLogo{
+width: 40%;
+  height: 40%;
+  position: absolute;
+  display: flex;
+  align-content: center;
+  background-image: url('../images/plus.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 0;
+
+}
+
+
 
 
 .firstShape{
@@ -772,6 +965,30 @@ position: absolute;
     aspect-ratio: 1.723;
     clip-path: shape(from 62.5% 38.99%,hline to 70.64%,curve to 71.78% 40.95% with 71.27% 38.99%/71.78% 39.87%,vline to 58.65%,curve to 70.64% 60.6% with 71.78% 59.73%/71.27% 60.6%,hline to 62.5%,curve to 61.36% 62.56% with 61.87% 60.6%/61.36% 61.48%,vline to 96.42%,curve to 62.5% 98.38% with 61.36% 97.5%/61.87% 98.38%,hline to 67.95%,curve to 69.08% 96.42% with 68.57% 98.38%/69.08% 97.5%,vline to 88.17%,curve to 70.22% 86.22% with 69.08% 87.09%/69.59% 86.22%,hline to 78.36%,curve to 79.5% 84.26% with 78.99% 86.22%/79.5% 85.34%,vline to 31.65%,curve to 78.36% 29.69% with 79.5% 30.57%/78.99% 29.69%,hline to 62.5%,curve to 61.36% 31.65% with 61.87% 29.69%/61.36% 30.57%,vline to 37.03%,curve to 62.5% 38.99% with 61.36% 38.11%/61.87% 38.99%,close,move to 37.5% 18.92%,curve to 38.64% 20.88% with 38.13% 18.92%/38.64% 19.8%,vline to 58.4%,curve to 39.77% 60.36% with 38.64% 59.48%/39.15% 60.36%,hline to 57.95%,curve to 59.09% 62.32% with 58.58% 60.36%/59.09% 61.24%,vline to 77%,curve to 57.95% 78.96% with 59.09% 78.08%/58.58% 78.96%,hline to 38.64%,hline to 35.7%,hline to 21.59%,curve to 20.45% 77% with 20.96% 78.96%/20.45% 78.08%,vline to 47.96%,curve to 19.32% 46% with 20.45% 46.88%/19.95% 46%,hline to 15.44%,curve to 14.3% 44.05% with 14.81% 46%/14.3% 45.13%,vline to 20.88%,curve to 15.44% 18.92% with 14.3% 19.8%/14.81% 18.92%,hline to 20.45%,hline to 37.5%,close,move to 40.91% 45.46%,vline to 54.49%,curve to 42.05% 56.44% with 40.91% 55.57%/41.42% 56.44%,hline to 68.13%,curve to 69.27% 54.49% with 68.76% 56.44%/69.27% 55.57%,vline to 45.62%,curve to 68.13% 43.66% with 69.27% 44.54%/68.76% 43.66%,hline to 60.23%,curve to 59.09% 41.71% with 59.6% 43.66%/59.09% 42.79%,vline to 29.69%,curve to 57.95% 27.73% with 59.09% 28.61%/58.58% 27.73%,hline to 42.05%,curve to 40.91% 29.69% with 41.42% 27.73%/40.91% 28.61%,vline to 43.66%,vline to 45.46%,close,move to 24.84% 11.91%,line to 24.84% 5.88%,curve to 23.7% 3.92% with 24.84% 4.79%/24.33% 3.92%,line to 7.17% 3.99%,curve to 6.39% 4.52% with 6.88% 3.99%/6.6% 4.18%,line to 0.54% 14%,curve to 0% 16.09% with 0.2% 14.55%/0% 15.3%,line to 0% 62.99%,curve to 1.85% 65.94% with 0% 64.62%/0.83% 65.94%,line to 8.8% 65.94%,curve to 10.65% 68.9% with 9.82% 65.94%/10.65% 67.27%,line to 10.65% 97.05%,curve to 12.5% 100% with 10.65% 98.68%/11.48% 100%,line to 36.79% 100%,curve to 38.64% 97.05% with 37.81% 100%/38.64% 98.68%,line to 38.64% 85.92%,curve to 36.79% 82.97% with 38.64% 84.29%/37.81% 82.97%,line to 19.98% 82.97%,curve to 18.14% 80.02% with 18.96% 82.97%/18.14% 81.65%,line to 18.14% 51.87%,curve to 16.29% 48.92% with 18.14% 50.24%/17.31% 48.92%,line to 13.74% 48.92%,curve to 11.89% 45.96% with 12.72% 48.92%/11.89% 47.59%,line to 11.89% 17.81%,curve to 13.74% 14.86% with 11.89% 16.18%/12.72% 14.86%,line to 23% 14.86%,curve to 24.84% 11.91% with 24.02% 14.86%/24.84% 13.54%,close,move to 92.94% 0%,hline to 86.67%,hline to 72.73%,curve to 71.59% 1.96% with 72.1% 0%/71.59% 0.88%,vline to 21.18%,curve to 72.73% 23.14% with 71.59% 22.26%/72.1% 23.14%,hline to 80.61%,curve to 81.74% 25.1% with 81.23% 23.14%/81.74% 24.02%,vline to 45.53%,vline to 83.85%,curve to 82.88% 85.81% with 81.74% 84.93%/82.25% 85.81%,hline to 91%,curve to 92.14% 83.85% with 91.63% 85.81%/92.14% 84.93%,vline to 73.16%,curve to 93.28% 71.21% with 92.14% 72.08%/92.65% 71.21%,hline to 98.86%,curve to 100% 69.25% with 99.49% 71.21%/100% 70.33%,vline to 1.96%,curve to 98.86% 0% with 100% 0.88%/99.49% 0%,hline to 92.94%,close);  display: block;
   position: relative;
+  text-align: center;
+  animation-name: slideDownAnimation;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
+  animation-direction: normal;
+  animation-fill-mode: both;
+
+
+}
+
+
+@keyframes slideDownAnimation {
+  0% { transform: translateY(-100px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+
+.secondShape{
+    height: 65vh;
+    background-color: #BAEDFF;
+    aspect-ratio: 1.723;
+  aspect-ratio: 1.853;
+  clip-path: shape(from 17.05% 0%,hline to 1.14%,curve to 0% 2.11% with 0.51% 0%/0% 0.94%,vline to 25%,curve to 1.14% 27.11% with 0% 26.16%/0.51% 27.11%,hline to 3.98%,curve to 5.11% 29.21% with 4.6% 27.11%/5.11% 28.05%,vline to 30.18%,curve to 6.25% 32.28% with 5.11% 31.34%/5.62% 32.28%,hline to 17.05%,curve to 18.18% 30.18% with 17.67% 32.28%/18.18% 31.34%,vline to 2.11%,curve to 17.05% 0% with 18.18% 0.94%/17.67% 0%,close,move to 1.48% 80.24%,curve to 1.48% 80.24% with 1.48% 80.24%/1.48% 80.24%,line to 8.81% 80.24%,curve to 10.2% 77.44% with 9.58% 80.24%/10.2% 78.99%,line to 10.2% 39.3%,curve to 11.6% 36.51% with 10.2% 37.76%/10.83% 36.51%,line to 19.05% 36.51%,curve to 20.44% 33.71% with 19.82% 36.51%/20.44% 35.26%,line to 20.44% 22.62%,curve to 21.84% 19.82% with 20.44% 21.08%/21.07% 19.82%,line to 37.77% 19.82%,curve to 38.6% 22.62% with 38.54% 19.82%/38.6% 21.08%,line to 38.6% 48.88%,curve to 39.99% 51.67% with 38.6% 50.42%/39.22% 51.67%,line to 47.47% 51.67%,curve to 48.86% 54.47% with 48.24% 51.67%/48.86% 52.93%,line to 48.86% 61.01%,curve to 47.47% 63.81% with 48.86% 62.56%/48.24% 63.81%,line to 42.7% 63.81%,curve to 41.3% 66.6% with 41.93% 63.81%/41.3% 65.06%,line to 41.3% 77.44%,curve to 39.91% 80.24% with 41.3% 78.99%/40.68% 80.24%,line to 25.81% 80.24%,curve to 24.42% 83.03% with 25.05% 80.24%/24.42% 81.49%,line to 24.42% 93.87%,curve to 23.03% 96.67% with 24.42% 95.41%/23.8% 96.67%,line to 1.39% 96.67%,curve to 0% 93.83% with 0.62% 96.67%/-0.01% 95.39%,line to 0.08% 82.99%,curve to 1.48% 80.23% with 0.09% 81.46%/0.71% 80.24%,curve to 1.48% 80.24% with 1.48% 80.23%/1.48% 80.24%,close,move to 68.18% 51.75%,hline to 52.27%,curve to 51.14% 53.86% with 51.65% 51.75%/51.14% 52.7%,vline to 97.89%,curve to 52.27% 100% with 51.14% 99.06%/51.65% 100%,hline to 60.23%,curve to 61.36% 97.89% with 60.85% 100%/61.36% 99.06%,vline to 91.92%,curve to 61.93% 90.09% with 61.36% 91.17%/61.58% 90.47%,line to 68.75% 82.8%,curve to 69.32% 80.98% with 69.1% 82.43%/69.32% 81.73%,vline to 53.86%,curve to 68.18% 51.75% with 69.32% 52.7%/68.81% 51.75%,close,move to 100% 37.05%,vline to 28.42%,curve to 98.86% 26.32% with 100% 27.26%/99.49% 26.32%,hline to 42.05%,curve to 40.91% 28.42% with 41.42% 26.32%/40.91% 27.26%,vline to 45.09%,curve to 42.05% 47.19% with 40.91% 46.25%/41.42% 47.19%,hline to 70.45%,curve to 71.59% 49.3% with 71.08% 47.19%/71.59% 48.14%,vline to 87.54%,curve to 72.73% 89.65% with 71.59% 88.71%/72.1% 89.65%,hline to 98.86%,curve to 100% 87.54% with 99.49% 89.65%/100% 88.71%,vline to 77.36%,curve to 99.67% 75.87% with 100% 76.8%/99.88% 76.27%,line to 96.69% 70.35%,curve to 96.35% 68.86% with 96.47% 69.96%/96.35% 69.42%,vline to 47.87%,curve to 96.57% 46.64% with 96.35% 47.43%/96.43% 47%,line to 99.79% 38.27%,curve to 100% 37.05% with 99.93% 37.91%/100% 37.48%,close);
+ position: relative;
   text-align: center;
   animation-name: slideDownAnimation;
   animation-duration: 1s;
@@ -841,6 +1058,10 @@ position: absolute;
 
 
   .firstShape{
+    scale: 80%;
+}
+
+.secondShape{
     scale: 80%;
 }
 
@@ -948,6 +1169,9 @@ position: absolute;
   .firstShape{
     scale: 60%;
   }
+  .secondShape{
+    scale: 60%;
+  }
 
 
 ul{
@@ -966,3 +1190,5 @@ ul{
   
 }
 
+
+\
