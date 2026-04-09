@@ -13,12 +13,12 @@
 
 
         <div class="container">
-            <model-viewer id="manifold"camera-controls touch-action="pan-y" src="./socket/socketthree.glb">
+           <model-viewer id="manifold" camera-controls touch-action="pan-y" src="./socket/socketthree.glb" ar alt="three socket variants">
                   <div class="controls glass">
-                    <div>Color Variants:
+                    <div>Mesh Variants:
                       <select id="textures">
-                        <option value="blue">sea</option>
-                        <option value="green">plains</option>
+                        <option value="ball">ball</option>
+                        <option value="stick">stick</option>
                       </select>
                     </div>
                 
@@ -36,9 +36,9 @@
 
                     textures.addEventListener("input", (event) => {
                       const selectedValue = event.target.value;
-                      const blue = mvTextures.model.getMaterialByName("Basis");
-                      blue.setAlphaMode("BLEND");
-                      const green = mvTextures.model.getMaterialByName("Green");
+                      const ball = mvTextures.model.getMaterialByName("ball");
+                      ball.setAlphaMode("BLEND");
+                      const stick = mvTextures.model.getMaterialByName("stick");
 
                       const animationDuration = 1000; // 1 second
                       const startTimestamp = performance.now();
@@ -46,9 +46,9 @@
                         const elapsed = currentTimestamp - startTimestamp;
 
                         const delta = elapsed / animationDuration;
-                        const alpha = selectedValue === "blue" ? 1 - delta : delta;
-                        updateAlphaValue(blue, alpha);
-                        updateAlphaValue(green, 1 - alpha);
+                        const alpha = selectedValue === "ball" ? 1 - delta : delta;
+                        updateAlphaValue(stick, alpha);
+                        updateAlphaValue(ball, 1 - alpha);
 
                         if (elapsed < animationDuration) {
                           requestAnimationFrame(animate);
