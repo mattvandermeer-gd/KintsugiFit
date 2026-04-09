@@ -9,7 +9,6 @@
 model-viewer{
 width: 43.75rem;
 height: 43.75rem;
-pointer-events: none;
 display: block;
 position: absolute;
 contain: strict;
