@@ -19,7 +19,6 @@
                       <select id="textures">
                         <option value="blue">sea</option>
                         <option value="green">plains</option>
-                        <option value="red">hearth</option>
                       </select>
                     </div>
                 
@@ -37,9 +36,9 @@
 
                     textures.addEventListener("input", (event) => {
                       const selectedValue = event.target.value;
-                      const blue = mvTextures.model.getMaterialByName("Cylinder.001");
+                      const blue = mvTextures.model.getMaterialByName("Basis");
                       blue.setAlphaMode("BLEND");
-                      const green = mvTextures.model.getMaterialByName("Cylinder.002");
+                      const green = mvTextures.model.getMaterialByName("Green");
 
                       const animationDuration = 1000; // 1 second
                       const startTimestamp = performance.now();
