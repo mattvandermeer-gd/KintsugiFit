@@ -1,1 +1,1 @@
-<model-viewer src="runningblade4.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="0.63" shadow-softness="1" exposure="1.43" auto-rotate> </model-viewer>
+<model-viewer src="runningblade4.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate camera-orbit="0deg 75deg 5.118m" field-of-view="30deg"> </model-viewer>
