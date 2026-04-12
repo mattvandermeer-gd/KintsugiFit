@@ -289,8 +289,8 @@ pointer-events: none;
 display: block;
 position: absolute;
 contain: strict;
-margin-left: 21rem;
-
+margin-left: 33rem;
+top: 8rem;
             
 }
 
@@ -457,7 +457,6 @@ p{
   contain: strict;
   margin-left: 43rem;
   padding-top: 87rem;
-  margin-left: -15rem;
   top: 8em;
 }
 
@@ -510,9 +509,22 @@ top: 298px;
 
 }
 
+model-viewer{
+    width: 43.75rem;
+  height: 43.75rem;
+  pointer-events: none;
+  display: block;
+  position: absolute;
+  contain: strict;
+  scale: 0.8;
+  margin-left: 30rem;
+}
 
 
+#socket{
+    margin-left: -15rem;
 
+}
 
 .shapeSeven{
     width: 27em;
