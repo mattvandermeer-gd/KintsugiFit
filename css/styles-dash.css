@@ -370,8 +370,8 @@ clip-path: shape(from 23.58% 11.67%,hline to 25.47%,hline to 49.37%,curve to 50.
 background-color: #81D3F0;
 mix-blend-mode: multiply;
 transition: width 200ms ease-out;
+display: flex;
 align-items: center;
-  display: flex;
   justify-content: center;
 
 
@@ -1236,7 +1236,7 @@ flex-wrap: wrap;
     width: 80%;
   }
 
-    .insideBodyHolder{
+    .bodyShapeThree{
     width: 80%;
   
  
@@ -1261,6 +1261,10 @@ flex-wrap: wrap;
 .secondShape{
     scale: 80%;
 }
+
+  .insideBodyHolder{
+    scale: 80%;
+  }
 
   .insideHolderThree{
     scale: 80%;
@@ -1340,7 +1344,7 @@ flex-wrap: wrap;
   }
 
 
-    .insideBodyHolder{
+    .bodyShapeThree{
     width: 60%;
     
   
@@ -1374,11 +1378,7 @@ flex-wrap: wrap;
     scale: 60%;
   }
 
-   .secondShape{
-    scale: 60%;
-  }
-
-  .insideHolderThree{
+  .insideBodyHolder{
     scale: 60%;
   }
 
