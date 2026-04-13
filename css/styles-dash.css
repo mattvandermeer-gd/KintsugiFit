@@ -370,9 +370,6 @@ clip-path: shape(from 23.58% 11.67%,hline to 25.47%,hline to 49.37%,curve to 50.
 background-color: #81D3F0;
 mix-blend-mode: multiply;
 transition: width 200ms ease-out;
-display: flex;
-align-items: center;
-  justify-content: center;
 
 
 
@@ -1134,9 +1131,9 @@ width: 40%;
 width: 69.841vw;
 height: 62.324vh;
 align-items: center;
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   
 }
 
@@ -1266,10 +1263,6 @@ flex-wrap: wrap;
     scale: 80%;
   }
 
-  .insideHolderThree{
-    scale: 80%;
-  }
-
   .listHolder{
     padding: 0.5rem 5em;
   }
@@ -1375,6 +1368,10 @@ flex-wrap: wrap;
     scale: 60%;
   }
   .secondShape{
+    scale: 60%;
+  }
+
+   .secondShape{
     scale: 60%;
   }
 
