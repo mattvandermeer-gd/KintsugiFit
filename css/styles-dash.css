@@ -591,6 +591,16 @@ display: flex;
 
 }
 
+
+.insideHolderThree{
+    height: 50vh;
+    align-content: center;
+    display: flex;
+  position: absolute;
+
+
+}
+
 .firstTextHolder {
 position: absolute;
   display: flex;
