@@ -365,7 +365,6 @@ position: absolute;
 width: 100%;
 height: 85vh;
 top: 100px;
-
 background-color: #81D3F0;
 mix-blend-mode: multiply;
 transition: width 200ms ease-out;
