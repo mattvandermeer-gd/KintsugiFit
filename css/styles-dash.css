@@ -595,7 +595,8 @@ display: flex;
 
 
 .insideHolderThree{
-    height: 46.232vhvh;
+    height: 46.232vh;
+    width: 69.841vw;;
     align-content: center;
     display: flex;
   position: absolute;
