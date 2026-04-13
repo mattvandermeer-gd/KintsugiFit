@@ -595,11 +595,16 @@ display: flex;
 
 
 .insideHolderThree{
-    height: 46.232vh;
-    width: 69.841vw;;
-    align-content: center;
-    display: flex;
+height: 46.232vh;
+  width: 69.841vw;
+  align-content: center;
+  display: flex;
   position: absolute;
+  flex-wrap: wrap;
+  padding-top: 220px;
+  gap: 20px;
+  justify-content: center;
+
 
 
 }
