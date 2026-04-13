@@ -575,7 +575,7 @@ display: flex;
 }
 
 .insideHolder{
-    height: 46.232vh;
+    height: 68vh;
     align-content: center;
     display: flex;
   position: absolute;
@@ -586,6 +586,16 @@ display: flex;
 
 .insideHolderTwo{
     height: 50vh;
+    align-content: center;
+    display: flex;
+  position: absolute;
+
+
+}
+
+
+.insideHolderThree{
+    height: 46.232vhvh;
     align-content: center;
     display: flex;
   position: absolute;
