@@ -1259,7 +1259,11 @@ align-items: center;
     scale: 80%;
 }
 
-  .insideBodyHolder{
+  .insideHolderThree{
+    scale: 80%;
+  }
+
+    .insideHolderFour{
     scale: 80%;
   }
 
@@ -1375,7 +1379,11 @@ align-items: center;
     scale: 60%;
   }
 
-  .insideBodyHolder{
+  .insideHolderThree{
+    scale: 60%;
+  }
+
+  .insideHolderFour{
     scale: 60%;
   }
 
@@ -1397,4 +1405,4 @@ ul{
 }
 
 
-\
+
