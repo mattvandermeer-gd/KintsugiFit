@@ -618,20 +618,12 @@ height: 46.232vh;
   position: relative;
   gap: 10px;
   justify-content: center;
+  font-size: clamp(0.65rem, 2vh, 1.1rem);
 
 
 
 }
 
-
-.insideHodlerFour input[type=text] {
-  float: left;
-  padding: 6px;
-  border: none;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
-}
 
 
 
