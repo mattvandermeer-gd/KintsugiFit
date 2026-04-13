@@ -361,16 +361,16 @@ align-items: center;
 }
 
 .bodyShapeThree{
-position: absolute;
-width: 100%;
-height: 85vh;
-top: 100px;
-aspect-ratio: 1.531;
-clip-path: shape(from 23.58% 11.67%,hline to 25.47%,hline to 49.37%,curve to 50.94% 9.27% with 50.24% 11.67%/50.94% 10.6%,vline to 2.41%,curve to 52.52% 0% with 50.94% 1.08%/51.65% 0%,hline to 72.96%,curve to 74.53% 2.41% with 73.82% 0%/74.53% 1.08%,vline to 9.27%,curve to 76.1% 11.67% with 74.53% 10.6%/75.23% 11.67%,hline to 98.43%,curve to 100% 14.08% with 99.3% 11.67%/100% 12.75%,vline to 97.59%,curve to 98.43% 100% with 100% 98.92%/99.3% 100%,hline to 1.57%,curve to 0% 97.59% with 0.7% 100%/0% 98.92%,vline to 13.96%,curve to 1.49% 11.67% with 0% 12.7%/0.67% 11.67%,hline to 23.58%,close);
-background-color: #81D3F0;
-mix-blend-mode: multiply;
-transition: width 200ms ease-out;
-align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 85vh;
+  top: 100px;
+  aspect-ratio: 1.531;
+  clip-path: shape(from 23.58% 11.67%,hline to 25.47%,hline to 49.37%,curve to 50.94% 9.27% with 50.24% 11.67%/50.94% 10.6%,vline to 2.41%,curve to 52.52% 0% with 50.94% 1.08%/51.65% 0%,hline to 72.96%,curve to 74.53% 2.41% with 73.82% 0%/74.53% 1.08%,vline to 9.27%,curve to 76.1% 11.67% with 74.53% 10.6%/75.23% 11.67%,hline to 98.43%,curve to 100% 14.08% with 99.3% 11.67%/100% 12.75%,vline to 97.59%,curve to 98.43% 100% with 100% 98.92%/99.3% 100%,hline to 1.57%,curve to 0% 97.59% with 0.7% 100%/0% 98.92%,vline to 13.96%,curve to 1.49% 11.67% with 0% 12.7%/0.67% 11.67%,hline to 23.58%,close);
+  background-color: #81D3F0;
+  mix-blend-mode: multiply;
+  transition: width 200ms ease-out;
+  align-items: center;
   display: flex;
   justify-content: center;
 
