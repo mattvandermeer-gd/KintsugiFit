@@ -1149,6 +1149,10 @@ width: 40%;
     scale: 80%;
 }
 
+  .insideHolderThree{
+    scale: 80%;
+  }
+
   .listHolder{
     padding: 0.5rem 5em;
   }
@@ -1254,6 +1258,14 @@ width: 40%;
     scale: 60%;
   }
   .secondShape{
+    scale: 60%;
+  }
+
+   .secondShape{
+    scale: 60%;
+  }
+
+  .insideHolderThree{
     scale: 60%;
   }
 
