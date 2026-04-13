@@ -365,6 +365,8 @@ position: absolute;
 width: 100%;
 height: 85vh;
 top: 100px;
+aspect-ratio: 1.531;
+clip-path: shape(from 23.58% 11.67%,hline to 25.47%,hline to 49.37%,curve to 50.94% 9.27% with 50.24% 11.67%/50.94% 10.6%,vline to 2.41%,curve to 52.52% 0% with 50.94% 1.08%/51.65% 0%,hline to 72.96%,curve to 74.53% 2.41% with 73.82% 0%/74.53% 1.08%,vline to 9.27%,curve to 76.1% 11.67% with 74.53% 10.6%/75.23% 11.67%,hline to 98.43%,curve to 100% 14.08% with 99.3% 11.67%/100% 12.75%,vline to 97.59%,curve to 98.43% 100% with 100% 98.92%/99.3% 100%,hline to 1.57%,curve to 0% 97.59% with 0.7% 100%/0% 98.92%,vline to 13.96%,curve to 1.49% 11.67% with 0% 12.7%/0.67% 11.67%,hline to 23.58%,close);
 background-color: #81D3F0;
 mix-blend-mode: multiply;
 transition: width 200ms ease-out;
@@ -573,7 +575,7 @@ display: flex;
 }
 
 .insideHolder{
-    height: 68vh;
+    height: 46.232vh;
     align-content: center;
     display: flex;
   position: absolute;
@@ -583,16 +585,6 @@ display: flex;
 
 
 .insideHolderTwo{
-    height: 50vh;
-    align-content: center;
-    display: flex;
-  position: absolute;
-
-
-}
-
-
-.insideHolderThree{
     height: 50vh;
     align-content: center;
     display: flex;
@@ -1016,21 +1008,21 @@ width: 40%;
 
 
 .thirdShape{
-    height: 65vh;
-    background-color: #BAEDFF;
-    aspect-ratio: 1.723;
+    height: 14.053vh;
+  background-color: #BAEDFF;
   aspect-ratio: 7.652;
   clip-path: shape(from 98.86% 0%,hline to 11.36%,curve to 10.23% 8.7% with 10.74% 0%/10.23% 3.89%,vline to 50%,curve to 9.09% 58.7% with 10.23% 54.8%/9.72% 58.7%,hline to 1.14%,curve to 0% 67.39% with 0.51% 58.7%/0% 62.59%,vline to 91.3%,curve to 1.14% 100% with 0% 96.11%/0.51% 100%,hline to 88.64%,curve to 89.77% 91.3% with 89.26% 100%/89.77% 96.11%,vline to 33.7%,curve to 90.91% 25% with 89.77% 28.89%/90.28% 25%,hline to 98.86%,curve to 100% 16.3% with 99.49% 25%/100% 21.11%,vline to 8.7%,curve to 98.86% 0% with 100% 3.89%/99.49% 0%,close);
- position: relative;
+  position: relative;
   text-align: center;
   animation-name: slideDownAnimation;
   animation-duration: 1s;
   animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
   animation-direction: normal;
   animation-fill-mode: both;
+} 
 
 
-}
+
 
 
 @keyframes slideDownAnimation {
