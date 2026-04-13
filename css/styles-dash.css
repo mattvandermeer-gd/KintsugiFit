@@ -1021,7 +1021,6 @@ width: 40%;
     aspect-ratio: 1.723;
   aspect-ratio: 7.652;
   clip-path: shape(from 98.86% 0%,hline to 11.36%,curve to 10.23% 8.7% with 10.74% 0%/10.23% 3.89%,vline to 50%,curve to 9.09% 58.7% with 10.23% 54.8%/9.72% 58.7%,hline to 1.14%,curve to 0% 67.39% with 0.51% 58.7%/0% 62.59%,vline to 91.3%,curve to 1.14% 100% with 0% 96.11%/0.51% 100%,hline to 88.64%,curve to 89.77% 91.3% with 89.26% 100%/89.77% 96.11%,vline to 33.7%,curve to 90.91% 25% with 89.77% 28.89%/90.28% 25%,hline to 98.86%,curve to 100% 16.3% with 99.49% 25%/100% 21.11%,vline to 8.7%,curve to 98.86% 0% with 100% 3.89%/99.49% 0%,close);
-  background: linear-gradient(60deg in hsl, #d75252, #852b4f);
  position: relative;
   text-align: center;
   animation-name: slideDownAnimation;
