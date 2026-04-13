@@ -370,7 +370,9 @@ clip-path: shape(from 23.58% 11.67%,hline to 25.47%,hline to 49.37%,curve to 50.
 background-color: #81D3F0;
 mix-blend-mode: multiply;
 transition: width 200ms ease-out;
-display: flex;
+align-items: center;
+  display: flex;
+  justify-content: center;
 
 
 
