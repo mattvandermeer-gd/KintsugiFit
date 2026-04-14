@@ -45,14 +45,6 @@ $(document).ready(function() {
 		$(".containerThree").fadeOut(1)
 
 	})
-
-
-
-
-		
-		
-
-
 	
 	// FUNCTIONS
 	

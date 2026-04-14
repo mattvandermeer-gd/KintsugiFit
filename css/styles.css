@@ -289,8 +289,8 @@ pointer-events: none;
 display: block;
 position: absolute;
 contain: strict;
-margin-left: 29rem;
-
+margin-left: 33rem;
+top: 8rem;
             
 }
 
@@ -457,7 +457,6 @@ p{
   contain: strict;
   margin-left: 43rem;
   padding-top: 87rem;
-  top: 8em;
 }
 
 
@@ -516,8 +515,9 @@ model-viewer{
   display: block;
   position: absolute;
   contain: strict;
+  top: 8rem;
   scale: 0.8;
-  margin-left: 30rem;
+  margin-left: 21rem;
 }
 
 
