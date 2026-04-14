@@ -261,7 +261,6 @@ min-height: 100vh;
     width: 1056px;
     height: 471px;
     display: grid;
-    gap: 24px;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     padding-left: 24px;
     padding-right: 24px;
@@ -309,6 +308,16 @@ min-height: 100vh;
     
 }
 
+
+
+.shapeHolder3{
+    display: flex;
+    height: 470px;
+    width: 192px;
+    flex-wrap: wrap;
+    
+    
+}
 
 .shape2{  
     width: 301px;
@@ -373,15 +382,76 @@ min-height: 100vh;
 .shape7{
     width: 192px;
     height: 150px;
-
     aspect-ratio: 1.28;
     clip-path: shape(from 0% 8%,curve to 6.25% 0% with 0% 3.58%/2.8% 0%,hline to 76.3%,curve to 82.55% 8% with 79.75% 0%/82.55% 3.58%,vline to 16.73%,curve to 88.8% 24.73% with 82.55% 21.15%/85.35% 24.73%,hline to 93.75%,curve to 100% 32.73% with 97.2% 24.73%/100% 28.31%,vline to 62.36%,vline to 92%,curve to 93.75% 100% with 100% 96.42%/97.2% 100%,hline to 6.25%,curve to 0% 92% with 2.8% 100%/0% 96.42%,vline to 59.24%,vline to 34.78%,vline to 8%,close);
     background-color:  #BAEDFF;
     justify-content: center;
-    justify-content: center;
   display: grid;
 }
 
+
+.shape8{
+    width: 192px;
+    height: 264px;
+
+    aspect-ratio: 0.727;
+    clip-path: shape(from 93.75% 0%,hline to 6.25%,curve to 0% 4.55% with 2.8% 0%/0% 2.04%,vline to 95.45%,curve to 6.25% 100% with 0% 97.96%/2.8% 100%,hline to 50%,curve to 56.25% 95.45% with 53.45% 100%/56.25% 97.96%,vline to 83.4%,curve to 59.47% 79.43% with 56.25% 81.75%/57.48% 80.23%,line to 96.78% 64.39%,curve to 100% 60.41% with 98.77% 63.59%/100% 62.07%,vline to 4.55%,curve to 93.75% 0% with 100% 2.04%/97.2% 0%,close);
+    background-color: #BAEDFF;
+
+
+}
+
+
+.shape9{
+    aspect-ratio: 0.932;
+    clip-path: shape(from 0% 25.35%,line to 0% 74.98%,line to 0% 97.26%,curve to 2.94% 100% with 0% 98.77%/1.32% 100%,line to 33.17% 100%,curve to 36.78% 96.36% with 35.16% 100%/36.78% 98.37%,line to 36.78% 82.26%,curve to 40.38% 78.62% with 36.78% 80.25%/38.39% 78.62%,line to 76.84% 78.62%,curve to 80.45% 74.98% with 78.83% 78.62%/80.45% 76.99%,line to 80.45% 60.88%,curve to 84.05% 57.24% with 80.45% 58.87%/82.06% 57.24%,line to 96.4% 57.24%,curve to 100% 53.6% with 98.39% 57.24%/100% 55.61%,line to 100% 45.08%,curve to 96.4% 41.45% with 100% 43.08%/98.39% 41.45%,line to 77.05% 41.45%,curve to 73.45% 37.81% with 75.06% 41.45%/73.45% 39.82%,line to 73.45% 3.64%,curve to 71.32% 0% with 73.45% 1.63%/73.31% 0%,line to 30.09% 0%,curve to 26.48% 3.64% with 28.1% 0%/26.48% 1.63%,line to 26.48% 18.07%,curve to 22.88% 21.71% with 26.48% 20.08%/24.87% 21.71%,line to 3.6% 21.71%,curve to 0% 25.35% with 1.61% 21.71%/0% 23.34%,close);
+    background-color: #BAEDFF;
+    width: 408px;
+    height: 438px;
+
+}
+
+
+.shape10{
+    aspect-ratio: 0.683;
+    clip-path: shape(from 22.07% 100%,line to 67.56% 100%,curve to 71.57% 97.26% with 69.77% 100%/71.57% 98.77%,line to 71.57% 66.89%,curve to 75.59% 64.16% with 71.57% 65.38%/73.37% 64.16%,line to 95.99% 64.16%,curve to 100% 61.42% with 98.2% 64.16%/100% 62.93%,line to 100% 2.74%,curve to 95.99% 0% with 100% 1.23%/98.2% 0%,line to 4.01% 0%,curve to 0% 2.74% with 1.8% 0%/0% 1.23%,line to 0% 25.34%,curve to 4.01% 28.08% with 0% 26.86%/1.8% 28.08%,line to 14.05% 28.08%,curve to 18.06% 30.82% with 16.26% 28.08%/18.06% 29.31%,line to 18.06% 50.8%,curve to 14.05% 53.54% with 18.06% 52.31%/16.26% 53.54%,line to 4.01% 53.54%,curve to 0% 56.28% with 1.8% 53.54%/0% 54.77%,line to 0% 71.12%,curve to 4.01% 73.86% with 0% 72.63%/1.8% 73.86%,line to 14.05% 73.86%,curve to 18.06% 76.6% with 16.26% 73.86%/18.06% 75.09%,line to 18.06% 97.26%,curve to 22.07% 100% with 18.06% 98.77%/19.86% 100%,close);
+    background-color: #BAEDFF;
+    width: 299px;
+    height: 438px;
+
+}
+
+.bladeImage{
+     width: 100px;
+  height: 80px;
+  position: relative;
+  display: flex;
+  align-content: center;
+  background-image: url('../images/object.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.notif-box{
+    display: flex;
+  
+  flex-wrap: wrap;
+  
+  gap: 30px;
+  background-color: #506D77;
+  border-radius: 12px;
+  justify-content: center;
+  align-content: center;
+  padding: 20px;
+ 
+  font-family: PROXIMASEMI;
+  color: #6B1234;
+  top: 76px;
+  position: relative;
+  right: 7px;
+
+}
 
 .plusLogo{
  width: 100px;
@@ -397,9 +467,42 @@ min-height: 100vh;
   text-align: center;
 }
 
+
+.buttonOrder{
+width: 179px;
+  height: 58px;
+  background-color: #366B7D;
+  font-family: PROXIMASEMI;
+  color: #6B1234;
+  appearance: none;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  top: -23px;
+  position: relative;
+}
+
+
+
+
 .textHolder0{
     display: flex;
     padding-right: 20px;
+}
+
+
+.mapView{
+width: 150px;
+  height: 150px;
+  position: relative;
+  display: flex;
+  align-content: center;
+  background-image: url('../images/map.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: -9px;
+  left: 66px;
+
 }
 
 
@@ -411,6 +514,7 @@ background: none;
 background-repeat: no-repeat;
     background-size:contain;
 width: 37px;
+cursor: pointer;
 
 
 }
@@ -423,6 +527,7 @@ background: none;
 background-repeat: no-repeat;
     background-size:contain;
 width: 37px;
+cursor: pointer;
 
 
 }
@@ -435,6 +540,7 @@ background: none;
 background-repeat: no-repeat;
     background-size:contain;
 width: 37px;
+cursor: pointer;
 
 
 }
@@ -450,6 +556,7 @@ width: 37px;
 height: 37px;
 border: none;
 appearance: none; 
+cursor: pointer;
 
 
 }
