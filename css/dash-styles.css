@@ -73,7 +73,7 @@
 
 
 body{
-    overflow-x: clip;
+    overflow-x: hidden;
 
 
 }
@@ -1131,7 +1131,7 @@ li{
 
 
 @media (max-width: 480px) {
- 
+
   .top-row { gap: 40px; }
  
   .dashboardButton,
