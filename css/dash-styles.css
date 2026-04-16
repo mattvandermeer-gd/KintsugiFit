@@ -180,7 +180,7 @@ min-height: 100vh;
     clip-path: shape(from 16.6% 0%,line to 32.13% 0%,line to 41.5% 0%,curve to 44.4% 10.26% with 43.1% 0%/44.4% 4.59%,line to 44.4% 13.43%,curve to 47.31% 23.69% with 44.4% 19.1%/45.71% 23.69%,line to 97.09% 23.69%,curve to 100% 33.96% with 98.7% 23.69%/100% 28.29%,line to 100% 71.77%,curve to 97.09% 82.03% with 100% 77.43%/98.7% 82.03%,line to 21.45% 82.03%,curve to 18.54% 92.29% with 19.84% 82.03%/18.54% 86.62%,line to 18.54% 100%,line to 0% 100%,line to 0% 0%,line to 16.6% 0%,close);
     background-color: #6B1234;
     mix-blend-mode: hard-light;
-    overflow-x: clip;
+    overflow-x: hidden;
 }
 
 
@@ -1148,11 +1148,11 @@ li{
   
   }
  
-  .shape1, .shape2, .shape4, .shape5 { width: 52vw; transform-style: preserve-3d; }
-  .shape3 {height: 30vh; width: 62vw; transform-style: preserve-3d; }
- .shape7, .shape8, {transform-style: preserve-3d; width: 52vw;}
- .shapeContainerThree {transform-style: preserve-3d; scale: 80%; margin-left: 0px;}
-  .shapeContainerFour {transform-style: preserve-3d; scale: 85%; margin-left: 0px; right: 30px; position: relative;}
+  .shape1, .shape2, .shape4, .shape5 { width: 52vw; }
+  .shape3 {height: 30vh; width: 62vw;}
+ .shape7, .shape8, {width: 52vw;}
+ .shapeContainerThree {scale: 80% translate3d(0, 0, 0); margin-left: 0px;}
+  .shapeContainerFour {scale: 85% translate3d(0, 0, 0); margin-left: 0px; right: 30px; position: relative;}
 
  
   h1 { font-size: 1rem; }
