@@ -1133,7 +1133,7 @@ li{
 }
 
 
-@media (max-width: 480px) {
+@media (min-width: 390px) {
 
   .top-row { gap: 40px; }
  
