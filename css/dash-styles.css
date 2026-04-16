@@ -261,6 +261,14 @@ min-height: 100vh;
 
 }
 
+.containerHeaderShape{
+    position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 444px;
+  gap: 24px;
+}
+
 
 .headerShapeOne{
     width: 361px;
@@ -300,8 +308,30 @@ min-height: 100vh;
      top: 15px;
      left: 15px;
      position: relative;
+     transition: transform 0.3s ease;
 }
 
+
+
+
+
+.logo:hover{
+
+    mix-blend-mode: plus-lighter;
+    cursor: pointer;
+    transform: scale(1.2); /* Enlarge by 10% */
+
+
+}
+
+.plusLogo:hover{
+
+    mix-blend-mode: multiply;
+    cursor: pointer;
+    transform: scale(1.1); /* Enlarge by 10% */
+
+
+}
 
 .mainContainer{
     
@@ -877,6 +907,51 @@ width: 176px;
   top: 0;
   mix-blend-mode: hard-light;
   text-align: center;
+  transition: transform 0.3s ease;
+}
+
+
+.aiLogo{
+     width: 48px;
+  height: 48px;
+  position: relative;
+  display: flex;
+  align-content: center;
+  background-image: url('../images/ai.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 0;
+  mix-blend-mode: hard-light;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.aiLogo:hover{
+    transform: scale(1.2);
+
+
+}
+
+
+.settingsLogo{
+     width: 48px;
+  height: 48px;
+  position: relative;
+  display: flex;
+  align-content: center;
+  background-image: url('../images/settings.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 0;
+  mix-blend-mode: hard-light;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.settingsLogo:hover{
+    transform: scale(1.2);
+
+
 }
 
 
@@ -892,6 +967,15 @@ width: 179px;
   cursor: pointer;
   top: -23px;
   position: relative;
+  transition: transform 0.3s ease;
+
+}
+
+.buttonOrder:hover {
+  transform: scale(1.1);
+  mix-blend-mode: multiply;
+  color: #366B7D; 
+  background-color:#6B1234;;
 }
 
 
@@ -927,9 +1011,17 @@ background-repeat: no-repeat;
     background-size:contain;
 width: 37px;
 cursor: pointer;
+transition: transform 0.3s ease;
+
 
 
 }
+
+.dashboardButton:hover {
+  transform: scale(1.2); 
+}
+
+
 
 .designButton {
       border: none;
@@ -940,9 +1032,16 @@ background-repeat: no-repeat;
     background-size:contain;
 width: 37px;
 cursor: pointer;
+transition: transform 0.3s ease;
 
 
 }
+
+
+.designButton:hover {
+  transform: scale(1.2); 
+}
+
 
 .communityButton {
       border: none;
@@ -953,8 +1052,13 @@ background-repeat: no-repeat;
     background-size:contain;
 width: 37px;
 cursor: pointer;
+transition: transform 0.3s ease;
 
 
+}
+
+.communityButton:hover {
+  transform: scale(1.2); 
 }
 
 .healthServicesButton {
@@ -969,11 +1073,14 @@ height: 37px;
 border: none;
 appearance: none; 
 cursor: pointer;
+transition: transform 0.3s ease;
 
 
 }
 
-
+.healthServicesButton:hover {
+  transform: scale(1.2); 
+}
 
 
 
