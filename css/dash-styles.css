@@ -384,7 +384,7 @@ width: 91px;
 .shapeContainer{
     width: 1056px;
   height: 471px;
-  margin-left: 30px;
+  margin-left: 24px;
   display: flex;
   gap: 1.5rem;
   flex-grow: 2;
@@ -396,7 +396,7 @@ width: 91px;
   animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
   animation-direction: normal;
   animation-fill-mode: both;
-  justify-content: flex-end;
+  justify-content: start;
 
 
 }
@@ -410,9 +410,9 @@ width: 91px;
 
 
 .shapeContainerTwo{
-    width: 1056px;
+ width: 1056px;
   height: 471px;
-  margin-left: 30px;
+  margin-left: 24px;
   display: flex;
   gap: 1.5rem;
   flex-grow: 2;
@@ -424,7 +424,7 @@ width: 91px;
   animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
   animation-direction: normal;
   animation-fill-mode: both;
-  justify-content: center;
+  justify-content: start;
 
 
 }
@@ -432,9 +432,9 @@ width: 91px;
 
 
 .shapeContainerThree{
-    width: 1056px;
+width: 1056px;
   height: 471px;
-  margin-left: 30px;
+  margin-left: 24px;
   display: flex;
   gap: 1.5rem;
   flex-grow: 2;
@@ -446,7 +446,8 @@ width: 91px;
   animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
   animation-direction: normal;
   animation-fill-mode: both;
-  justify-content: flex-end;
+  justify-content: start;
+
 
 
 }
@@ -462,9 +463,9 @@ width: 91px;
 
 
 .shapeContainerFour{
-    width: 1056px;
+width: 1056px;
   height: 471px;
-  margin-left: 30px;
+  margin-left: 24px;
   display: flex;
   gap: 1.5rem;
   flex-grow: 2;
@@ -476,7 +477,7 @@ width: 91px;
   animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
   animation-direction: normal;
   animation-fill-mode: both;
-  justify-content: flex-end;
+  justify-content: start;
 
 
 }
