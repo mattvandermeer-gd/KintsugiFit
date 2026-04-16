@@ -73,7 +73,7 @@
 
 
 body{
-    overflow-x: clip;
+    overflow-x: hidden;
 
 
 }
@@ -1129,31 +1129,4 @@ li{
 }
 
 
-@media (max-width: 480px) {
- 
-  .top-row { gap: 40px; }
- 
-  .dashboardButton,
-  .designButton,
-  .communityButton,
-  .healthServicesButton {
-    width: 28px;
-  }
- 
-  .dashboardButton img,
-  .designButton img,
-  .communityButton img,
-  .healthServicesButton img {
-  
-  }
- 
-  .shape1, .shape2, .shape4, .shape5 { width: 52vw; }
-  .shape3 {height: 30vh; width: 62vw;}
- .shape7, .shape8, {width: 52vw;}
- .shapeContainerThree {scale: 80%; margin-left: 0px;}
-  .shapeContainerFour {scale: 85%; margin-left: 0px; right: 30px; position: relative;}
 
- 
-  h1 { font-size: 1rem; }
-  h2 { font-size: 1.05rem; }
-}
