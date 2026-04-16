@@ -82,7 +82,11 @@ body{
 
 
 .container {
-margin: 0 auto;
+
+max-width: 1272px;
+min-width: 420px;
+
+padding-right: 30px;
 min-height: 100vh;
 
 
@@ -95,7 +99,11 @@ min-height: 100vh;
 
 
 .containerTwo {
-margin: 0 auto;
+
+max-width: 1272px;
+min-width: 420px;
+
+padding-right: 30px;
 min-height: 100vh;
 
 
@@ -105,6 +113,40 @@ min-height: 100vh;
 
 
 }
+
+.containerThree {
+
+max-width: 1272px;
+min-width: 420px;
+
+padding-right: 30px;
+min-height: 100vh;
+
+
+
+
+  
+
+
+}
+
+.containerFour {
+
+max-width: 1272px;
+min-width: 420px;
+
+padding-right: 30px;
+min-height: 100vh;
+
+
+
+
+  
+
+
+}
+
+
 
 
 
@@ -119,13 +161,12 @@ min-height: 100vh;
     width: 100%;
     height: 100%;
      background-position: center center;
-
     background-size: cover;
-
+    display: block;
     background-color: #81D3F0;
     background-blend-mode: soft-light;
     min-height: 100vh;
-    z-index: -1;
+    z-index: -9;
 }
 
 
@@ -168,6 +209,85 @@ min-height: 100vh;
 
 }   
 
+
+.headerContainer{
+    width: 1056px;
+    height: 84px;
+    justify-content: flex-end;
+    display: flex;
+    flex-grow: 2;
+  flex-wrap: wrap;
+  mix-blend-mode: multiply;
+  gap: 1.5rem;
+
+}
+
+
+.searchHolder{
+    width: 408px;
+    height: 44px;
+    display: flex;
+    
+}
+
+
+.searchIcon{
+    width: 40px;
+  height: 40px;
+  position: relative;
+  display: flex;
+  align-content: center;
+  background-image: url('../images/Search.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 0;
+  
+  text-align: center;
+  padding-right: 24px;
+
+}
+
+
+#search{
+ width: 348px;
+ height: 44px;
+  font-family: 'POPPINSREG';
+ color: #6B1234;
+  background-color: lightblue;
+  border: none;
+  border-radius: 10px;
+  mix-blend-mode: hard-light;
+
+
+}
+
+
+.headerShapeOne{
+    width: 361px;
+  height: 84px;
+  aspect-ratio: 4.307;
+  clip-path: shape(from 3.32% 0%,hline to 96.68%,curve to 100% 14.28% with 98.52% 0%/100% 6.39%,vline to 81.47%,curve to 96.68% 95.74% with 100% 89.35%/98.52% 95.74%,hline to 76.22%,curve to 73.13% 82.45% with 74.51% 95.74%/73.13% 89.79%,curve to 70.04% 69.15% with 73.13% 75.1%/71.75% 69.15%,hline to 46.87%,hline to 23.56%,curve to 20.25% 83.43% with 21.73% 69.15%/20.25% 75.54%,vline to 85.72%,curve to 16.93% 100% with 20.25% 93.61%/18.76% 100%,hline to 3.32%,curve to 0% 85.72% with 1.48% 100%/0% 93.61%,vline to 14.28%,curve to 3.32% 0% with 0% 6.39%/1.48% 0%,close);
+  color: #BAEDFF;
+  font-family: 'PROXIMASEMI';
+  text-align: center;
+  align-content: center;
+  background-color: #B8295F;
+
+}
+
+.headerShapeTwo{
+    background-color: #BAEDFF;
+   color: #B8295F;
+   width: 229px;
+   height: 65px;
+   font-family: 'PROXIMASEMI';
+   text-align: center;
+   align-content: center;
+    aspect-ratio: 3.511;
+    clip-path: shape(from 100% 81.61%,line to 100% 68.39%,curve to 94.76% 50% with 100% 58.23%/97.66% 50%,line to 89.54% 50%,curve to 84.3% 31.61% with 86.65% 50%/84.3% 41.77%,line to 84.3% 18.39%,curve to 79.07% 0% with 84.3% 8.23%/81.96% 0%,line to 5.24% 0%,curve to 0% 18.39% with 2.34% 0%/0% 8.23%,line to 0% 67.08%,curve to 1.52% 80.04% with 0% 71.93%/0.55% 76.59%,line to 5.63% 94.57%,curve to 9.35% 100% with 6.62% 98.05%/7.95% 100%,line to 94.76% 100%,curve to 100% 81.61% with 97.66% 100%/100% 91.77%,close);
+    
+}
+
 .logo{
     background-image:url('../images/logo-blue.png'); 
     background-repeat: no-repeat;
@@ -184,7 +304,7 @@ min-height: 100vh;
 
 
 .mainContainer{
-    width: 100vw;
+    
     height: 672px;
     position: relative;
     display: flex;
@@ -192,7 +312,7 @@ min-height: 100vh;
 
 .side-bar{
 
-    height: 559px;
+    height: 473px;
   width: 95.7px;
   z-index: 9990;
   position: relative;
@@ -207,6 +327,41 @@ min-height: 100vh;
 
 
 }
+
+
+.signButton{
+width: 91px;
+  height: 58px;
+  background-color: #366B7D;
+  font-family: PROXIMASEMI;
+  color: #6B1234;
+  appearance: none;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  top: 113px;
+  position: relative;
+  right: 7px;
+
+}
+
+
+.signButtonTwo{
+width: 91px;
+  height: 58px;
+  background-color: #366B7D;
+  font-family: PROXIMASEMI;
+  color: #6B1234;
+  appearance: none;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  position: relative;
+
+
+}
+
+
 
 .box{
     position: relative;
@@ -228,23 +383,20 @@ min-height: 100vh;
 
 .shapeContainer{
     width: 1056px;
-    height: 471px;
-    display: grid;
-    gap: 24px;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    padding-left: 24px;
-    padding-right: 24px;
-    display: flex;
-    gap: 1.5rem;
-    flex-grow: 2;
-    flex-wrap: wrap;
-      mix-blend-mode: multiply;
-      filter: drop-shadow( 1px 1px 8px #6b1234);
-      animation-name: slideDownAnimation;
+  height: 471px;
+  margin-left: 30px;
+  display: flex;
+  gap: 1.5rem;
+  flex-grow: 2;
+  flex-wrap: wrap;
+  mix-blend-mode: multiply;
+  filter: drop-shadow( 1px 1px 8px #6b1234);
+  animation-name: slideDownAnimation;
   animation-duration: 1s;
   animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
   animation-direction: normal;
   animation-fill-mode: both;
+  justify-content: flex-end;
 
 
 }
@@ -259,25 +411,46 @@ min-height: 100vh;
 
 .shapeContainerTwo{
     width: 1056px;
-    height: 471px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    padding-left: 24px;
-    padding-right: 24px;
-    display: flex;
-    gap: 1.5rem;
-    flex-grow: 2;
-    flex-wrap: wrap;
-      mix-blend-mode: multiply;
-      filter: drop-shadow( 1px 1px 8px #6b1234);
-      animation-name: slideDownAnimation;
+  height: 471px;
+  margin-left: 30px;
+  display: flex;
+  gap: 1.5rem;
+  flex-grow: 2;
+  flex-wrap: wrap;
+  mix-blend-mode: multiply;
+  filter: drop-shadow( 1px 1px 8px #6b1234);
+  animation-name: slideDownAnimation;
   animation-duration: 1s;
   animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
   animation-direction: normal;
   animation-fill-mode: both;
+  justify-content: center;
 
 
 }
+
+
+
+.shapeContainerThree{
+    width: 1056px;
+  height: 471px;
+  margin-left: 30px;
+  display: flex;
+  gap: 1.5rem;
+  flex-grow: 2;
+  flex-wrap: wrap;
+  mix-blend-mode: multiply;
+  filter: drop-shadow( 1px 1px 8px #6b1234);
+  animation-name: slideDownAnimation;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
+  animation-direction: normal;
+  animation-fill-mode: both;
+  justify-content: flex-end;
+
+
+}
+
 
 
 @keyframes slideDownAnimation {
@@ -285,6 +458,35 @@ min-height: 100vh;
   100% { transform: translateY(0); opacity: 1; }
 }
 
+
+
+
+.shapeContainerFour{
+    width: 1056px;
+  height: 471px;
+  margin-left: 30px;
+  display: flex;
+  gap: 1.5rem;
+  flex-grow: 2;
+  flex-wrap: wrap;
+  mix-blend-mode: multiply;
+  filter: drop-shadow( 1px 1px 8px #6b1234);
+  animation-name: slideDownAnimation;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
+  animation-direction: normal;
+  animation-fill-mode: both;
+  justify-content: flex-end;
+
+
+}
+
+
+
+@keyframes slideDownAnimation {
+  0% { transform: translateY(-100px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
 
 
 .shape1{
@@ -421,6 +623,117 @@ min-height: 100vh;
 
 }
 
+.shape11{
+    width: 300px;
+    height: 231px;
+
+    aspect-ratio: 1.299;
+    clip-path: shape(from 24.5% 5.19%,curve to 28.5% 0% with 24.5% 2.33%/26.29% 0%,hline to 96%,curve to 100% 5.19% with 98.21% 0%/100% 2.33%,vline to 94.81%,curve to 96% 100% with 100% 97.67%/98.21% 100%,hline to 4%,curve to 0% 94.81% with 1.79% 100%/0% 97.67%,vline to 34.63%,curve to 4% 29.44% with 0% 31.76%/1.79% 29.44%,hline to 20.5%,curve to 24.5% 24.24% with 22.71% 29.44%/24.5% 27.11%,vline to 5.19%,close,close,move to 24.5% 5.19%,curve to 28.5% 0% with 24.5% 2.33%/26.29% 0%,hline to 96%,curve to 100% 5.19% with 98.21% 0%/100% 2.33%,vline to 94.81%,curve to 96% 100% with 100% 97.67%/98.21% 100%,hline to 4%,curve to 0% 94.81% with 1.79% 100%/0% 97.67%,vline to 34.63%,curve to 4% 29.44% with 0% 31.76%/1.79% 29.44%,hline to 20.5%,curve to 24.5% 24.24% with 22.71% 29.44%/24.5% 27.11%,vline to 5.19%,close);
+    background-color: #BAEDFF;
+
+}
+
+.shape12{
+    width: 300px;
+    height: 231px;
+
+
+    aspect-ratio: 1.299;
+    clip-path: shape(from 75.5% 94.81%,curve to 71.5% 100% with 75.5% 97.67%/73.71% 100%,line to 4% 100%,curve to 0% 94.81% with 1.79% 100%/0% 97.67%,line to 0% 5.19%,curve to 4% 0% with 0% 2.33%/1.79% 0%,line to 96% 0%,curve to 100% 5.19% with 98.21% 0%/100% 2.33%,line to 100% 65.37%,curve to 96% 70.56% with 100% 68.24%/98.21% 70.56%,line to 79.5% 70.56%,curve to 75.5% 75.76% with 77.29% 70.56%/75.5% 72.89%,line to 75.5% 94.81%,close,close,move to 75.5% 94.81%,curve to 71.5% 100% with 75.5% 97.67%/73.71% 100%,line to 4% 100%,curve to 0% 94.81% with 1.79% 100%/0% 97.67%,line to 0% 5.19%,curve to 4% 0% with 0% 2.33%/1.79% 0%,line to 96% 0%,curve to 100% 5.19% with 98.21% 0%/100% 2.33%,line to 100% 65.37%,curve to 96% 70.56% with 100% 68.24%/98.21% 70.56%,line to 79.5% 70.56%,curve to 75.5% 75.76% with 77.29% 70.56%/75.5% 72.89%,line to 75.5% 94.81%,close);
+    background-color: #BAEDFF;
+
+
+
+}
+
+.shape13{
+    width: 300px;
+    height: 231px;
+
+
+    aspect-ratio: 1.299;
+    clip-path: shape(from 75.5% 5.19%,curve to 71.5% 0% with 75.5% 2.33%/73.71% 0%,line to 4% 0%,curve to 0% 5.19% with 1.79% 0%/0% 2.33%,line to 0% 94.81%,curve to 4% 100% with 0% 97.67%/1.79% 100%,line to 96% 100%,curve to 100% 94.81% with 98.21% 100%/100% 97.67%,line to 100% 34.63%,curve to 96% 29.44% with 100% 31.76%/98.21% 29.44%,line to 79.5% 29.44%,curve to 75.5% 24.24% with 77.29% 29.44%/75.5% 27.11%,line to 75.5% 5.19%,close,close,move to 75.5% 5.19%,curve to 71.5% 0% with 75.5% 2.33%/73.71% 0%,line to 4% 0%,curve to 0% 5.19% with 1.79% 0%/0% 2.33%,line to 0% 94.81%,curve to 4% 100% with 0% 97.67%/1.79% 100%,line to 96% 100%,curve to 100% 94.81% with 98.21% 100%/100% 97.67%,line to 100% 34.63%,curve to 96% 29.44% with 100% 31.76%/98.21% 29.44%,line to 79.5% 29.44%,curve to 75.5% 24.24% with 77.29% 29.44%/75.5% 27.11%,line to 75.5% 5.19%,close);
+    background-color: #BAEDFF;
+
+}
+
+.shape14{
+    width: 300px;
+    height: 231px;
+
+
+
+    aspect-ratio: 1.299;
+    clip-path: shape(from 75.5% 5.19%,curve to 71.5% 0% with 75.5% 2.33%/73.71% 0%,line to 4% 0%,curve to 0% 5.19% with 1.79% 0%/0% 2.33%,line to 0% 94.81%,curve to 4% 100% with 0% 97.67%/1.79% 100%,line to 96% 100%,curve to 100% 94.81% with 98.21% 100%/100% 97.67%,line to 100% 34.63%,curve to 96% 29.44% with 100% 31.76%/98.21% 29.44%,line to 79.5% 29.44%,curve to 75.5% 24.24% with 77.29% 29.44%/75.5% 27.11%,line to 75.5% 5.19%,close,close,move to 75.5% 5.19%,curve to 71.5% 0% with 75.5% 2.33%/73.71% 0%,line to 4% 0%,curve to 0% 5.19% with 1.79% 0%/0% 2.33%,line to 0% 94.81%,curve to 4% 100% with 0% 97.67%/1.79% 100%,line to 96% 100%,curve to 100% 94.81% with 98.21% 100%/100% 97.67%,line to 100% 34.63%,curve to 96% 29.44% with 100% 31.76%/98.21% 29.44%,line to 79.5% 29.44%,curve to 75.5% 24.24% with 77.29% 29.44%/75.5% 27.11%,line to 75.5% 5.19%,close);
+
+    background-color: #BAEDFF;
+
+}
+
+.shape15{
+    width: 300px;
+    height: 231px;
+
+
+
+    aspect-ratio: 1.299;
+    clip-path: shape(from 75.5% 94.81%,curve to 71.5% 100% with 75.5% 97.67%/73.71% 100%,line to 4% 100%,curve to 0% 94.81% with 1.79% 100%/0% 97.67%,vline to 5.19%,curve to 4% 0% with 0% 2.33%/1.79% 0%,line to 96% 0%,curve to 100% 5.19% with 98.21% 0%/100% 2.33%,vline to 65.37%,curve to 96% 70.56% with 100% 68.24%/98.21% 70.56%,hline to 79.5%,curve to 75.5% 75.76% with 77.29% 70.56%/75.5% 72.89%,vline to 94.81%,close,close,move to 75.5% 94.81%,curve to 71.5% 100% with 75.5% 97.67%/73.71% 100%,line to 4% 100%,curve to 0% 94.81% with 1.79% 100%/0% 97.67%,vline to 5.19%,curve to 4% 0% with 0% 2.33%/1.79% 0%,line to 96% 0%,curve to 100% 5.19% with 98.21% 0%/100% 2.33%,vline to 65.37%,curve to 96% 70.56% with 100% 68.24%/98.21% 70.56%,hline to 79.5%,curve to 75.5% 75.76% with 77.29% 70.56%/75.5% 72.89%,vline to 94.81%,close);
+    
+
+    background-color: #BAEDFF;
+
+}
+
+.shape16{
+    width: 300px;
+    height: 231px;
+
+
+     aspect-ratio: 1.299;
+    clip-path: shape(from 24.5% 5.19%,curve to 28.5% 0% with 24.5% 2.33%/26.29% 0%,hline to 96%,curve to 100% 5.19% with 98.21% 0%/100% 2.33%,vline to 94.81%,curve to 96% 100% with 100% 97.67%/98.21% 100%,hline to 4%,curve to 0% 94.81% with 1.79% 100%/0% 97.67%,vline to 34.63%,curve to 4% 29.44% with 0% 31.76%/1.79% 29.44%,hline to 20.5%,curve to 24.5% 24.24% with 22.71% 29.44%/24.5% 27.11%,vline to 5.19%,close,close,move to 24.5% 5.19%,curve to 28.5% 0% with 24.5% 2.33%/26.29% 0%,hline to 96%,curve to 100% 5.19% with 98.21% 0%/100% 2.33%,vline to 94.81%,curve to 96% 100% with 100% 97.67%/98.21% 100%,hline to 4%,curve to 0% 94.81% with 1.79% 100%/0% 97.67%,vline to 34.63%,curve to 4% 29.44% with 0% 31.76%/1.79% 29.44%,hline to 20.5%,curve to 24.5% 24.24% with 22.71% 29.44%/24.5% 27.11%,vline to 5.19%,close);
+    background-color: #BAEDFF;
+
+}
+
+.shape17{
+
+    height: 407px;
+
+
+
+    aspect-ratio: 1.268;
+    clip-path: shape(from 43.57% 10.76%,vline to 4.61%,curve to 47.2% 0% with 43.57% 2.06%/45.2% 0%,line to 67.45% 0%,curve to 71.08% 4.61% with 69.45% 0%/71.08% 2.06%,vline to 32.91%,curve to 74.71% 37.52% with 71.08% 35.46%/72.7% 37.52%,line to 96.37% 37.52%,curve to 100% 42.12% with 98.37% 37.52%/100% 39.58%,vline to 69.3%,curve to 96.37% 73.91% with 100% 71.85%/98.37% 73.91%,hline to 40.82%,curve to 37.19% 78.52% with 38.82% 73.91%/37.19% 75.97%,vline to 95.39%,curve to 33.56% 100% with 37.19% 97.94%/35.57% 100%,hline to 18.88%,curve to 15.25% 95.39% with 16.87% 100%/15.25% 97.94%,line to 15.25% 65.92%,curve to 14.18% 62.67% with 15.25% 64.7%/14.86% 63.53%,line to 1.07% 46.03%,curve to 3.64% 38.17% with -1.22% 43.13%/0.4% 38.17%,hline to 12.23%,curve to 15.86% 33.57% with 14.24% 38.17%/15.86% 36.11%,line to 15.86% 24.02%,curve to 19.49% 19.41% with 15.86% 21.48%/17.49% 19.41%,line to 39.85% 19.41%,curve to 43.47% 14.95% with 41.81% 19.41%/43.41% 17.44%,line to 43.57% 10.76%,close);
+     background-color: #BAEDFF;
+
+
+}
+
+
+
+.shape18{
+
+    height: 407px;
+
+
+    aspect-ratio: 1.268;
+    clip-path: shape(from 43.57% 89.24%,line to 43.57% 95.39%,curve to 47.2% 100% with 43.57% 97.94%/45.2% 100%,line to 67.45% 100%,curve to 71.08% 95.39% with 69.45% 100%/71.08% 97.94%,line to 71.08% 67.09%,curve to 74.71% 62.48% with 71.08% 64.54%/72.7% 62.48%,line to 96.37% 62.48%,curve to 100% 57.88% with 98.37% 62.48%/100% 60.42%,line to 100% 30.7%,curve to 96.37% 26.09% with 100% 28.15%/98.37% 26.09%,line to 40.82% 26.09%,curve to 37.19% 21.48% with 38.82% 26.09%/37.19% 24.03%,line to 37.19% 4.61%,curve to 33.56% 0% with 37.19% 2.06%/35.57% 0%,line to 18.88% 0%,curve to 15.25% 4.61% with 16.87% 0%/15.25% 2.06%,line to 15.25% 34.08%,curve to 14.18% 37.33% with 15.25% 35.3%/14.86% 36.47%,line to 1.07% 53.97%,curve to 3.64% 61.83% with -1.22% 56.87%/0.4% 61.83%,line to 12.23% 61.83%,curve to 15.86% 66.43% with 14.24% 61.83%/15.86% 63.89%,line to 15.86% 75.98%,curve to 19.49% 80.59% with 15.86% 78.52%/17.49% 80.59%,line to 39.85% 80.59%,curve to 43.47% 85.05% with 41.81% 80.59%/43.41% 82.56%,line to 43.57% 89.24%,close);
+
+     background-color: #BAEDFF;
+
+
+}
+
+
+.shape19{
+    height: 189px;
+
+    aspect-ratio: 2.159;
+    clip-path: shape(from 0% 58.47%,vline to 6.35%,curve to 2.94% 0% with 0% 2.84%/1.32% 0%,hline to 89.83%,hline to 97.06%,curve to 100% 6.35% with 98.68% 0%/100% 2.84%,vline to 93.65%,curve to 97.06% 100% with 100% 97.16%/98.68% 100%,hline to 70.22%,hline to 40.56%,curve to 37.62% 93.65% with 38.94% 100%/37.62% 97.16%,vline to 71.16%,curve to 34.68% 64.81% with 37.62% 67.66%/36.31% 64.81%,hline to 2.94%,curve to 0% 58.47% with 1.32% 64.81%/0% 61.97%,close);
+    background-color: #BAEDFF;
+
+}
+
+
 .bladeImage{
      width: 100px;
   height: 80px;
@@ -430,8 +743,106 @@ min-height: 100vh;
   background-image: url('../images/object.png');
   background-repeat: no-repeat;
   background-size: contain;
+  background-color:#4E6E79; 
+  border-radius: 16px;
 
 }
+
+
+.dynamicLeg{
+width: 176px;
+  height: 102px;
+  position: relative;
+  display: flex;
+  align-self: center;
+  background-image: url('../images/dynamicleg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+  justify-self: self-end;
+  border-radius: 16px;
+  background-color: #4E6E79;
+  right: 18px;
+
+}
+
+
+.electronicLeg{
+width: 176px;
+  height: 102px;
+  position: relative;
+  display: flex;
+  align-self: center;
+  background-image: url("../images/electronicleg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+  border-radius: 16px;
+  background-color: rgb(78, 110, 121);
+
+}
+
+
+
+.displayName{
+    width: 273px;
+  height: 42px;
+  background-color: #4E6E79;
+  border-radius: 12px;
+  display: flex;
+
+
+
+}
+
+
+.userImage{
+    width: 28px;
+  height: 28px;
+  position: relative;
+  display: flex;
+  align-self: center;
+  background-image: url('../images/userimage.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  left: 8px;
+
+ 
+}
+
+.legMold{
+
+width: 176px;
+  height: 102px;
+  position: relative;
+  display: flex;
+  align-self: center;
+  background-image: url('../images/legmold.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+  border-radius: 16px;
+  background-color: #4E6E79;
+
+}
+
+.moldedMeshLeg{
+
+width: 176px;
+  height: 102px;
+  position: relative;
+  display: flex;
+  align-self: center;
+  background-image: url('../images/meshleg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+  border-radius: 16px;
+  background-color: #4E6E79;
+
+}
+
 
 .notif-box{
     display: flex;
@@ -599,8 +1010,10 @@ ul{
 
     display: grid;
     padding-left: 17px;
-    padding-top: 20px;
+  padding-top: 16px;
 }
+
+
 
 li{
     gap: 10px;
