@@ -895,6 +895,24 @@ width: 176px;
 
 }
 
+
+.arrow{
+    width: 70px;
+  height: 70px;
+  position: relative;
+  display: flex;
+  align-self: flex-end;
+  background-image: url('../images/Arrow.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+
+
+
+
+
+}
+
 .plusLogo{
  width: 100px;
   height: 80px;

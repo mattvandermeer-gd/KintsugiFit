@@ -20,6 +20,7 @@ $(document).ready(function() {
 		$(".containerTwo").fadeOut(1)
 		$(".containerThree").fadeOut(1)
 		$(".containerFour").fadeOut(1)
+		$(".arrow").fadeIn(1)
 
 	})
 
@@ -43,6 +44,27 @@ $(document).ready(function() {
 		$(".containerTwo").fadeOut(1)
 		$(".container").fadeOut(1)
 		$(".containerThree").fadeOut(1)
+
+	})
+
+
+	$(".arrow").on("click", function(event){
+		event.preventDefault()
+		$(".containerTwo").fadeIn(1)
+		$(".container").fadeOut(1)
+		$(".containerThree").fadeOut(1)
+		$(".containerFour").fadeOut(1)
+		
+
+	})
+
+
+		$(".checkoutButton").on("click", function(event){
+		event.preventDefault()
+		$(".textSectionTwo").fadeIn(1)
+		$(".textSection").fadeOut(1)
+		
+		
 
 	})
 	
