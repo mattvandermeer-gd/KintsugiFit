@@ -989,8 +989,14 @@ model-viewer{
 
 
 .second{
-  height: auto;
+    height: auto;
     display: flex;
+    background-attachment: fixed;
+    background-position: unset;
+    background-repeat: unset;
+    background-size: none;
+    
+
 }
 
 
