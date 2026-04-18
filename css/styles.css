@@ -859,14 +859,13 @@ p{
 .container {
     padding-left: 16px;
     padding-right: 16px;
-    height: auto;
-    min-height: 100vh;
+    height: 55em;
     min-width: unset;
   }
 
 
   .first{
-    height: 100vh;
+    height: auto;
     display: flex;
   }
 
@@ -990,12 +989,8 @@ model-viewer{
 
 
 .second{
-    height: auto;
-  background-attachment: unset;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
+  height: auto;
+    display: flex;
 }
 
 
