@@ -995,7 +995,7 @@ model-viewer{
     background-position: unset;
     background-repeat: unset;
     background-size: none;
-    
+
 
 }
 
@@ -1012,7 +1012,7 @@ model-viewer{
   display: block;
   position: absolute;
   z-index: -8;
-  background-attachment: unset;
+  background-attachment: fixed;
 }
 
 
