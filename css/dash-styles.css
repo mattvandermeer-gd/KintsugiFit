@@ -83,11 +83,10 @@ body{
 
 .container {
 
-max-width: 1272px;
-min-width: 420px;
+  max-width: 1272px;
 
-padding-right: 30px;
-min-height: 100vh;
+  padding-right: 30px;
+  height: 100vh;
 
 
 
@@ -101,7 +100,6 @@ min-height: 100vh;
 .containerTwo {
 
 max-width: 1272px;
-min-width: 420px;
 
 padding-right: 30px;
 min-height: 100vh;
@@ -117,7 +115,7 @@ min-height: 100vh;
 .containerThree {
 
 max-width: 1272px;
-min-width: 420px;
+
 
 padding-right: 30px;
 min-height: 100vh;
@@ -133,7 +131,7 @@ min-height: 100vh;
 .containerFour {
 
 max-width: 1272px;
-min-width: 420px;
+
 
 padding-right: 30px;
 min-height: 100vh;
@@ -1146,5 +1144,239 @@ li{
     display: grid;
 }
 
+
+@media (max-width: 540px) {
+
+    .container {
+    
+    padding-right: 16px;
+    height: auto;
+    min-height: 100vh;
+
+    }
+
+    .containerTwo {
+    
+    padding-right: 16px;
+    height: auto;
+    min-height: 100vh;
+
+    }
+
+
+    .containerThree {
+    
+    padding-right: 16px;
+    height: auto;
+    min-height: 100vh;
+    margin-right: 0px;
+
+    }
+
+    .containerFour {
+    
+    padding-right: 16px;
+    height: auto;
+    min-height: 100vh;
+
+    }
+
+  .section{
+ max-width: 100%;
+    display: flex;
+    position: relative;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .logo{
+background-image: url('../images/logo-blue.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: transform 0.3s ease;
+    margin-right: unset;
+    display: flex;
+    position: absolute;
+    align-content: center;
+  }
+  
+  
+
+  .top-row{
+  display: flex;
+    position: relative;
+    left: 0;
+    top: 0;
+    gap: 35px;
+  }
+
+
+  .side-bar{
+    display: none;
+  }
+
+  .containerHeaderShape{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 90%;
+    gap: 24px;
+    box-sizing: border-box;
+  }
+
+
+  .headerShapeOne{
+    width: 100%;
+  height: 84px;
+  }
+
+  .headerShapeTwo{
+    background-color: #BAEDFF;
+  color: #B8295F;
+  width: 100%;
+  height: auto;
+
+  }
+
+  .searchHolder{
+    width: 95%;
+  height: 44px;
+  display: flex;
+  box-sizing: border-box;
+  }
+
+  #search{
+    width: 100%;
+  height: 100%;
+  }
+
+  .top-bar{
+  clip-path: none;
+    border-radius: 10px;
+    width: 100%;
+    aspect-ratio: auto;
+    height: 80px;
+    display: flex;
+    align-content: center;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 24px;
+  
+  }
+
+  .shape9{
+    max-width: 100%;
+  width: 200px;
+  border-radius: 20px;
+  aspect-ratio: none;
+  clip-path: none;
+  }
+
+  .shape17{
+  width: 100%;
+  aspect-ratio: 2.159;
+  clip-path: shape(from 0% 58.47%,vline to 6.35%,curve to 2.94% 0% with 0% 2.84%/1.32% 0%,hline to 89.83%,hline to 97.06%,curve to 100% 6.35% with 98.68% 0%/100% 2.84%,vline to 93.65%,curve to 97.06% 100% with 100% 97.16%/98.68% 100%,hline to 70.22%,hline to 40.56%,curve to 37.62% 93.65% with 38.94% 100%/37.62% 97.16%,vline to 71.16%,curve to 34.68% 64.81% with 37.62% 67.66%/36.31% 64.81%,hline to 2.94%,curve to 0% 58.47% with 1.32% 64.81%/0% 61.97%,close);
+  background-color: #BAEDFF;
+  height: 56%;
+  }
+
+
+  .shape18{
+   width: 100%;
+    background-color: #BAEDFF;
+    height: 250px;
+    border-radius: 20px;
+    aspect-ratio: unset;
+    clip-path: none;
+  }
+
+  .shape19{
+    width: 100%;
+  aspect-ratio: 2.159;
+  clip-path: shape(from 0% 58.47%,vline to 6.35%,curve to 2.94% 0% with 0% 2.84%/1.32% 0%,hline to 89.83%,hline to 97.06%,curve to 100% 6.35% with 98.68% 0%/100% 2.84%,vline to 93.65%,curve to 97.06% 100% with 100% 97.16%/98.68% 100%,hline to 70.22%,hline to 40.56%,curve to 37.62% 93.65% with 38.94% 100%/37.62% 97.16%,vline to 71.16%,curve to 34.68% 64.81% with 37.62% 67.66%/36.31% 64.81%,hline to 2.94%,curve to 0% 58.47% with 1.32% 64.81%/0% 61.97%,close);
+  background-color: #BAEDFF;
+  }
+
+  .shapeContainerThree{
+    max-width: 83%;
+    box-sizing: border-box;
+    width: 83%;
+  }
+
+  .shapeContainerFour{
+    max-width: 90%;
+  height: 471px;
+  margin-left: 24px;
+  display: flex;
+  gap: 1.5rem;
+  flex-grow: 2;
+  flex-wrap: wrap;
+  mix-blend-mode: multiply;
+  filter: drop-shadow( 1px 1px 8px #6b1234);
+  animation-name: slideDownAnimation;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
+  animation-direction: normal;
+  animation-fill-mode: both;
+  justify-content: start;
+  }
+
+  .signButton{
+  width: 164px;
+    height: 81px;
+    background-color: #366B7D;
+    font-family: PROXIMASEMI;
+    color: #6B1234;
+    appearance: none;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    position: relative;
+    left: 139px;
+    top: 20px;
+  
+  }
+
+  .signButtonTwo{
+    width: 67%;
+  height: 86px;
+  background-color: #366B7D;
+  font-family: PROXIMASEMI;
+  color: #6B1234;
+  appearance: none;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  position: relative;
+  }
+
+li{
+    left: 0px !important;
+    
+}
+
+ul{
+    top: 0px !important;
+    position: unset !important;
+    left: 80px !important;
+}
+
+  a{
+    position: relative;
+  display: flex;
+  width: 70px;
+  height: 100%;
+  }
+
+
+  body{
+    overflow-y: auto;
+  }
+
+
+}
 
 
