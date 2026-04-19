@@ -358,18 +358,18 @@ min-height: 100vh;
 
 
 .signButton{
-width: 91px;
-  height: 58px;
-  background-color: #366B7D;
-  font-family: PROXIMASEMI;
-  color: #6B1234;
-  appearance: none;
-  border: none;
-  border-radius: 12px;
-  cursor: pointer;
-  top: 113px;
-  position: relative;
-  right: 7px;
+width: 164px;
+    height: 81px;
+    background-color: #366B7D;
+    font-family: PROXIMASEMI;
+    color: #6B1234;
+    appearance: none;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    position: relative;
+    left: 54px;
+    top: 0;
 
 }
 
@@ -506,6 +506,7 @@ width: 1056px;
   animation-direction: normal;
   animation-fill-mode: both;
   justify-content: start;
+  height: auto;
 
 
 }
@@ -1325,7 +1326,7 @@ background-image: url('../images/logo-blue.png');
   }
 
   .signButton{
-  width: 164px;
+width: 164px;
     height: 81px;
     background-color: #366B7D;
     font-family: PROXIMASEMI;
@@ -1335,7 +1336,7 @@ background-image: url('../images/logo-blue.png');
     border-radius: 12px;
     cursor: pointer;
     position: relative;
-    left: 139px;
+    left: 165px;
     top: 20px;
   
   }
@@ -1359,16 +1360,17 @@ li{
 }
 
 ul{
-    top: 0px !important;
-    position: unset !important;
-    left: 80px !important;
+  top: 0px !important;
+  position: relative !important;
+  left: 0px !important;
 }
+
 
   a{
     position: relative;
   display: flex;
-  width: 70px;
-  height: 100%;
+  width: 136px;
+    height: 100%;
   }
 
 

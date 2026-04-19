@@ -133,7 +133,7 @@ align-items: center;
     display: grid;
   justify-content: center;
   align-items: center;
-  height: 86%;
+  height: 100%;
   position: relative;
 
 
@@ -201,7 +201,7 @@ a:hover {
 
 .groupText{
     max-width: 39em;
-  min-width: 20em;
+
   display: grid;
   row-gap: 60px;
   position: relative;
@@ -371,6 +371,105 @@ p{
     background-color:#81D3F0 ;
 }
 
+@media (max-width: 520px) {
+ 
+  /* Container: remove hard min-width, adjust padding */
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+    height: auto;
+    min-height: 100vh;
+    min-width: unset;
+  }
+
+ body {
+    overflow-y: auto;
+  }
+
+
+  .mainHolder{
+    display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: relative;
+  }
+
+  .signUp{
+
+    color: #6B1234;
+  writing-mode: unset;
+  transform: none;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  display: flex;
+ margin-bottom: 50px;
+    margin-top: 12px;
+  }
+
+
+
+  h1{
+    font-size: clamp(1rem, 6vw, 2rem);
+  font-family: TERMINABOLD;
+  }
+
+
+  .textSection{
+
+    max-width: 100%;
+  min-width: 0px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  place-content: center;
+  align-items: center;
+  }
+
+
+  .groupText{
+
+    max-width: 100%;
+  display: grid;
+  row-gap: 60px;
+  position: relative;
+  margin: 0 auto;
+  }
+
+
+  .fieldHolderOne{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  width: 100%;
+  line-height: 22px;
+  gap: 20px;
+  padding: 0px;
+  }
+
+
+.fieldHolderTwo{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  width: 100%;
+  line-height: 24px;
+  gap: 20px;
+  padding: 0px;
+}
+
+
+.fieldHolderThree{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  width: 100%;
+  line-height: 24px;
+  gap: 20px;
+  padding: 0px;
+
+}
 
 
 
