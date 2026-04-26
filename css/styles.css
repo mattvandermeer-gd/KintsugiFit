@@ -193,9 +193,18 @@ ul{
     right: 25.6vw;
     font-size: clamp(1rem, 2vw, 1.2rem);;
       z-index: 9999;
+      transition: color 300ms ease-in;
 
 
 
+}
+
+
+
+
+#limbscan:hover {
+  background-color: #80D3F1;
+  color: #6b1234;
 }
 
 .textHolder{
