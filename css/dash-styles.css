@@ -353,6 +353,9 @@ min-height: 100vh;
   align-content: end;
   justify-content: center;
   display: grid;
+  will-change: transform;
+  isolation: isolate;
+
 
 
 
@@ -689,6 +692,8 @@ width: 91px;
   animation-direction: normal;
   animation-fill-mode: both;
   justify-content: start;
+  isolation: isolate;
+   will-change: transform;
 
 
 }
@@ -717,6 +722,8 @@ width: 91px;
   animation-direction: normal;
   animation-fill-mode: both;
   justify-content: start;
+   isolation: isolate;
+   will-change: transform;
 
 
 }
@@ -739,6 +746,8 @@ width: 1056px;
   animation-direction: normal;
   animation-fill-mode: both;
   justify-content: start;
+   isolation: isolate;
+   will-change: transform;
 
 
 
@@ -771,6 +780,8 @@ width: 1056px;
   animation-fill-mode: both;
   justify-content: start;
   height: auto;
+   isolation: isolate;
+   will-change: transform;
 
 
 }
@@ -1658,6 +1669,8 @@ background-image: url('../images/logo-blue.png');
   animation-direction: normal;
   animation-fill-mode: both;
   justify-content: start;
+   isolation: isolate;
+   will-change: transform;
   }
 
   .signButton{
