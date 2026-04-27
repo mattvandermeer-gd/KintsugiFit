@@ -1,824 +1,1549 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Dashboard</title>
-        <link href="css/reset.css" rel="stylesheet" type="text/css" />
-        <link href="css/dash-styles.css" rel="stylesheet" type="text/css" />
-        <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
-        <script type="text/javascript" src="js/jquery.easing.1.3.js" ></script>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <title>
+            Dashboard
+        </title>
+        <link href="css/reset.css" rel="stylesheet" type="text/css">
+        <link href="css/dash-styles.css" rel="stylesheet" type="text/css">
+        <script src="js/jquery-3.7.1.min.js" type="text/javascript">
+        </script>
+        <script src="js/jquery.easing.1.3.js" type="text/javascript">
+        </script>
     </head>
     <body>
         <div class="container">
-                    <div class="background"></div>
-                    <div class="top-bar">
-                <a href="index.html"><div class="logo"></div></a>
-                        <div class="section">
-                            <div class="top-row">
-                                <button class="dashboardButton"  width="37"><img src="images/Dashboard.png" style="width:37px;height:37px;mix-blend-mode: soft-light;"></button>
-                                <button class="designButton" src="images/Design.png" width="37"> <img src="images/Design.png"style="width:37px;height:37px;"> </button>
-                                <button class="communityButton" src="images/Community.png" width="37"> <img src="images/Community.png"style="width:37px;height:37px;"></button>
-                                <button class="healthServicesButton" src="images/Health.png" width="37"> <img src="images/Health.png"style="width:37px;height:37px;"></button>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="mainContainer">
-                            <div class="side-bar">
-                                
-                                <div class="side-column">
-
-                                    <a href="https://kintsugifit-assistant.lovable.app" target="_blank" rel="noopener noreferrer" class="aiLogo"></a>
-                                    <button class="settingsLogo" id="myBtn4"></a>
-                                    
-                                </div>
-                            </div>
-                             <div id="myModalSettings" class="modalSettings">
-
-                                      <!-- Modal content -->
-                                      <div class="modal-content4">
-                                        <span class="close4">&times;</span>
-                                        <h1>Settings</h1>
-                                        <br>
-                                        <br>
-                                            <button type="button" class="collapsible">Profile</button>
-                                            <div class="content">
-                                                    
-                                                       <h1>Full Name:</h1>
-                                                       <li><p>Andrew Larson</p></li>
-
-                                                        <h1>Username:</h1>
-                                                       <li><p>andrewl1343</p></li>
-
-                                                       <h1>Password:</h1>
-                                                       <li><p>**********</p></li>
-
-                                                       <h1>Notifications:</h1>
-                                                       <li><p><input type="checkbox" checked="checked">
-                                                        <span class="checkmark"></span></p></li>
-                                                       
-                                                    
-                                            </div>
-                                            <button type="button" class="collapsible">Privacy/Security</button>
-                                            <div class="content">
-                                                        <h1>Allow Location Sharing:</h1>
-                                                       <li><p><input type="checkbox" checked="checked">
-                                                        <span class="checkmark"></span></p></li>
-
-                                                        <h1>Auto Delete Data:</h1>
-                                                       <li><p><input type="checkbox" checked="checked">
-                                                        <span class="checkmark"></span></p></li>
-
-                                                        <h1>Let Users Edit and Share Your Designs:</h1>
-                                                       <li><p><input type="checkbox" checked="checked">
-                                                        <span class="checkmark"></span></p></li>
-                                            </div>
-                                            <button type="button" class="collapsible">Account Management</button>
-                                            <div class="content">
-                                              <h1>Insurance Plan Details:</h1>
-                                                <br>
-                                                <p>Elite | $50/mo | Renews August 8, 2026 12:00am </p>
-                                                <br>
-                                                <h1>Payment Methods Linked:</h1>
-                                                <br>
-                                                <p>Visa | PayPal </p>
-                                            </div>
-                                        <br>
-                                        <br>
-
-                                         <a href="https://mattvandermeer-gd.github.io/KintsugiFit/" class="signOut">Sign Out</a>
-                                        
-
-                                        
-                                        
-                                        
-
-
-                                      </div>
-
-                            </div>    
-
-                            
-                             <div class="shapeContainer">
-                                    <div class="shape1">
-                                        <ul>
-                                            <li>
-                                                <p>Age</p>
-                                                <h1>32</h1>
-                                            </li>
-                                            <li>
-                                                <p>Weight</p>
-                                                <h1>155</h1>
-                                             </li>
-                                             <li>
-                                                <p>Sport</p>
-                                                <h1>Running</h1>
-                                            </li>
-                                            <li style="padding-top: 50px;">
-                                                <p>Welcome,</p>
-                                                <h2>Andrew Larson</h2>
-                                            </li>
-
-                                        </ul>
-
-                                        
-                                    </div>
-                                    <div class="shapeHolder1">
-                                        <div class="shape2">
-                                            <ul>
-                                                <li>
-                                                    <h2>Current Blade</h2>
-                                                </li>
-                                                <div class="textHolder0">
-                                                    <li>
-                                                        <p style="padding-left: 20p;padding-right: 40px;">Angle Alignment</p>
-                                                        <h1>12</h1>
-                                                    </li>
-                                                
-                                                    <li>
-                                                        <p>Height</p>
-                                                        <h1>14"</h1>
-                                                    </li>
-                                                </div>
-                                                <li>
-                                                    <p>Stiffness Value</p>
-                                                    <h1>28.9 kN/m</h1>
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="shape3">
-                                            <ul>
-                                                <li>
-                                                    <h2 style="left: 65px;position: relative;">Insurance</h2>
-
-                                                </li>
-
-                                                <li>
-                                                    <p style="left: 65px;position: relative;">Elite Coverage</p>
-                                                </li>
-                                                <li>
-                                                    <h3 style="padding-top: 40px; position: relative;">Wear & tear, unlimited repairs, loaner prosthetic during service</h3>
-                                                </li>
-                                                <li>
-                                                    <h3 style="padding-top: 10px; position: relative;">Accidental damage repair, 1 free replacement per year</h3>
-                                                </li>
-                                                <li>
-                                                    <h3 style="padding-top: 40px; position: relative;">Priority 48-hour turnaround, competition emergency support </h3>
-                                                </li>
-                                            </ul>
-
-                                        </div>
-                                    </div>
-                                    <div class="shape4">
-                                        <ul>
-                                            <li style="right: 10px;position: relative;">
-                                                <h2>Recommended</h2>
-                                                <h3>By our AI assistant</h3>
-                                            </li>
-                                            <li style="padding-top: 140px;">
-                                                <p>Optimal Running Blade</p>
-                                                <h1>Kintsugi Blade 0.2</h1>
-                                            </li>
-                                            <li>
-                                                <p>Optimal Socket</p>
-                                                <h1>Padded Mesh 0.4</h1>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="shape5">
-                                        <ul>
-                                            <li>
-                                                <h2>Notifications</h2>
-                                            </li>
-                                         
-                                            <div class="notif-box">
-                                                <li>
-                                                        <h4>You have a new friend request.</h4>
-                                                        <h4>2h ago</h4>
-                                                </li>
-                                                    <li>
-                                                        <h4>Someone edited your design.</h4>
-                                                        <h4>4d ago</h4>
-                                                </li>
-                                                <li>
-                                                    <h4>
-                                                        Your order has been sent out.
-                                                        
-                                                    </h4>
-                                                    <h4>
-                                                        1 week ago
-                                                    </h4>
-                                                </li>
-                                                
-                                            </div>
-                                            
-                                        </ul>
-                                    </div>
-                                     <a href="dashboard.html"div class="arrow"></a>
-
-                                </div>
-                               
-
-                            
-                    </div>
-            
-        </div>
-    <div class="containerTwo" style="display: none;">
-            <div class="background"></div>
+            <div class="background">
+            </div>
             <div class="top-bar">
-                <a href="index.html"><div class="logo"></div></a>
+                <a href="index.html">
+                    <div class="logo">
+                    </div>
+                </a>
                 <div class="section">
                     <div class="top-row">
-                        <button class="dashboardButton"  width="37"><img src="images/Dashboard.png"style="width:37px;height:37px;"></button>
-                        <button class="designButton" src="images/Design.png" width="37"> <img src="images/Design.png"style="width:37px;height:37px;mix-blend-mode: soft-light;"> </button>
-                        <button class="communityButton" src="images/Community.png" width="37"> <img src="images/Community.png"style="width:37px;height:37px;"></button>
-                        <button class="healthServicesButton" src="images/Health.png" width="37"> <img src="images/Health.png"style="width:37px;height:37px;"></button>
+                        <button class="dashboardButton" width="37">
+                            <img src="images/Dashboard.png" style="width:37px;height:37px;mix-blend-mode: soft-light;">
+                        </button>
+                        <button class="designButton" src="images/Design.png" width="37">
+                            <img src="images/Design.png" style="width:37px;height:37px;">
+                        </button>
+                        <button class="communityButton" src="images/Community.png" width="37">
+                            <img src="images/Community.png" style="width:37px;height:37px;">
+                        </button>
+                        <button class="healthServicesButton" src="images/Health.png" width="37">
+                            <img src="images/Health.png" style="width:37px;height:37px;">
+                        </button>
                     </div>
                 </div>
-                
             </div>
             <div class="mainContainer">
-                    <div class="side-bar">
-                        
-                        <div class="side-column">
-                            <a href="https://kintsugifit-assistant.lovable.app" target="_blank" rel="noopener noreferrer" class="aiLogo"></a>
-                            <a href="" class="settingsLogo"></a>
-                        </div>
-                    </div>  
-                    <div class="shapeContainerTwo">
-                        <div class="shapeHolder3">
-                            <div class="shape7">
-                                <a href="https://kintsugifit-design.lovable.app/" target="_blank" rel="noopener noreferrer" class="plusLogo"></a>
-                                <h1>New Design</h1>
-
-                            </div>
-                            <div class="shape8">
-                                <ul>
-                                    <li>
-                                        <h1>Recommended</h1>
-                                        <h3>By our AI Assistant</h3>
-                                    </li>
-                                    <div class="bladeImage"></div>
-                                    <li><h3>Blade Part 2.2</h3></li>
-                                 </ul>
-                            </div>
-
-                        </div>
-                         <div class="shape9">
-                             <ul>
-                                 <li style="left: 110px;/*! display: grid; */position: relative;">
-                                    <h2>Load Design</h2>
-                                    <h3>Recent Designs</h3>
-                                 </li>
-                                 <li style="position: relative;top: 60px;gap: 30px;">
-                                     <a href="https://kintsugifit-design.lovable.app/"><p>Blade 0.5 - Updated March 26</p></a>
-                                     <a href="https://kintsugifit-design.lovable.app/"><p>Socket 0.2 - Updated March 20</p></a>
-                                     <a href="https://kintsugifit-design.lovable.app/"><p>Replacement - Updated March 18</p></a>
-                                     <a href="https://kintsugifit-design.lovable.app/"><p>Material 0.2 - Updated March 6</p></a>
-                                 </li>
-                             </ul>
-                         </div>
-                         <div class="shape10">
-                             <ul>
-                                 <li>
-                                     <h2>Find Your FabLab</h2>
-                                     <h3 style="text-wrap: auto;width: 200px;line-height: 15px;">Send your design to be picked up at the nearest FabLab location.</h3>
-                                 </li>
-                                 <li><div class="mapView"></div></li>
-                                 <li><a href="order.html"><button class="buttonOrder">Order Now</button></a></li>
-
-                             </ul>
-                         </div>
-                        
-                    </div>
-
-    
-    	   </div>
-    </div>
-
-     <div class="containerThree" style="display: none;">
-            <div class="background"></div>
-            <div class="top-bar">
-                <a href="index.html"><div class="logo"></div></a>
-                <div class="section">
-                    <div class="top-row">
-                        <button class="dashboardButton"  width="37"><img src="images/Dashboard.png"style="width:37px;height:37px;"></button>
-                        <button class="designButton" src="images/Design.png" width="37"> <img src="images/Design.png"style="width:37px;height:37px;"> </button>
-                        <button class="communityButton" src="images/Community.png" width="37"> <img src="images/Community.png"style="width:37px;height:37px;mix-blend-mode: soft-light;"></button>
-                        <button class="healthServicesButton" src="images/Health.png" width="37"> <img src="images/Health.png"style="width:37px;height:37px;"></button>
+                <div class="side-bar">
+                    <div class="side-column">
+                        <a class="aiLogo" href="https://kintsugifit-assistant.lovable.app" rel="noopener noreferrer" target="_blank">
+                        </a>
+                        <button class="settingsLogo" id="settingsBtn">
+                        </button>
                     </div>
                 </div>
-                
-            </div>
-            <div class="mainContainer">
-                    <div class="side-bar">
-                        
-                        <div class="side-column">
-                           <a href="https://kintsugifit-assistant.lovable.app" target="_blank" rel="noopener noreferrer" class="aiLogo"></a>
-                            <a href="" class="settingsLogo"></a>
-                        </div>
-                    </div> 
-                    <div class="shapeContainerThree">
-                        
-                            
-                            <div class="containerHeaderShape">
-                                <div class="headerShapeOne"><p style="color: lightblue;top: -10px;position: relative;text-align: center;align-content: center;left: 10px;">Community Made Designs</p>
-
-                                </div>
-                                <div class="headerShapeTwo"><p>Community Chat</p></div>
-                            </div>
-                            <div class="searchHolder">
-                                <div class="searchIcon"></div>
-                                <input id="search" type="text" placeholder="Search">
-                            </div>
-                            <div class="shape11">
-                                <ul>
-                                    <li>
-                                        <p style="left: 140px;position: relative;">
-                                            Dynamic Leg Part
-                                        </p>
-                                    </li>  
-
-                                    <li>
-                                        <div class="dynamicLeg"></div>
-                                    </li>
-                                    <li>
-                                        <div class="displayName">
-                                            <div class="userImage"><h3 style="position: absolute;left: 30px;white-space: nowrap;align-self: center;">Sam L.</h3 ></div>
-                                            <h3 style="align-content: center;position: relative;display: grid;padding-left: 120px;">Edited 3.28.26</h3>
-                                        </div>
-                                    </li>
-                                </ul>
-
-                            </div>
-
-                            <div class="shape12">
-                                <ul>
-
-                                    <li>
-                                        <div class="displayName">
-                                            <div class="userImage"><h3 style="position: absolute;left: 30px;white-space: nowrap;align-self: center;">Kathy V.</h3 ></div>
-                                            <h3 style="align-content: center;position: relative;display: grid;padding-left: 120px;">Uploaded 3.25.26</h3>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="legMold"></div>
-                                    </li>
-                                    <li>
-                                        <p style="left: 0;position: relative;top: 0;">
-                                            Socket and Leg Mold 
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="shape13">
-                                <ul>
-                                    <li>
-                                        <p style="position: relative;">
-                                            Molded Mesh Leg
-                                        </p>
-                                    </li>  
-
-                                    <li>
-                                        <div class="moldedMeshLeg"></div>
-                                    </li>
-                                    <li>
-                                        <div class="displayName">
-                                            <div class="userImage"><h3 style="position: absolute;left: 30px;white-space: nowrap;align-self: center;">Rusty G.</h3 ></div>
-                                            <h3 style="align-content: center;position: relative;display: grid;padding-left: 120px;">Uploaded 3.20.26</h3>
-                                        </div>
-                                    </li>
-                                </ul>
-                                
-                            </div>
-                            <div class="shape14"> 
-                                <ul>
-                                    <li>
-                                        <p style="position: relative;">
-                                            Multi-Use Blade Part
-                                        </p>
-                                    </li>  
-
-                                    <li>
-                                        <div class="bladeImage"></div>
-                                    </li>
-                                    <li>
-                                        <div class="displayName">
-                                            <div class="userImage"><h3 style="position: absolute;left: 30px;white-space: nowrap;align-self: center;">Charles X.</h3 ></div>
-                                            <h3 style="align-content: center;position: relative;display: grid;padding-left: 120px;">Uploaded 3.20.26</h3>
-                                        </div>
-                                    </li>
-                                </ul>
-                                
-                            </div>
-                            <div class="shape15">
-                                <ul>
-
-                                    <li>
-                                        <div class="displayName">
-                                            <div class="userImage"><h3 style="position: absolute;left: 30px;white-space: nowrap;align-self: center;">Bruce W.</h3 ></div>
-                                            <h3 style="align-content: center;position: relative;display: grid;padding-left: 120px;">Uploaded 3.15.26</h3>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="electronicLeg"></div>
-                                    </li>
-                                    <li>
-                                        <p style="left: 0;position: relative;top: 0;">
-                                            Leg Design w/ Electronics
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="shape16">
-                                <ul>
-                                    <li>
-                                        <p style="left: 140px;position: relative;">
-                                            Dynamic Leg Part
-                                        </p>
-                                    </li>  
-
-                                    <li>
-                                        <div class="dynamicLeg"></div>
-                                    </li>
-                                    <li>
-                                        <div class="displayName">
-                                            <div class="userImage"><h3 style="position: absolute;left: 30px;white-space: nowrap;align-self: center;">Peter P.</h3 ></div>
-                                            <h3 style="align-content: center;position: relative;display: grid;padding-left: 120px;">Uploaded 3.10.26</h3>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        
+                <div class="shapeContainer">
+                    <div class="shape1">
+                        <ul>
+                            <li>
+                                <p>
+                                    Age
+                                </p>
+                                <h1>
+                                    32
+                                </h1>
+                            </li>
+                            <li>
+                                <p>
+                                    Weight
+                                </p>
+                                <h1>
+                                    155
+                                </h1>
+                            </li>
+                            <li>
+                                <p>
+                                    Sport
+                                </p>
+                                <h1>
+                                    Running
+                                </h1>
+                            </li>
+                            <li style="padding-top: 50px;">
+                                <p>
+                                    Welcome,
+                                </p>
+                                <h2>
+                                    Andrew Larson
+                                </h2>
+                            </li>
+                        </ul>
                     </div>
- 
-        
-        </div>
-    </div>
-
-     <div class="containerFour" style="display: none;">
-            <div class="background"></div>
-            <div class="top-bar">
-                <a href="index.html"><div class="logo"></div></a>
-                <div class="section">
-                    <div class="top-row">
-                        <button class="dashboardButton"  width="37"><img src="images/Dashboard.png"style="width:37px;height:37px;"></button>
-                        <button class="designButton" src="images/Design.png" width="37"> <img src="images/Design.png"style="width:37px;height:37px;"> </button>
-                        <button class="communityButton" src="images/Community.png" width="37"> <img src="images/Community.png"style="width:37px;height:37px;"></button>
-                        <button class="healthServicesButton" src="images/Health.png" width="37"> <img src="images/Health.png"style="width: 37px;height: 37px;mix-blend-mode: soft-light;"></button>
-                    </div>
-                </div>
-                
-            </div>
-            <div class="mainContainer">
-                    <div class="side-bar">
-                        
-                        <div class="side-column">
-                            <a href="https://kintsugifit-assistant.lovable.app" target="_blank" rel="noopener noreferrer" class="aiLogo"></a>
-                            <a href="" class="settingsLogo"></a>
-                        </div>
-                    </div>  
-                    <div class="shapeContainerFour">
-                        <div class="shape17">
-                            <ul style="top: 90px;position: relative;left: 80px;">
-                                <li>
-                                    <h1>Mental Health Support</h1>
-                                </li>
-                                <li>
-                                    <h3 style="white-space: wrap;width: 200px;">Receive mental health support from our expert team and staff.</h3>
-                                </li>
-                                <li>
-                                    <h3>Find a schedule that works for you. </h3>
-
-                                </li>
-                                <li>
-                                <button id="myBtn3" class="signButton">Sign Up</button> 
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="shape18">
-                            <ul style="top: 120px;position: relative;left: 90px;">
-                                <li>
-                                    <h1>Physical Training Support</h1>
-                                </li>
-                                <li>
-                                    <h3 style="white-space: wrap;width: 200px;">Receive mental health support from our expert team and staff.</h3>
-                                </li>
-                                <li>
-                                    <h3>Find a schedule that works for you. </h3>
-
-                                </li>
-                                <li>
-                                <button id="myBtn2"class="signButtonTwo">Sign Up</button> 
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="shape19">
+                    <div class="shapeHolder1">
+                        <div class="shape2">
                             <ul>
                                 <li>
-                                    <h1>Injury Prevention & Recovery</h1>
-
+                                    <h2>
+                                        Current Blade
+                                    </h2>
                                 </li>
+                                <div class="textHolder0">
+                                    <li>
+                                        <p style="padding-left: 20p;padding-right: 40px;">
+                                            Angle Alignment
+                                        </p>
+                                        <h1>
+                                            12
+                                        </h1>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Height
+                                        </p>
+                                        <h1>
+                                            14"
+                                        </h1>
+                                    </li>
+                                </div>
                                 <li>
-                                    <h3>Impact stress tracking and recovery plans.</h3>
+                                    <p>
+                                        Stiffness Value
+                                    </p>
+                                    <h1>
+                                        28.9 kN/m
+                                    </h1>
                                 </li>
-                                <li>
-                                    <button id="myBtn" class="signButtonThree">Learn More</button> 
-                                    
-                                </li>
-
                             </ul>
-                            
                         </div>
-
+                        <div class="shape3">
+                            <ul>
+                                <li>
+                                    <h2 style="left: 65px;position: relative;">
+                                        Insurance
+                                    </h2>
+                                </li>
+                                <li>
+                                    <p style="left: 65px;position: relative;">
+                                        Elite Coverage
+                                    </p>
+                                </li>
+                                <li>
+                                    <h3 style="padding-top: 40px; position: relative;">
+                                        Wear & tear, unlimited repairs, loaner prosthetic during service
+                                    </h3>
+                                </li>
+                                <li>
+                                    <h3 style="padding-top: 10px; position: relative;">
+                                        Accidental damage repair, 1 free replacement per year
+                                    </h3>
+                                </li>
+                                <li>
+                                    <h3 style="padding-top: 40px; position: relative;">
+                                        Priority 48-hour turnaround, competition emergency support
+                                    </h3>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div id="myModal" class="modal">
-
-                                      <!-- Modal content -->
-                                      <div class="modal-content">
-                                        <span class="close">&times;</span>
-                                        <h1>Injury Prevention Workouts</h1>
-                                        <ul>
-                                            <li>
-                                                <p>
-                                                    Glute Bridge – activates hips to reduce knee/back strain
-                                                </p>
-                                            </li>
-
-                                            <li>
-                                                <p>
-                                                   Hip Flexor Stretch – prevents forward tilt + gait issues
-                                                </p>
-                                            </li>
-                                            <li>
-                                                <p>
-                                                   Leg Swings – improves stride mobility
-                                                </p>
-                                            </li>
-                                            <li>
-                                                <p>
-                                                   Ankle Circles (intact limb) – reduces compensation injuries
-                                                </p>
-                                            </li>
-                                        </ul>
-                                        <br>
-                                        <br>
-                                        <h1>Controlled Impact Training</h1>
-                                        <ul>
-                                            <li>
-                                                <p>
-                                                    Low Box Step-Offs – teaches landing control
-                                                </p>
-                                            </li>
-
-                                            <li>
-                                                <p>
-                                                   Marching Drills – reinforces proper gait pattern
-                                                </p>
-                                            </li>
-                                            <li>
-                                                <p>
-                                                   Light Plyometrics (progress slowly)
-                                                </p>
-                                            </li>
-                                            
-                                        </ul>
-                                        <br>
-                                        <br>
-                                        <iframe width="300" height="300" src="https://www.youtube.com/embed/bTBT0nk-n2o?si=5kBsBoiAUmt75Vvh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-                                       <iframe width="300" height="300" src="https://www.youtube.com/embed/lsHjVJdpP1c?si=GGWZBkHVZK84YGjP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                        
-
-
-                                      </div>
-
+                    <div class="shape4">
+                        <ul>
+                            <li style="right: 10px;position: relative;">
+                                <h2>
+                                    Recommended
+                                </h2>
+                                <h3>
+                                    By our AI assistant
+                                </h3>
+                            </li>
+                            <li style="padding-top: 140px;">
+                                <p>
+                                    Optimal Running Blade
+                                </p>
+                                <h1>
+                                    Kintsugi Blade 0.2
+                                </h1>
+                            </li>
+                            <li>
+                                <p>
+                                    Optimal Socket
+                                </p>
+                                <h1>
+                                    Padded Mesh 0.4
+                                </h1>
+                            </li>
+                        </ul>
                     </div>
-                    <div id="myModalThree" class="modal3">
-
-                                      <!-- Modal content -->
-                                      <div class="modal-content3">
-                                        <span class="close3">&times;</span>
-                                        <h1>Mental Health Service Sign Up</h1>
-                                        <br>
-                                        <input type="text" id="fname" name="fname" placeholder="Full Name"><br><br>
-                                        <br>
-                                        <input type="text" id="lname" name="lname" placeholder="Email Address"><br><br>
-                                        <br>
-                                        <input type="text" id="tname" name="tname" placeholder="Type Time From 8:00am - 6:00pm"><br><br>
-                                        <br>
-
-                                         <input type="submit" id="submitNow2" value="Sign Up" style="appearance: none;border-style: none;background-color: #6b1234;color: #80D3F1;width: 200px;height: 40px;border-radius: 12px; cursor: pointer;">
-
-                                         
-                                         <br>
-                                         <br>
-                                         <p>Online Appointments will be first. Then you will meet in person at your local FabLab to see your trainer. Appointments available M-F 8:00AM - 6:00PM.</p>
-                                         <br>
-                                          <style type="text/css">
-                            /* Styling for the title (Month and Year) of the calendar */
-                            div.title {
-                                font: x-large Verdana, Arial, Helvetica, sans-serif;
-                              text-align: center;
-                              height: 40px;
-                              background-color: #6b1234;
-                              border-radius: 12px;
-                              color: #80D3F1;
-                              margin-bottom: 20px;
-
-                                }
-                            /* Styling for the footer */
-                            div.footer {
-                                font: small Verdana, Arial, Helvetica, sans-serif;
-                                text-align: center;
-                                }
-                            /* Styling for the overall table */
-                            table {
-                                font: 100% Verdana, Arial, Helvetica, sans-serif;
-                                table-layout: fixed;
-                                border-collapse: collapse;
-                                width: 100%;
-                                }
-                            /* Styling for the column headers (days of the week) */
-                            th {
-                                padding: 0 0.5em;
-                                text-align: center;
-                                background-color:#80D3F1;
-                                color:#6b1234;
-                                }
-                            /* Styling for the individual cells (days) */
-                            td  {     
-                                font-size: medium;
-                                padding: 0.25em 0.25em;   
-                                width: 14%; 
-                                height: 80px;
-                                text-align: left;
-                                vertical-align: top;
-                                transition: background-color 600ms;
-                                cursor: pointer;
-                                }
-                                td:hover, td.active{
-
-                                background-color: #6b1234;
-                                color: #80D3F1;
-
-
-                                }
-                            /* Styling for the date numbers */
-                            .date  {     
-                                font-size: large;
-                                padding: 0.25em 0.25em;   
-                                text-align: left;
-                                vertical-align: top;
-                                }
-                            /* Class for individual days (coming in future release) */
-                            .sun {
-                                 color:red;
-                                 }
-                            /* Hide the month element (coming in future release) */
-                            th.month {
-                                visibility: hidden;
-                                display:none;
-                                }
-                               
-                            </style>
-                            </head>
-                            <body>
-                            <div class="title">May 2026</div>
-                            <table border="1" style="color: #6b1234;">
-                            <tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>
-                            <tr><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">1</span></td><td><span class="date">2</span></td></tr>
-                            <tr><td><span class="date">3</span></td><td><span class="date">4</span></td><td><span class="date">5</span></td><td><span class="date">6</span></td><td><span class="date">7</span></td><td><span class="date">8</span></td><td><span class="date">9</span></td></tr>
-                            <tr><td><span class="date">10</span></td><td><span class="date">11</span></td><td><span class="date">12</span></td><td><span class="date">13</span></td><td><span class="date">14</span></td><td><span class="date">15</span></td><td><span class="date">16</span></td></tr>
-                            <tr><td><span class="date">17</span></td><td><span class="date">18</span></td><td><span class="date">19</span></td><td><span class="date">20</span></td><td><span class="date">21</span></td><td><span class="date">22</span></td><td><span class="date">23</span></td></tr>
-                            <tr><td><span class="date">24</span></td><td><span class="date">25</span></td><td><span class="date">26</span></td><td><span class="date">27</span></td><td><span class="date">28</span></td><td><span class="date">29</span></td><td><span class="date">30</span></td></tr>
-                            <tr><td><span class="date">31</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td></tr>
-                            </table><br>
-                            <center><font size=1>generated by <a href="http://www.calpoly.edu/~jdalbey/CalendarMaker.html">HTML Calendar Maker 2.0.</a> Copyright &copy; 2011 John Dalbey.</font></center>
-                            </body></html>
-                                     </div>
-                                 </div>
-                    <div id="myModalTwo" class="modal2">
-
-                                      <!-- Modal content -->
-                                      <div class="modal-content">
-                                        <span class="close2">&times;</span>
-                                        <h1>Physical Training Sign Up</h1>
-                                        <br>
-                                        <input type="text" id="fname" name="fname" placeholder="Full Name"><br><br>
-                                        <br>
-                                        <input type="text" id="lname" name="lname" placeholder="Email Address"><br><br>
-                                        <br>
-                                        <input type="text" id="tname" name="tname" placeholder="Type Time From 8:00am - 6:00pm"><br><br>
-                                        <br>
-
-                                         <input type="submit" id="submitNow" value="Sign Up" style="appearance: none;border-style: none;background-color: #6b1234;color: #80D3F1;width: 200px;height: 40px;border-radius: 12px; cursor: pointer;">
-
-                                         
-                                         <br>
-                                         <br>
-                                         <p>Online Appointments will be first. Then you will meet in person at your local FabLab to see your trainer. Appointments available M-F 8:00AM - 6:00PM.</p>
-                                         <br>
-
-                            <style type="text/css">
-                            /* Styling for the title (Month and Year) of the calendar */
-                            div.title {
-                                font: x-large Verdana, Arial, Helvetica, sans-serif;
-                              text-align: center;
-                              height: 40px;
-                              background-color: #6b1234;
-                              border-radius: 12px;
-                              color: #80D3F1;
-                              margin-bottom: 20px;
-
-                                }
-                            /* Styling for the footer */
-                            div.footer {
-                                font: small Verdana, Arial, Helvetica, sans-serif;
-                                text-align: center;
-                                }
-                            /* Styling for the overall table */
-                            table {
-                                font: 100% Verdana, Arial, Helvetica, sans-serif;
-                                table-layout: fixed;
-                                border-collapse: collapse;
-                                width: 100%;
-                                }
-                            /* Styling for the column headers (days of the week) */
-                            th {
-                                padding: 0 0.5em;
-                                text-align: center;
-                                background-color:#80D3F1;
-                                color:#6b1234;
-                                }
-                            /* Styling for the individual cells (days) */
-                            td  {     
-                                font-size: medium;
-                                padding: 0.25em 0.25em;   
-                                width: 14%; 
-                                height: 80px;
-                                text-align: left;
-                                vertical-align: top;
-                                transition: background-color 600ms;
-                                cursor: pointer;
-                                }
-                                td:hover, td.active{
-
-                                background-color: #6b1234;
-                                color: #80D3F1;
-
-
-                                }
-                            /* Styling for the date numbers */
-                            .date  {     
-                                font-size: large;
-                                padding: 0.25em 0.25em;   
-                                text-align: left;
-                                vertical-align: top;
-                                }
-                            /* Class for individual days (coming in future release) */
-                            .sun {
-                                 color:red;
-                                 }
-                            /* Hide the month element (coming in future release) */
-                            th.month {
-                                visibility: hidden;
-                                display:none;
-                                }
-                               
-                            </style>
-                            </head>
-                            <body>
-                            <div class="title">May 2026</div>
-                            <table border="1" style="color: #6b1234;">
-                            <tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>
-                            <tr><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">1</span></td><td><span class="date">2</span></td></tr>
-                            <tr><td><span class="date">3</span></td><td><span class="date">4</span></td><td><span class="date">5</span></td><td><span class="date">6</span></td><td><span class="date">7</span></td><td><span class="date">8</span></td><td><span class="date">9</span></td></tr>
-                            <tr><td><span class="date">10</span></td><td><span class="date">11</span></td><td><span class="date">12</span></td><td><span class="date">13</span></td><td><span class="date">14</span></td><td><span class="date">15</span></td><td><span class="date">16</span></td></tr>
-                            <tr><td><span class="date">17</span></td><td><span class="date">18</span></td><td><span class="date">19</span></td><td><span class="date">20</span></td><td><span class="date">21</span></td><td><span class="date">22</span></td><td><span class="date">23</span></td></tr>
-                            <tr><td><span class="date">24</span></td><td><span class="date">25</span></td><td><span class="date">26</span></td><td><span class="date">27</span></td><td><span class="date">28</span></td><td><span class="date">29</span></td><td><span class="date">30</span></td></tr>
-                            <tr><td><span class="date">31</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td></tr>
-                            </table><br>
-                            <center><font size=1>generated by <a href="http://www.calpoly.edu/~jdalbey/CalendarMaker.html">HTML Calendar Maker 2.0.</a> Copyright &copy; 2011 John Dalbey.</font></center>
-                            </body></html>
-</div>
-
-
-
-
-
-
-
-                                       
-
-                                      </div>
-
+                    <div class="shape5">
+                        <ul>
+                            <li>
+                                <h2>
+                                    Notifications
+                                </h2>
+                            </li>
+                            <div class="notif-box">
+                                <li>
+                                    <h4>
+                                        You have a new friend request.
+                                    </h4>
+                                    <h4>
+                                        2h ago
+                                    </h4>
+                                </li>
+                                <li>
+                                    <h4>
+                                        Someone edited your design.
+                                    </h4>
+                                    <h4>
+                                        4d ago
+                                    </h4>
+                                </li>
+                                <li>
+                                    <h4>
+                                        Your order has been sent out.
+                                    </h4>
+                                    <h4>
+                                        1 week ago
+                                    </h4>
+                                </li>
+                            </div>
+                        </ul>
                     </div>
-
+                    <a class="arrow" div href="dashboard.html">
+                    </a>
+                </div>
             </div>
-    </div>
-<script type="text/javascript" src="js/custom_behaviors.js"></script>
+        </div>
+        <div class="containerTwo" style="display: none;">
+            <div class="background">
+            </div>
+            <div class="top-bar">
+                <a href="index.html">
+                    <div class="logo">
+                    </div>
+                </a>
+                <div class="section">
+                    <div class="top-row">
+                        <button class="dashboardButton" width="37">
+                            <img src="images/Dashboard.png" style="width:37px;height:37px;">
+                        </button>
+                        <button class="designButton" src="images/Design.png" width="37">
+                            <img src="images/Design.png" style="width:37px;height:37px;mix-blend-mode: soft-light;">
+                        </button>
+                        <button class="communityButton" src="images/Community.png" width="37">
+                            <img src="images/Community.png" style="width:37px;height:37px;">
+                        </button>
+                        <button class="healthServicesButton" src="images/Health.png" width="37">
+                            <img src="images/Health.png" style="width:37px;height:37px;">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="mainContainer">
+                <div class="side-bar">
+                    <div class="side-column">
+                        <a class="aiLogo" href="https://kintsugifit-assistant.lovable.app" rel="noopener noreferrer" target="_blank">
+                        </a>
+                        <button class="settingsLogo" id="settingsBtn">
+                        </button>
+                    </div>
+                </div>
+                <div class="shapeContainerTwo">
+                    <div class="shapeHolder3">
+                        <div class="shape7">
+                            <a class="plusLogo" href="https://kintsugifit-design.lovable.app/" rel="noopener noreferrer" target="_blank">
+                            </a>
+                            <h1>
+                                New Design
+                            </h1>
+                        </div>
+                        <div class="shape8">
+                            <ul>
+                                <li>
+                                    <h1>
+                                        Recommended
+                                    </h1>
+                                    <h3>
+                                        By our AI Assistant
+                                    </h3>
+                                </li>
+                                <div class="bladeImage">
+                                </div>
+                                <li>
+                                    <h3>
+                                        Blade Part 2.2
+                                    </h3>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="shape9">
+                        <ul>
+                            <li style="left: 110px;/*! display: grid; */position: relative;">
+                                <h2>
+                                    Load Design
+                                </h2>
+                                <h3>
+                                    Recent Designs
+                                </h3>
+                            </li>
+                            <li style="position: relative;top: 60px;gap: 30px;">
+                                <a href="https://kintsugifit-design.lovable.app/">
+                                    <p>
+                                        Blade 0.5 - Updated March 26
+                                    </p>
+                                </a>
+                                <a href="https://kintsugifit-design.lovable.app/">
+                                    <p>
+                                        Socket 0.2 - Updated March 20
+                                    </p>
+                                </a>
+                                <a href="https://kintsugifit-design.lovable.app/">
+                                    <p>
+                                        Replacement - Updated March 18
+                                    </p>
+                                </a>
+                                <a href="https://kintsugifit-design.lovable.app/">
+                                    <p>
+                                        Material 0.2 - Updated March 6
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="shape10">
+                        <ul>
+                            <li>
+                                <h2>
+                                    Find Your FabLab
+                                </h2>
+                                <h3 style="text-wrap: auto;width: 200px;line-height: 15px;">
+                                    Send your design to be picked up at the nearest FabLab location.
+                                </h3>
+                            </li>
+                            <li>
+                                <div class="mapView">
+                                </div>
+                            </li>
+                            <li>
+                                <a href="order.html">
+                                    <button class="buttonOrder">
+                                        Order Now
+                                    </button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="containerThree" style="display: none;">
+            <div class="background">
+            </div>
+            <div class="top-bar">
+                <a href="index.html">
+                    <div class="logo">
+                    </div>
+                </a>
+                <div class="section">
+                    <div class="top-row">
+                        <button class="dashboardButton" width="37">
+                            <img src="images/Dashboard.png" style="width:37px;height:37px;">
+                        </button>
+                        <button class="designButton" src="images/Design.png" width="37">
+                            <img src="images/Design.png" style="width:37px;height:37px;">
+                        </button>
+                        <button class="communityButton" src="images/Community.png" width="37">
+                            <img src="images/Community.png" style="width:37px;height:37px;mix-blend-mode: soft-light;">
+                        </button>
+                        <button class="healthServicesButton" src="images/Health.png" width="37">
+                            <img src="images/Health.png" style="width:37px;height:37px;">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="mainContainer">
+                <div class="side-bar">
+                    <div class="side-column">
+                        <a class="aiLogo" href="https://kintsugifit-assistant.lovable.app" rel="noopener noreferrer" target="_blank">
+                        </a>
+                        <button class="settingsLogo" id="settingsBtn">
+                        </button>
+                    </div>
+                </div>
+                <div class="shapeContainerThree">
+                    <div class="containerHeaderShape">
+                        <div class="headerShapeOne">
+                            <p style="color: lightblue;top: -10px;position: relative;text-align: center;align-content: center;left: 10px;">
+                                Community Made Designs
+                            </p>
+                        </div>
+                        <div class="headerShapeTwo">
+                            <p>
+                                Community Chat
+                            </p>
+                        </div>
+                    </div>
+                    <div class="searchHolder">
+                        <div class="searchIcon">
+                        </div>
+                        <input id="search" placeholder="Search" type="text">
+                    </div>
+                    <div class="shape11">
+                        <ul>
+                            <li>
+                                <p style="left: 140px;position: relative;">
+                                    Dynamic Leg Part
+                                </p>
+                            </li>
+                            <li>
+                                <div class="dynamicLeg">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="displayName">
+                                    <div class="userImage">
+                                        <h3 style="position: absolute;left: 30px;white-space: nowrap;align-self: center;">
+                                            Sam L.
+                                        </h3>
+                                    </div>
+                                    <h3 style="align-content: center;position: relative;display: grid;padding-left: 120px;">
+                                        Edited 3.28.26
+                                    </h3>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="shape12">
+                        <ul>
+                            <li>
+                                <div class="displayName">
+                                    <div class="userImage">
+                                        <h3 style="position: absolute;left: 30px;white-space: nowrap;align-self: center;">
+                                            Kathy V.
+                                        </h3>
+                                    </div>
+                                    <h3 style="align-content: center;position: relative;display: grid;padding-left: 120px;">
+                                        Uploaded 3.25.26
+                                    </h3>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="legMold">
+                                </div>
+                            </li>
+                            <li>
+                                <p style="left: 0;position: relative;top: 0;">
+                                    Socket and Leg Mold
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="shape13">
+                        <ul>
+                            <li>
+                                <p style="position: relative;">
+                                    Molded Mesh Leg
+                                </p>
+                            </li>
+                            <li>
+                                <div class="moldedMeshLeg">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="displayName">
+                                    <div class="userImage">
+                                        <h3 style="position: absolute;left: 30px;white-space: nowrap;align-self: center;">
+                                            Rusty G.
+                                        </h3>
+                                    </div>
+                                    <h3 style="align-content: center;position: relative;display: grid;padding-left: 120px;">
+                                        Uploaded 3.20.26
+                                    </h3>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="shape14">
+                        <ul>
+                            <li>
+                                <p style="position: relative;">
+                                    Multi-Use Blade Part
+                                </p>
+                            </li>
+                            <li>
+                                <div class="bladeImage">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="displayName">
+                                    <div class="userImage">
+                                        <h3 style="position: absolute;left: 30px;white-space: nowrap;align-self: center;">
+                                            Charles X.
+                                        </h3>
+                                    </div>
+                                    <h3 style="align-content: center;position: relative;display: grid;padding-left: 120px;">
+                                        Uploaded 3.20.26
+                                    </h3>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="shape15">
+                        <ul>
+                            <li>
+                                <div class="displayName">
+                                    <div class="userImage">
+                                        <h3 style="position: absolute;left: 30px;white-space: nowrap;align-self: center;">
+                                            Bruce W.
+                                        </h3>
+                                    </div>
+                                    <h3 style="align-content: center;position: relative;display: grid;padding-left: 120px;">
+                                        Uploaded 3.15.26
+                                    </h3>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="electronicLeg">
+                                </div>
+                            </li>
+                            <li>
+                                <p style="left: 0;position: relative;top: 0;">
+                                    Leg Design w/ Electronics
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="shape16">
+                        <ul>
+                            <li>
+                                <p style="left: 140px;position: relative;">
+                                    Dynamic Leg Part
+                                </p>
+                            </li>
+                            <li>
+                                <div class="dynamicLeg">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="displayName">
+                                    <div class="userImage">
+                                        <h3 style="position: absolute;left: 30px;white-space: nowrap;align-self: center;">
+                                            Peter P.
+                                        </h3>
+                                    </div>
+                                    <h3 style="align-content: center;position: relative;display: grid;padding-left: 120px;">
+                                        Uploaded 3.10.26
+                                    </h3>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="containerFour" style="display: none;">
+            <div class="background">
+            </div>
+            <div class="top-bar">
+                <a href="index.html">
+                    <div class="logo">
+                    </div>
+                </a>
+                <div class="section">
+                    <div class="top-row">
+                        <button class="dashboardButton" width="37">
+                            <img src="images/Dashboard.png" style="width:37px;height:37px;">
+                        </button>
+                        <button class="designButton" src="images/Design.png" width="37">
+                            <img src="images/Design.png" style="width:37px;height:37px;">
+                        </button>
+                        <button class="communityButton" src="images/Community.png" width="37">
+                            <img src="images/Community.png" style="width:37px;height:37px;">
+                        </button>
+                        <button class="healthServicesButton" src="images/Health.png" width="37">
+                            <img src="images/Health.png" style="width: 37px;height: 37px;mix-blend-mode: soft-light;">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="mainContainer">
+                <div class="side-bar">
+                    <div class="side-column">
+                        <a class="aiLogo" href="https://kintsugifit-assistant.lovable.app" rel="noopener noreferrer" target="_blank">
+                        </a>
+                        <button class="settingsLogo" id="settingsBtn">
+                        </button>
+                    </div>
+                </div>
+                <div class="shapeContainerFour">
+                    <div class="shape17">
+                        <ul style="top: 90px;position: relative;left: 80px;">
+                            <li>
+                                <h1>
+                                    Mental Health Support
+                                </h1>
+                            </li>
+                            <li>
+                                <h3 style="white-space: wrap;width: 200px;">
+                                    Receive mental health support from our expert team and staff.
+                                </h3>
+                            </li>
+                            <li>
+                                <h3>
+                                    Find a schedule that works for you.
+                                </h3>
+                            </li>
+                            <li>
+                                <button class="signButton" id="myBtn3">
+                                    Sign Up
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="shape18">
+                        <ul style="top: 120px;position: relative;left: 90px;">
+                            <li>
+                                <h1>
+                                    Physical Training Support
+                                </h1>
+                            </li>
+                            <li>
+                                <h3 style="white-space: wrap;width: 200px;">
+                                    Receive mental health support from our expert team and staff.
+                                </h3>
+                            </li>
+                            <li>
+                                <h3>
+                                    Find a schedule that works for you.
+                                </h3>
+                            </li>
+                            <li>
+                                <button class="signButtonTwo" id="myBtn2">
+                                    Sign Up
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="shape19">
+                        <ul>
+                            <li>
+                                <h1>
+                                    Injury Prevention & Recovery
+                                </h1>
+                            </li>
+                            <li>
+                                <h3>
+                                    Impact stress tracking and recovery plans.
+                                </h3>
+                            </li>
+                            <li>
+                                <button class="signButtonThree" id="myBtn">
+                                    Learn More
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal" id="myModal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">
+                            &times;
+                        </span>
+                        <h1>
+                            Injury Prevention Workouts
+                        </h1>
+                        <ul>
+                            <li>
+                                <p>
+                                    Glute Bridge &ndash; activates hips to reduce knee/back strain
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Hip Flexor Stretch &ndash; prevents forward tilt + gait issues
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Leg Swings &ndash; improves stride mobility
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Ankle Circles (intact limb) &ndash; reduces compensation injuries
+                                </p>
+                            </li>
+                        </ul>
+                        <br>
+                        <br>
+                        <h1>
+                            Controlled Impact Training
+                        </h1>
+                        <ul>
+                            <li>
+                                <p>
+                                    Low Box Step-Offs &ndash; teaches landing control
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Marching Drills &ndash; reinforces proper gait pattern
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Light Plyometrics (progress slowly)
+                                </p>
+                            </li>
+                        </ul>
+                        <br>
+                        <br>
+                        <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen frameborder="0" height="300" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/bTBT0nk-n2o?si=5kBsBoiAUmt75Vvh" title="YouTube video player" width="300">
+                        </iframe>
+                        <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen frameborder="0" height="300" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/lsHjVJdpP1c?si=GGWZBkHVZK84YGjP" title="YouTube video player" width="300">
+                        </iframe>
+                    </div>
+                </div>
+                <div class="modal3" id="myModalThree">
+                    <!-- Modal content -->
+                    <div class="modal-content3">
+                        <span class="close3">
+                            &times;
+                        </span>
+                        <h1>
+                            Mental Health Service Sign Up
+                        </h1>
+                        <br>
+                        <input id="fname" name="fname" placeholder="Full Name" type="text">
+                        <br>
+                        <br>
+                        <br>
+                        <input id="lname" name="lname" placeholder="Email Address" type="text">
+                        <br>
+                        <br>
+                        <br>
+                        <input id="tname" name="tname" placeholder="Type Time From 8:00am - 6:00pm" type="text">
+                        <br>
+                        <br>
+                        <br>
+                        <input id="submitNow2" style="appearance: none;border-style: none;background-color: #6b1234;color: #80D3F1;width: 200px;height: 40px;border-radius: 12px; cursor: pointer;" type="submit" value="Sign Up">
+                        <br>
+                        <br>
+                        <p>
+                            Online Appointments will be first. Then you will meet in person at your local FabLab to see your trainer. Appointments available M-F 8:00AM - 6:00PM.
+                        </p>
+                        <br>
+                        <style type="text/css">
+                            /* Styling for the title (Month and Year) of the calendar */
+                                                                                                                div.title {
+                                                                                                                                font: x-large Verdana, Arial, Helvetica, sans-serif;
+                                                                                                                        text-align: center;
+                                                                                                                        height: 40px;
+                                                                                                                        background-color: #6b1234;
+                                                                                                                        border-radius: 12px;
+                                                                                                                        color: #80D3F1;
+                                                                                                                        margin-bottom: 20px;
+
+                                                                                                                                }
+                                                                                                                /* Styling for the footer */
+                                                                                                                div.footer {
+                                                                                                                                font: small Verdana, Arial, Helvetica, sans-serif;
+                                                                                                                                text-align: center;
+                                                                                                                                }
+                                                                                                                /* Styling for the overall table */
+                                                                                                                table {
+                                                                                                                                font: 100% Verdana, Arial, Helvetica, sans-serif;
+                                                                                                                                table-layout: fixed;
+                                                                                                                                border-collapse: collapse;
+                                                                                                                                width: 100%;
+                                                                                                                                }
+                                                                                                                /* Styling for the column headers (days of the week) */
+                                                                                                                th {
+                                                                                                                                padding: 0 0.5em;
+                                                                                                                                text-align: center;
+                                                                                                                                background-color:#80D3F1;
+                                                                                                                                color:#6b1234;
+                                                                                                                                }
+                                                                                                                /* Styling for the individual cells (days) */
+                                                                                                                td  {     
+                                                                                                                                font-size: medium;
+                                                                                                                                padding: 0.25em 0.25em;   
+                                                                                                                                width: 14%; 
+                                                                                                                                height: 80px;
+                                                                                                                                text-align: left;
+                                                                                                                                vertical-align: top;
+                                                                                                                                transition: background-color 600ms;
+                                                                                                                                cursor: pointer;
+                                                                                                                                }
+                                                                                                                                td:hover, td.active{
+
+                                                                                                                                background-color: #6b1234;
+                                                                                                                                color: #80D3F1;
+
+
+                                                                                                                                }
+                                                                                                                /* Styling for the date numbers */
+                                                                                                                .date  {     
+                                                                                                                                font-size: large;
+                                                                                                                                padding: 0.25em 0.25em;   
+                                                                                                                                text-align: left;
+                                                                                                                                vertical-align: top;
+                                                                                                                                }
+                                                                                                                /* Class for individual days (coming in future release) */
+                                                                                                                .sun {
+                                                                                                                                    color:red;
+                                                                                                                                    }
+                                                                                                                /* Hide the month element (coming in future release) */
+                                                                                                                th.month {
+                                                                                                                                visibility: hidden;
+                                                                                                                                display:none;
+                                                                                                                                }
+                        </style>
+                        <body>
+                            <div class="title">
+                                May 2026
+                            </div>
+                            <table border="1" style="color: #6b1234;">
+                                <tr>
+                                    <th>
+                                        Sun
+                                    </th>
+                                    <th>
+                                        Mon
+                                    </th>
+                                    <th>
+                                        Tue
+                                    </th>
+                                    <th>
+                                        Wed
+                                    </th>
+                                    <th>
+                                        Thu
+                                    </th>
+                                    <th>
+                                        Fri
+                                    </th>
+                                    <th>
+                                        Sat
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="date">
+                                            &nbsp;
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            &nbsp;
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            &nbsp;
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            &nbsp;
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            &nbsp;
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            1
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            2
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="date">
+                                            3
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            4
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            5
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            6
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            7
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            8
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            9
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="date">
+                                            10
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            11
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            12
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            13
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            14
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            15
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            16
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="date">
+                                            17
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            18
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            19
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            20
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            21
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            22
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            23
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="date">
+                                            24
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            25
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            26
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            27
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            28
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            29
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            30
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="date">
+                                            31
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            &nbsp;
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            &nbsp;
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            &nbsp;
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            &nbsp;
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            &nbsp;
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="date">
+                                            &nbsp;
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br>
+                            <center>
+                                <font size="1">
+                                    generated by
+                                    <a href="http://www.calpoly.edu/~jdalbey/CalendarMaker.html">
+                                        HTML Calendar Maker 2.0.
+                                    </a>
+                                    Copyright &copy; 2011 John Dalbey.
+                                </font>
+                            </center>
+                        </body>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modalSettings" id="myModalSettings">
+            <div class="modal-content4">
+                <span class="close4">
+                    &times;
+                </span>
+                <h1>
+                    Settings
+                </h1>
+                <br>
+                <br>
+                <button class="collapsible" type="button">
+                    Profile
+                </button>
+                <div class="content">
+                    <h1>
+                        Full Name:
+                    </h1>
+                    <li>
+                        <p>
+                            Andrew Larson
+                        </p>
+                    </li>
+                    <h1>
+                        Username:
+                    </h1>
+                    <li>
+                        <p>
+                            andrewl1343
+                        </p>
+                    </li>
+                    <h1>
+                        Password:
+                    </h1>
+                    <li>
+                        <p>
+                            **********
+                        </p>
+                    </li>
+                    <h1>
+                        Notifications:
+                    </h1>
+                    <li>
+                        <p>
+                            <input checked="checked" type="checkbox">
+                            <span class="checkmark">
+                            </span>
+                        </p>
+                    </li>
+                </div>
+                <button class="collapsible" type="button">
+                    Privacy/Security
+                </button>
+                <div class="content">
+                    <h1>
+                        Allow Location Sharing:
+                    </h1>
+                    <li>
+                        <p>
+                            <input checked="checked" type="checkbox">
+                            <span class="checkmark">
+                            </span>
+                        </p>
+                    </li>
+                    <h1>
+                        Auto Delete Data:
+                    </h1>
+                    <li>
+                        <p>
+                            <input checked="checked" type="checkbox">
+                            <span class="checkmark">
+                            </span>
+                        </p>
+                    </li>
+                    <h1>
+                        Let Users Edit and Share Your Designs:
+                    </h1>
+                    <li>
+                        <p>
+                            <input checked="checked" type="checkbox">
+                            <span class="checkmark">
+                            </span>
+                        </p>
+                    </li>
+                </div>
+                <button class="collapsible" type="button">
+                    Account Management
+                </button>
+                <div class="content">
+                    <h1>
+                        Insurance Plan Details:
+                    </h1>
+                    <br>
+                    <p>
+                        Elite | $50/mo | Renews August 8, 2026 12:00am
+                    </p>
+                    <br>
+                    <h1>
+                        Payment Methods Linked:
+                    </h1>
+                    <br>
+                    <p>
+                        Visa | PayPal
+                    </p>
+                </div>
+                <br>
+                <br>
+                <a class="signOut" href="https://mattvandermeer-gd.github.io/KintsugiFit/">
+                    Sign Out
+                </a>
+            </div>
+        </div>
+        <!-- Shared sidebar and settings modal – always visible across all tabs -->
     </body>
 </html>
+<div class="modal2" id="myModalTwo">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close2">
+            &times;
+        </span>
+        <h1>
+            Physical Training Sign Up
+        </h1>
+        <br>
+        <input id="fname" name="fname" placeholder="Full Name" type="text">
+        <br>
+        <br>
+        <br>
+        <input id="lname" name="lname" placeholder="Email Address" type="text">
+        <br>
+        <br>
+        <br>
+        <input id="tname" name="tname" placeholder="Type Time From 8:00am - 6:00pm" type="text">
+        <br>
+        <br>
+        <br>
+        <input id="submitNow" style="appearance: none;border-style: none;background-color: #6b1234;color: #80D3F1;width: 200px;height: 40px;border-radius: 12px; cursor: pointer;" type="submit" value="Sign Up">
+        <br>
+        <br>
+        <p>
+            Online Appointments will be first. Then you will meet in person at your local FabLab to see your trainer. Appointments available M-F 8:00AM - 6:00PM.
+        </p>
+        <br>
+        <style type="text/css">
+            /* Styling for the title (Month and Year) of the calendar */
+                                                                                                                div.title {
+                                                                                                                                font: x-large Verdana, Arial, Helvetica, sans-serif;
+                                                                                                                        text-align: center;
+                                                                                                                        height: 40px;
+                                                                                                                        background-color: #6b1234;
+                                                                                                                        border-radius: 12px;
+                                                                                                                        color: #80D3F1;
+                                                                                                                        margin-bottom: 20px;
+
+                                                                                                                                }
+                                                                                                                /* Styling for the footer */
+                                                                                                                div.footer {
+                                                                                                                                font: small Verdana, Arial, Helvetica, sans-serif;
+                                                                                                                                text-align: center;
+                                                                                                                                }
+                                                                                                                /* Styling for the overall table */
+                                                                                                                table {
+                                                                                                                                font: 100% Verdana, Arial, Helvetica, sans-serif;
+                                                                                                                                table-layout: fixed;
+                                                                                                                                border-collapse: collapse;
+                                                                                                                                width: 100%;
+                                                                                                                                }
+                                                                                                                /* Styling for the column headers (days of the week) */
+                                                                                                                th {
+                                                                                                                                padding: 0 0.5em;
+                                                                                                                                text-align: center;
+                                                                                                                                background-color:#80D3F1;
+                                                                                                                                color:#6b1234;
+                                                                                                                                }
+                                                                                                                /* Styling for the individual cells (days) */
+                                                                                                                td  {     
+                                                                                                                                font-size: medium;
+                                                                                                                                padding: 0.25em 0.25em;   
+                                                                                                                                width: 14%; 
+                                                                                                                                height: 80px;
+                                                                                                                                text-align: left;
+                                                                                                                                vertical-align: top;
+                                                                                                                                transition: background-color 600ms;
+                                                                                                                                cursor: pointer;
+                                                                                                                                }
+                                                                                                                                td:hover, td.active{
+
+                                                                                                                                background-color: #6b1234;
+                                                                                                                                color: #80D3F1;
+
+
+                                                                                                                                }
+                                                                                                                /* Styling for the date numbers */
+                                                                                                                .date  {     
+                                                                                                                                font-size: large;
+                                                                                                                                padding: 0.25em 0.25em;   
+                                                                                                                                text-align: left;
+                                                                                                                                vertical-align: top;
+                                                                                                                                }
+                                                                                                                /* Class for individual days (coming in future release) */
+                                                                                                                .sun {
+                                                                                                                                    color:red;
+                                                                                                                                    }
+                                                                                                                /* Hide the month element (coming in future release) */
+                                                                                                                th.month {
+                                                                                                                                visibility: hidden;
+                                                                                                                                display:none;
+                                                                                                                                }
+        </style>
+        <body>
+            <div class="title">
+                May 2026
+            </div>
+            <table border="1" style="color: #6b1234;">
+                <tr>
+                    <th>
+                        Sun
+                    </th>
+                    <th>
+                        Mon
+                    </th>
+                    <th>
+                        Tue
+                    </th>
+                    <th>
+                        Wed
+                    </th>
+                    <th>
+                        Thu
+                    </th>
+                    <th>
+                        Fri
+                    </th>
+                    <th>
+                        Sat
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="date">
+                            &nbsp;
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            &nbsp;
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            &nbsp;
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            &nbsp;
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            &nbsp;
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            1
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            2
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="date">
+                            3
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            4
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            5
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            6
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            7
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            8
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            9
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="date">
+                            10
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            11
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            12
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            13
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            14
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            15
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            16
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="date">
+                            17
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            18
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            19
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            20
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            21
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            22
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            23
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="date">
+                            24
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            25
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            26
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            27
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            28
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            29
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            30
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="date">
+                            31
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            &nbsp;
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            &nbsp;
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            &nbsp;
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            &nbsp;
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            &nbsp;
+                        </span>
+                    </td>
+                    <td>
+                        <span class="date">
+                            &nbsp;
+                        </span>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <center>
+                <font size="1">
+                    generated by
+                    <a href="http://www.calpoly.edu/~jdalbey/CalendarMaker.html">
+                        HTML Calendar Maker 2.0.
+                    </a>
+                    Copyright &copy; 2011 John Dalbey.
+                </font>
+            </center>
+        </body>
+    </div>
+</div>
+<script src="js/custom_behaviors.js" type="text/javascript">
+</script>

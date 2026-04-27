@@ -182,30 +182,25 @@ window.onclick = function(event) {
 
 
 var modalSettings = document.getElementById("myModalSettings");
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn4");
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close4")[0];
-
-// When the user clicks on the button, open the modal
-btn.onclick = function() {
+// Open settings from any tab's settings button
+$(".settingsLogo").on("click", function() {
   modalSettings.style.display = "block";
-}
+});
 
-// When the user clicks on <span> (x), close the modal
-
-
-span.onclick = function() {
+// Close on X
+document.querySelector(".close4").onclick = function() {
   modalSettings.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
+// Close on outside click
+window.addEventListener("click", function(event) {
   if (event.target == modalSettings) {
     modalSettings.style.display = "none";
   }
-} 
+});
+
+
 
 const menuItems = document.querySelectorAll('td');
 
