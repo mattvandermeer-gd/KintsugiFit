@@ -124,6 +124,19 @@ width: 70px;
   transition: transform 0.3s ease;
 
 }
+.arrowOrderBack{
+width: 70px;
+  height: 70px;
+  position: relative;
+  display: flex;
+  background-image: url('../images/ArrowLeft.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  margin-left: 50px;
+  transition: transform 0.3s ease;
+
+}
 
 
 .custom-select-wrapper{
@@ -158,6 +171,15 @@ select {
    
 
 }
+
+
+.arrowOrderBack:hover{
+  transform: scale(1.2); 
+
+   
+
+}
+
 
 
 .headerText{
@@ -242,6 +264,44 @@ a:hover {
 
 }
 
+.textSectionTwo{
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  place-content: center;
+  align-items: center;
+
+
+
+}
+
+
+.textSectionThree{
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  place-content: center;
+  align-items: center;
+
+
+
+}
+
+
+.textSectionFour{
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  place-content: center;
+  align-items: center;
+
+
+
+}
+
 
 
 .groupText{
@@ -253,6 +313,71 @@ width: 32em;
   margin: 0 auto;
   padding-left: 60px;
   padding-right: 60px;
+
+
+
+
+
+
+}
+
+
+
+.groupTextTwo{
+width: 100%;
+  min-width: 20em;
+  position: relative;
+  margin: 0 auto;
+  padding-left: 60px;
+  padding-right: 60px;
+  filter: drop-shadow(1px 1px 4px black);
+  display: flex;
+  gap: 1.5rem;
+  flex-grow: 2;
+  flex-wrap: wrap;
+
+
+
+
+
+
+}
+
+
+.groupTextThree{
+width: 100%;
+  min-width: 20em;
+  position: relative;
+  margin: 0 auto;
+  padding-left: 60px;
+  padding-right: 60px;
+  filter: drop-shadow(1px 1px 4px black);
+  display: flex;
+  gap: 3.5rem;
+  flex-grow: 1;
+  flex-wrap: wrap;
+
+
+
+
+
+
+}
+
+
+
+.groupTextFour{
+width: 100%;
+  min-width: 20em;
+  position: relative;
+  margin: 0 auto;
+  padding-left: 60px;
+  padding-right: 60px;
+  filter: drop-shadow(1px 1px 4px black);
+  display: flex;
+  gap: 3.5rem;
+  flex-grow: 1;
+  flex-wrap: wrap;
 
 
 
@@ -295,6 +420,207 @@ display: flex;
 }
 
 
+.objectHolder{
+    width: 100%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  place-content: center;
+  align-items: center;
+
+}
+
+
+/* <div class="shape"> OR <img class="shape"> */
+.itemHolder {
+    width: 300px;
+    height: 298px;
+    aspect-ratio: 1.007;
+    clip-path: shape(from 0% 4.03%,curve to 4% 0% with 0% 1.8%/1.79% 0%,line to 79.33% 0%,curve to 83.33% 4.03% with 81.54% 0%/83.33% 1.8%,vline to 20.97%,curve to 87.33% 25% with 83.33% 23.2%/85.12% 25%,hline to 96%,curve to 100% 29.03% with 98.21% 25%/100% 26.8%,vline to 95.97%,curve to 96% 100% with 100% 98.2%/98.21% 100%,hline to 29%,curve to 25% 95.97% with 26.79% 100%/25% 98.2%,vline to 63.76%,curve to 21% 59.73% with 25% 61.53%/23.21% 59.73%,hline to 4%,curve to 0% 55.7% with 1.79% 59.73%/0% 57.93%,vline to 4.03%,close);
+    background-color: #81D3F0;
+}
+
+
+.itemHolder2 {
+    width: 300px;
+    height: 200px;
+    aspect-ratio: 2.863;
+    clip-path: shape(from 0% 17.19%,curve to 2.94% 8.77% with 0% 12.54%/1.32% 8.77%,hline to 24.94%,curve to 26.47% 4.39% with 25.78% 8.77%/26.47% 6.81%,curve to 28% 0% with 26.47% 1.96%/27.16% 0%,line to 74.75% 0%,hline to 97.06%,curve to 100% 8.42% with 98.68% 0%/100% 3.77%,vline to 84.56%,curve to 97.06% 92.98% with 100% 89.21%/98.68% 92.98%,hline to 75%,hline to 26.23%,curve to 25% 96.49% with 25.55% 92.98%/25% 94.55%,curve to 23.77% 100% with 25% 98.43%/24.45% 100%,hline to 2.94%,curve to 0% 91.58% with 1.32% 100%/0% 96.23%,vline to 17.19%,close);
+    background-color: #81D3F0;
+    text-align: end;
+
+
+
+}
+
+
+
+.itemHolder3 {
+    width: 300px;
+    height: 300px;
+    background-color: #81D3F0;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 12px;
+
+
+
+
+}
+
+.itemHolder4{
+    width: 300px;
+    height: 300px;
+    background-color: #81D3F0;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 12px;
+     background-image:url('../images/ordermap.png'); 
+     background-size: cover;
+
+
+
+
+}
+
+.itemHolder5 {
+    width: 100%;
+    height: 20%;
+    background-color: #81D3F0;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 12px;
+
+    padding: 15px;
+
+
+
+
+}
+
+
+
+.itemHolder6 {
+    width: 100%;
+    height: 20%;
+    background-color: #81D3F0;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 12px;
+
+    padding: 15px;
+
+
+
+
+}
+
+
+
+
+.orderSummary{
+    display: grid;
+    height: 248px;
+    width: 248px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+.paymentHolder{
+width: 201px;
+  height: 150px;
+  justify-content: center;
+  position: relative;
+  gap: 12px;
+  align-items: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+.visa{
+     background-image:url('../images/visa.png'); 
+    width: 4em;
+    height: 2.688em;
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+        transition: transform 600ms ease;
+
+
+
+}
+
+.visa:hover, .visa.active{
+
+    mix-blend-mode: plus-lighter;
+    cursor: pointer;
+    transform: scale(1.2); /* Enlarge by 10% */
+
+
+}
+
+
+.paypal{
+     background-image:url('../images/paypal.png'); 
+    width: 4em;
+    height: 2.688em;
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+        transition: transform 600ms ease;
+
+
+
+}
+
+.paypal:hover, .paypal.active{
+
+    mix-blend-mode: plus-lighter;
+    cursor: pointer;
+    transform: scale(1.2); /* Enlarge by 10% */
+
+
+}
+
+.applepay{
+     background-image:url('../images/applepay.png'); 
+    width: 4em;
+    height: 2.688em;
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+        transition: transform 600ms ease;
+
+
+
+}
+.applepay:hover, .applepay.active{
+
+    mix-blend-mode: plus-lighter;
+    cursor: pointer;
+    transform: scale(1.2); /* Enlarge by 10% */
+
+
+}
+
+
 
 .fieldHolderOne{
     display: flex;
@@ -333,6 +659,8 @@ h1{
   
 
 }
+
+
 
 
 #firstName{
@@ -432,6 +760,79 @@ h2{
 
 
 
+.checkoutButtonTwo{
+    font-family: 'POPPINSREG';
+    width: 100%;
+    height: 3.438em;
+    background-color:#6B1234;
+    border-radius: 5px;
+    display: block;
+    color: #81D3F0;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    cursor: pointer;
+    transition: color 300ms ease-out ;
+    
+}
+
+
+.checkoutButtonTwo:hover {
+    color: #6B1234;
+    background-color:#81D3F0 ;
+
+}
+
+
+.checkoutButtonThree{
+    font-family: 'POPPINSREG';
+    width: 100%;
+    height: 3.438em;
+    background-color:#6B1234;
+    border-radius: 5px;
+    display: block;
+    color: #81D3F0;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    cursor: pointer;
+    transition: color 300ms ease-out ;
+    
+}
+
+
+.checkoutButtonThree:hover {
+    color: #6B1234;
+    background-color:#81D3F0 ;
+
+}
+
+
+.checkoutButtonFour{
+    font-family: 'POPPINSREG';
+    width: 100%;
+    height: 3.438em;
+    background-color:#6B1234;
+    border-radius: 5px;
+    display: block;
+    color: #81D3F0;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    cursor: pointer;
+    transition: color 300ms ease-out ;
+    
+}
+
+
+.checkoutButtonFour:hover {
+    color: #6B1234;
+    background-color:#81D3F0 ;
+
+}
+
+
+
 .googleButton{
     background-image:url('../images/signingoogle.png'); 
     width: 12em;
@@ -445,6 +846,21 @@ h2{
 
 
 
+}
+
+
+.leg2{
+    justify-content: center;
+  align-content: center;
+  position: relative;
+  display: flex;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  background-image: url('../images/leg2.png');
+  left: 111px;
+  top: 49px;
 }
 
 .polygon{
@@ -469,7 +885,7 @@ h2{
 
 }
 
-.polygon:hover{
+.polygon:hover, .polygon.active{
 
     mix-blend-mode: plus-lighter;
     cursor: pointer;
@@ -503,7 +919,7 @@ h2{
 
 
 
-.polygon2:hover{
+.polygon2:hover, .polygon2.active{
 
     mix-blend-mode: plus-lighter;
     cursor: pointer;
@@ -593,9 +1009,46 @@ h2{
   .textSection {
     width: 100%;
   }
+
+  .textSectionTwo {
+    width: 100%;
+  }
+
+   .textSectionThree {
+    width: 100%;
+  }
+
+  .textSectionFour{
+    width: 100%;
+  }
  
   /* groupText: full width, reduced padding */
   .groupText {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    box-sizing: border-box;
+  }
+
+
+   .groupTextTwo {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    box-sizing: border-box;
+  }
+
+   .groupTextThree {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    box-sizing: border-box;
+  }
+
+     .groupTextFour {
     width: 100%;
     padding-left: 16px;
     padding-right: 16px;
@@ -690,7 +1143,23 @@ h2{
     height: 3rem;
     font-size: 1rem;
   }
+
+
+   .checkoutButtonTwo {
+    height: 3rem;
+    font-size: 1rem;
+  }
  
+
+   .checkoutButtonThree {
+    height: 3rem;
+    font-size: 1rem;
+  }
+
+   .checkoutButtonFour {
+    height: 3rem;
+    font-size: 1rem;
+  }
   /* Hide the vertical "ORDER" text on mobile — it clashes with the layout */
   
 }

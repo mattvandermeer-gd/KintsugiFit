@@ -356,6 +356,224 @@ min-height: 100vh;
 
 }
 
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+.modal3 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modalSettings {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #80D3F1;
+  margin: 2% auto;
+  padding: 20px;
+  width: 80%;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+.modal-content2 {
+  background-color: #80D3F1;
+  margin: 2% auto;
+  padding: 20px;
+  width: 80%;
+  height: auto;
+  border-radius: 12px;
+}
+
+
+
+
+.close2 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.modal-content3 {
+  background-color: #80D3F1;
+  margin: 2% auto;
+  padding: 20px;
+  width: 80%;
+  height: auto;
+  border-radius: 12px;
+}
+
+
+
+
+.close3 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close3:hover,
+.close3:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+.modal-content4 {
+  background-color: #80D3F1;
+  margin: 2% auto;
+  padding: 20px;
+  width: 80%;
+  height: auto;
+  border-radius: 12px;
+}
+
+
+
+
+.close4 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close4:hover,
+.close4:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+#fname{
+     font-family: 'POPPINSREG';
+  mix-blend-mode: hard-light;
+  background-color: #6B1234;
+  border: none;
+  color: lightblue;
+  border-radius: 5px;
+  width: 40%;
+
+}
+
+#lname{
+font-family: 'POPPINSREG';
+  mix-blend-mode: hard-light;
+  background-color: #6B1234;
+  border: none;
+  color: lightblue;
+  border-radius: 5px;
+  width: 40%;
+}
+
+#tname{
+font-family: 'POPPINSREG';
+  mix-blend-mode: hard-light;
+  background-color: #6B1234;
+  border: none;
+  color: lightblue;
+  border-radius: 5px;
+  width: 40%;
+}
+
+
+.submitNow{
+    appearance: none;
+    border-radius: 12px;
+    border-style: none;
+    background-color: #6b1234;
+
+}
+
+
+ .submitNow2{
+    appearance: none;
+    border-radius: 12px;
+    border-style: none;
+    background-color: #6b1234;
+
+}
+
 
 .signButton{
 width: 164px;
@@ -370,6 +588,16 @@ width: 164px;
     position: relative;
     left: 54px;
     top: 0;
+     transition: background-color 600ms ease;
+}
+
+
+  
+
+.signButton:hover{
+    background-color: #6b1234;
+    color: #366B7D;
+
 
 }
 
@@ -385,10 +613,44 @@ width: 91px;
   border-radius: 12px;
   cursor: pointer;
   position: relative;
+      transition: background-color 600ms ease;
+
+
+
+}
+.signButtonTwo:hover{
+    background-color: #6b1234;
+    color: #366B7D;
 
 
 }
 
+
+
+    .signButtonThree{
+ width: 164px;
+  height: 58px;
+  background-color: #366B7D;
+  font-family: PROXIMASEMI;
+  color: #6B1234;
+  appearance: none;
+  border: none;
+  border-radius: 12px;
+  left: 10vw;
+  cursor: pointer;
+  position: relative;
+       transition: background-color 600ms ease;
+
+
+  }
+
+
+.signButtonThree:hover{
+    background-color: #6b1234;
+    color: #366B7D;
+
+
+}
 
 
 .box{
@@ -963,11 +1225,53 @@ width: 176px;
   mix-blend-mode: hard-light;
   text-align: center;
   transition: transform 0.3s ease;
+  border-style: none;
+  appearance: none;
+  border-radius: 12px;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .settingsLogo:hover{
     transform: scale(1.2);
 
+
+}
+
+
+.collapsible {
+  color: #80D3F1;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-radius: 12px;
+  gap: 12px;
+  display: grid;
+  margin-bottom: 12px;
+  background-color: #6b1234;
+  mix-blend-mode: hard-light;
+  transition: transform 0.3s ease;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+    transform: scale(1.02);
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+ padding: 18px 18px;
+  display: none;
+  overflow: hidden;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  background-color: deepskyblue;
+  gap: 20px;
+  
 
 }
 
@@ -993,6 +1297,33 @@ width: 179px;
   mix-blend-mode: multiply;
   color: #366B7D; 
   background-color:#6B1234;;
+}
+
+
+.signOut{
+width: 300px;
+  height: 63px;
+  background-color: #6b1234;
+  font-family: PROXIMASEMI;
+  color: #80D3F1;
+  appearance: none;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.3s ease;
+  display: block;
+  text-align: center;
+  align-content: center;
+  mix-blend-mode: hard-light;
+
+}
+
+.signOut:hover {
+  transform: scale(1.1);
+  mix-blend-mode: multiply;
+  color: #6b1234; 
+  background-color:#80D3F1;
 }
 
 
@@ -1127,6 +1458,8 @@ h3{
     font-family: PROXIMAREG;
     color: #6B1234;
 }
+
+
 
 
 ul{
@@ -1336,8 +1669,9 @@ width: 164px;
     border-radius: 12px;
     cursor: pointer;
     position: relative;
-    left: 165px;
+    left: 32vw;
     top: 20px;
+  
   
   }
 
@@ -1353,6 +1687,26 @@ width: 164px;
   cursor: pointer;
   position: relative;
   }
+
+
+
+
+    .signButtonThree{
+ width: 137px;
+    height: 81px;
+    background-color: #366B7D;
+    font-family: PROXIMASEMI;
+    color: #6B1234;
+    appearance: none;
+    border: none;
+    border-radius: 12px;
+    left: 36vw;
+    cursor: pointer;
+    position: relative;
+  }
+
+
+
 
 li{
     left: 0px !important;
