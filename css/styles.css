@@ -172,33 +172,87 @@ ul{
     height: auto;
 }
 
-#limbscan{
+
+#close-modal{
     appearance: none;
     border: none;
+    border-radius: 5px;
     background-color: #6b1234;
-    border-radius: 12px;
-    display: inline-block;
-  padding: 1rem 2rem; /* Relative padding */
-  width: 80%;  
-  height: 9vh;      /* Default to full width on mobile */
-  max-width: 400px;   /* Cap size on desktop */
-  font-size: 1rem;
-  box-sizing: border-box;
-    color: #80D3F1;
-    font-weight: normal;
-    font-family: helvetica;
+    color: lightblue;
     cursor: pointer;
-    position: static;
-    top: 35vw;
-    right: 25.6vw;
-    font-size: clamp(1rem, 2vw, 1.2rem);;
-      z-index: 9999;
-      transition: color 300ms ease-in;
+     transition: color 300ms ease-in;
+     width: 40px;
+     height: 40px;
+}
+
+
+
+#close-modal:hover{
+    appearance: none;
+    border: none;
+    border-radius: 5px;
+    background-color: lightblue;
+    color: #6b1234;
+    cursor: pointer;
+}
+
+
+.modalHolder{
+width:80vw;
+max-width:1000px;
+height:80vh;
+padding:30px;
+border:0;border-radius:16px;  
+position: absolute;
+justify-content: center;
+align-content: center;
+display: flex;
+
+}
+
+
+#scan-modal{
+width:95vw;
+max-width:1100px;
+height:90vh;
+padding:0;
+border:0;border-radius:16px;  
+background-color: #81D3F0; 
+background-blend-mode: soft-light;  
+background-image:url('../images/track2.jpg'); 
+background-repeat: no-repeat; 
+background-size: cover;
+background-position: center;
+position: relative;
+}
+
+#limbscan{
+appearance: none;
+  border: none;
+  background-color: #6b1234;
+  border-radius: 12px;
+  display: inline-block;
+  padding: 1rem 2rem;
+  width: 23vw;
+  height: 92px;
+
+  box-sizing: border-box;
+  color: #80D3F1;
+  font-weight: normal;
+  font-family: helvetica;
+  cursor: pointer;
+  position: relative;
+  top: 547px;
+  right: 376px;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  z-index: 9999;
+  transition: color 300ms ease-in;
+
+
 
 
 
 }
-
 
 
 
@@ -206,6 +260,111 @@ ul{
   background-color: #80D3F1;
   color: #6b1234;
 }
+
+
+
+.sideScan{
+    position: relative;
+    margin-right: auto;
+    align-content: center;
+}
+
+.middleModalSection{
+  position: relative;
+  margin-right: auto;
+  align-self: center;
+  max-width: 496px;
+  height: 323px;
+
+}
+
+
+#scan{
+  border: none;
+  border-radius: 12px;
+  height: 45px;
+  width: 211px;
+  background-color: #6b1234;
+  text-align: right;
+  padding: 12px;
+  cursor: pointer;
+  transition: color 300ms ease-in;
+  font-size: clamp(1rem, 2vw, 1rem);
+  color: lightblue;
+  position: relative;
+  margin-left: auto;
+  top: 60px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+
+
+
+}
+
+
+#scan:hover{
+    
+    background-color: lightblue;
+    color: #6b1234;
+   
+
+}
+
+
+
+.logoImage{
+    background-image:url('../images/logo.png'); 
+    background-repeat: no-repeat;
+    background-size:contain;
+     width: 3rem;
+     height: 3rem;
+     display: flex;
+     margin-bottom: 30px;
+    
+}
+
+
+.animationHolder{
+    width:95vw;
+max-width:1100px;
+height:90vh;
+padding:0;
+border:0;border-radius:16px;  
+background-color: #81D3F0; 
+background-blend-mode: soft-light;  
+background-image:url('../images/track2.jpg'); 
+background-repeat: no-repeat; 
+background-size: cover;
+background-position: center;
+position: relative;
+}
+
+
+.logoImage:hover{
+    background-image:url('../images/logo.png'); 
+    background-repeat: no-repeat;
+    background-size:contain;
+     width: 3rem;
+     height: 3rem;
+     display: flex;
+     margin-bottom: 30px;
+    
+}
+
+.scan3D{
+    background-image: url('../images/scan3D.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  position: relative;
+  top: -5px;
+
+}
+
+
 
 .textHolder{
     
@@ -472,6 +631,15 @@ h3{
     font-family: POPPINSMEDI;
 
 }
+
+h4{
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  font-family: PROXIMASEMI;
+  color: #6B1234;
+  align-self: baseline;
+
+}
+
 
 p{
     font-size: 1.188rem;
@@ -881,7 +1049,8 @@ h3{
 
 p{
     font-size:1rem;
-    width: 30ch;
+    width: 22ch;
+    left: 0px !important;
 }
 
 
@@ -895,6 +1064,8 @@ p{
     height: 55em;
     min-width: unset;
   }
+
+
 
 #limbscan{
   appearance: none;

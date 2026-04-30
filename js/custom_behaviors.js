@@ -98,6 +98,15 @@ $(document).ready(function() {
 		
 
 	})
+
+
+
+	$("#scan").on("click", function(event){
+    event.preventDefault()
+    $(".animationHolder").fadeIn(1)
+    $(".modalHolder").fadeOut(1)
+})
+
 var modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
@@ -199,6 +208,10 @@ window.addEventListener("click", function(event) {
     modalSettings.style.display = "none";
   }
 });
+
+
+
+
 
 
 
