@@ -89,26 +89,91 @@
 
                                      <div class="modalHolder">
                                         <div class="sideScan">
-                                            <h1>Scan</h1>
+                                            Scan
                                         </div>
                                         <div class="middleModalSection">
                                             <div class="logoImage"></div>
                                             <h4>Digitally scan your residual limb with sub millimeter precision.</h4>
                                              
-                                                <p style="color: #6B1234;position: relative;top: 30px; float: right;max-width: 374px";>Smartphone-based photogrammetry reconstructs the precise geometry needed for a perfectly fitted, 3D-printed prosthetic socket.</p>
+                                                <p style="color: #6B1234;position: relative;top: 30px; max-width: 374px;margin-left: auto;";>Smartphone-based photogrammetry reconstructs the precise geometry needed for a perfectly fitted, 3D-printed prosthetic socket.</p>
 
-                                                <button id="scan">
+                                                <button onclick="move()" id="scan" >
                                                     Start 3D Scan
                                                     <div class="scan3D"></div>
 
                                                 </button>
 
 
+
                                             </div>
                                          
                                         </div>
                                         <div class="animationHolder" style="display: none"> 
+                                           
+                                            <div class="residualLimb">Residual Limb Scan</div>
+                                         
 
+                                            <div class="secondMiddleSection">
+                                                   <p style="color:#6b1234; width: 40%; position: absolute; top: 40px; font-size: 0.9rem;" >Hold your phone 30–40 cm away and move it slowly  around the limb—KintsugiFit  captures it to ±0.4 mm accuracy.</p>
+
+                                                   <p style="color:#6b1234; width: 40%; position: absolute; top: 700px; font-size: 0.9rem;color: #6b1234;width: 40%;position: absolute;top: 650px;font-size: 0.9rem;/*! left: 600px; */" >Frames
+                                                   Loading..400/400</p>
+
+
+                                                   <p style="color:#6b1234; width: 90%; position: absolute; top: 700px; font-size: 1.1rem;/*! left: 600px; */font-weight: bold;" >Smartphone photogrammetry Sub-mm precision</p>
+
+                                                <div class="scanMain">
+                                                    <div class="socketImage"></div>
+                                                    <h3 style="color: #6b1234;">Reconstructing...</h3>
+
+                                                </div>  
+
+                                                <div class="progressContainer">
+
+
+                                                        <div id="myProgress">
+                                                              <div id="myBar"></div>
+                                                        </div>
+
+
+                                                        <script>                                        
+                                                                            var i = 0;
+                                                                        function move() {
+                                                                          if (i == 0) {
+                                                                            i = 1;
+                                                                            var elem = document.getElementById("myBar");
+                                                                            var height = 1;
+                                                                            var id = setInterval(frame, 95);
+                                                                            function frame() {
+                                                                              if (height >= 100) {
+                                                                                clearInterval(id);
+                                                                                i = 0;
+                                                                                $(".secondMiddleSection").fadeOut(400)
+                                                                                $(".thirdMiddleSection").fadeIn(300)
+                                                                                
+                                                                              } else {
+                                                                                height++;
+                                                                                elem.style.height = height + '%'; 
+                                                                                 document.getElementById("demo").innerHTML = height * 1  + '%';
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+
+                                                        </script>   
+                                                                               
+                                                         <h3 id="demo" style="color: #6b1234; font-weight: bold;position: absolute;top: -60px;left: -29px;">20%</h3>  
+                                                              
+                                                </div>  
+
+
+                                            </div>
+                                            <div class="thirdMiddleSection" style="display: none">
+
+                                                    
+
+
+                                            </div>
                                             
                                         </div>
 

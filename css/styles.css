@@ -267,6 +267,14 @@ appearance: none;
     position: relative;
     margin-right: auto;
     align-content: center;
+    font-size: clamp(4rem, 6vw, 5.4rem);
+  font-family: TERMINABOLD;
+  color: #6B1234;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  padding-left: 1.5rem;
+  align-self: center;
+  display: flex;
 }
 
 .middleModalSection{
@@ -275,7 +283,45 @@ appearance: none;
   align-self: center;
   max-width: 496px;
   height: 323px;
+  display: flex;
+  flex-wrap: wrap;
 
+}
+
+
+.secondMiddleSection{
+position: relative;
+  align-self: center;
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+
+
+}
+
+
+
+
+
+
+.residualLimb{
+position: relative;
+  margin-right: auto;
+  align-self: center;
+  font-size: clamp(1.25rem, 6vw, 2.25rem);
+  font-family: PROXIMASEMI;
+  color: #6B1234;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  justify-content: center;
+  display: flex;
+  margin-left: 20px;
+  
 }
 
 
@@ -312,6 +358,111 @@ appearance: none;
 }
 
 
+.progressContainer{
+    position: relative;
+    display: flex;
+    height: 400px;
+    margin-left: 73px;
+  
+   
+
+}
+
+ #myProgress {
+  height: 100%;
+  background-color: grey;
+  border-radius: 20px;
+  position: absolute;
+}
+
+#myBar {
+  height: 1%;
+  width: 18px;
+  background-color: #6b1234;
+   border-radius: 20px;
+
+}
+
+
+
+.scanMain{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.scanMain .socketImage{
+    position: relative;
+  width: 180px;
+  height: 400px;
+  background-image: url('../images/socketless.png');
+  background-size: 140px;
+  background-repeat: no-repeat;
+    
+}
+
+.scanMain .socketImage:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:url('../images/socketplus.png'); 
+    background-size: 140px;
+    background-repeat: no-repeat;
+    animation: animate 4s ease-in-out infinite;
+
+}
+
+@keyframes animate
+{
+    0%,100%
+    {
+        height: 0%;
+    }
+
+
+    50%
+    {
+        height: 100%;
+    }
+}
+
+
+.scanMain .socketImage:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background: #6b1234;
+    border-radius: 8px;
+    filter: drop-shadow(0 0 20px #6b1234) drop-shadow(0 0 60px #6b1234); 
+   animation: animate_line 4s ease-in-out infinite;
+
+}
+
+
+
+
+@keyframes animate_line
+
+{
+ 0%,100%
+    {
+        top: 0%;
+    }
+
+
+    50%
+    {
+        top: 100%;
+    }
+}
 
 .logoImage{
     background-image:url('../images/logo.png'); 
@@ -326,18 +477,22 @@ appearance: none;
 
 
 .animationHolder{
-    width:95vw;
-max-width:1100px;
-height:90vh;
-padding:0;
-border:0;border-radius:16px;  
-background-color: #81D3F0; 
-background-blend-mode: soft-light;  
-background-image:url('../images/track2.jpg'); 
-background-repeat: no-repeat; 
-background-size: cover;
-background-position: center;
-position: relative;
+width: 95vw;
+  max-width: 1100px;
+  height: 90vh;
+  padding: 0;
+  border: 0;
+  border-radius: 16px;
+  background-color: #81D3F0;
+  background-blend-mode: soft-light;
+  background-image: url('../images/track2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  justify-content: center;
+  align-content: center;
+  display: flex;
 }
 
 
@@ -1063,6 +1218,19 @@ p{
     padding-right: 16px;
     height: 55em;
     min-width: unset;
+  }
+
+
+  .modalHolder{
+    flex-direction: column;
+  }
+
+
+  .sideScan{
+    writing-mode: initial;
+    transform: rotate(0deg) !important;
+    padding-left: 0;
+    margin-bottom: 20px;
   }
 
 

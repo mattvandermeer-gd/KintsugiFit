@@ -3,8 +3,7 @@ $(document).ready(function() {
 	// VARIABLES
 
 
-	
-	
+
 	
 	// EVENT HANDLERS
 	$(".designButton").on("click", function(event){
@@ -106,6 +105,7 @@ $(document).ready(function() {
     $(".animationHolder").fadeIn(1)
     $(".modalHolder").fadeOut(1)
 })
+
 
 var modal = document.getElementById("myModal");
 
@@ -239,7 +239,6 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
-
 
 
 
