@@ -1,7 +1,15 @@
 $(document).ready(function() {
 					
 	// VARIABLES
+	import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
+	import { MeshoptDecoder } from 'three/examples/jsm/libs/meshopt_decoder.module.js';
 
+	const loader = new GLTFLoader();
+	loader.setMeshoptDecoder(MeshoptDecoder); // This line is the fix
+
+	loader.load('./socket/socket3.glb', (gltf) => {
+    	scene.add(gltf.scene);
+	});
 
 
 	
