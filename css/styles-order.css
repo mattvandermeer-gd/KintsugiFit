@@ -139,6 +139,21 @@ width: 70px;
 }
 
 
+.arrowBackDash{
+width: 70px;
+  height: 70px;
+  position: absolute;
+  display: flex;
+  background-image: url('../images/ArrowLeft.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  top: -23px;
+
+}
+
+
 .custom-select-wrapper{
     width: 300px;
   height: 121px;
@@ -180,6 +195,12 @@ select {
 
 }
 
+.arrowBackDash:hover{
+  transform: scale(1.2); 
+
+   
+
+}
 
 
 .headerText{

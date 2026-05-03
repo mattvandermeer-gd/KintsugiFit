@@ -212,19 +212,18 @@ display: flex;
 
 
 #scan-modal{
-width:95vw;
-max-width:1100px;
-height:90vh;
-padding:0;
-border:0;border-radius:16px;  
-background-color: #81D3F0; 
-background: rgba(129, 211, 240,);
-
-
-background-repeat: no-repeat; 
-background-size: cover;
-background-position: center;
-position: relative;
+width: 95vw;
+  max-width: 1100px;
+  height: 100vh;
+  padding: 0;
+  border: 0;
+  border-radius: 16px;
+  background-color: #81D3F0;
+  background: rgba(129, 211, 240,);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
 #limbscan{
@@ -306,8 +305,159 @@ position: relative;
 
 }
 
+.thirdMiddleSection{
+position: relative;
+  align-self: center;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 9vw;
+
+}
 
 
+.profileHeader{
+    display: flex;
+  height: auto;
+  width: 100%;
+  position: relative;
+  justify-content: start;
+  margin-bottom: 30px;
+  flex-direction: column;
+}
+
+
+.statHolder{
+ width: 70%;
+  height: auto;
+  display: flex;
+  gap: 1.5rem;
+  flex-grow: 0;
+  flex-wrap: wrap;
+  mix-blend-mode: multiply;
+  filter: drop-shadow( 1px 1px 8px #6b1234);
+  animation-name: slideDownAnimation;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
+  animation-direction: normal;
+  animation-fill-mode: both;
+  isolation: isolate;
+  will-change: transform;
+}
+
+
+.statOne{
+    width: 192px;
+  height: 144px;
+  aspect-ratio: 1.333;
+  clip-path: shape(from 48.46% 0%,line to 7.81% 0%,curve to 0% 10.42% with 3.5% 0%/0% 4.66%,line to 0% 80.23%,line to 0% 89.58%,curve to 7.81% 100% with 0% 95.34%/3.5% 100%,line to 92.19% 100%,curve to 100% 89.58% with 96.5% 100%/100% 95.34%,vline to 80.23%,line to 100% 31.18%,curve to 92.19% 20.76% with 100% 25.43%/96.5% 20.76%,line to 64.04% 20.76%,curve to 56.25% 10.38% with 59.74% 20.76%/56.25% 16.12%,curve to 48.46% 0% with 56.25% 4.65%/52.76% 0%,close);
+  background-color: #81D3F0;
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+  gap: 11px;
+  justify-content: center;
+  padding-left: 1vw;
+
+
+}
+
+
+.statTwo{
+    width: 295px;
+    height: 132px;
+    aspect-ratio: 2.235;
+    clip-path: shape(from 100% 44.89%,line to 100% 11.36%,curve to 94.92% 0% with 100% 5.09%/97.72% 0%,line to 19.77% 0%,line to 5.08% 0%,curve to 0% 11.36% with 2.28% 0%/0% 5.09%,line to 0% 88.64%,curve to 5.08% 100% with 0% 94.91%/2.28% 100%,line to 19.77% 100%,line to 74.15% 100%,curve to 79.24% 88.64% with 76.96% 100%/79.24% 94.91%,line to 79.24% 67.61%,curve to 84.32% 56.25% with 79.24% 61.34%/81.51% 56.25%,line to 94.92% 56.25%,curve to 100% 44.89% with 97.72% 56.25%/100% 51.16%,close);
+    background-color: #81D3F0; 
+    display: flex;
+  text-align: start;
+  flex-direction: column;
+  gap: 11px;
+  justify-content: center;
+  padding-left: 1vw;
+
+}
+
+
+.statThree{
+    width: 192px;
+    height: 171px;
+    aspect-ratio: 1.123;
+    clip-path: shape(from 0% 7.02%,curve to 6.25% 0% with 0% 3.14%/2.8% 0%,hline to 76.3%,curve to 82.55% 7.02% with 79.75% 0%/82.55% 3.14%,vline to 17.71%,curve to 88.8% 24.73% with 82.55% 21.59%/85.35% 24.73%,hline to 93.75%,curve to 100% 31.75% with 97.2% 24.73%/100% 27.87%,vline to 62.36%,vline to 92.98%,curve to 93.75% 100% with 100% 96.86%/97.2% 100%,hline to 6.25%,curve to 0% 92.98% with 2.8% 100%/0% 96.86%,vline to 59.24%,vline to 34.78%,vline to 7.02%,close);
+    background-color: #81D3F0; 
+    display: flex;
+  text-align: start;
+  flex-direction: column;
+  gap: 11px;
+  justify-content: center;
+  padding-left: 1vw;
+
+
+}
+
+
+.statFour{
+    width: 295px;
+    height: 171px;
+
+    aspect-ratio: 1.725;
+    clip-path: shape(from 0% 52.52%,line to 0% 91.23%,curve to 5.08% 100% with 0% 96.07%/2.28% 100%,line to 80.23% 100%,line to 94.92% 100%,curve to 100% 91.23% with 97.72% 100%/100% 96.07%,line to 100% 8.77%,curve to 94.92% 0% with 100% 3.93%/97.72% 0%,line to 80.23% 0%,line to 25.85% 0%,curve to 20.76% 8.77% with 23.04% 0%/20.76% 3.93%,line to 20.76% 34.98%,curve to 15.68% 43.75% with 20.76% 39.82%/18.49% 43.75%,line to 5.08% 43.75%,curve to 0% 52.52% with 2.28% 43.75%/0% 47.68%,close);
+    background-color: #81D3F0; 
+    display: flex;
+  text-align: start;
+  flex-direction: column;
+  gap: 11px;
+  justify-content: center;
+  padding-left: 1vw;
+   
+}
+
+
+.dashboardLogin{
+  padding: 1.2vw 1.2vw;
+  background-color: #6b1234;
+  color: #81D3F0;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-top: 30px;
+  border-radius: 12px;
+  border: none;
+  appearance: none;
+  display: flex;
+  gap: 20px;
+  justify-content: left;
+  text-align: start;
+  align-content: center;
+  position: relative;
+  width: 50%;
+  height: auto;
+  margin-bottom: 30px;
+  transition: color 300ms ease-in;
+ font-family: PROXIMAREG;
+
+}
+
+
+.dashboardLogin:hover{
+  background-color: lightblue;
+color: #6b1234;
+}
+
+
+.googleLogo{
+    background-image: url('../images/googlelogo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  border: none;
+  appearance: none;
+
+
+}
 
 
 
@@ -1232,6 +1382,30 @@ p{
     width: auto;
     display: flex;
     flex-direction: column;
+    margin-bottom: 3vw;
+    margin-top: 80px;
+  }
+
+
+  .dashboardLogin{
+    padding: 2vw 6vw;
+  background-color: #6b1234;
+  color: #81D3F0;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-top: 30px;
+  border-radius: 12px;
+  border: none;
+  appearance: none;
+  display: flex;
+  gap: 20px;
+  justify-content: left;
+  text-align: start;
+  align-content: center;
+  position: relative;
+  width: 60%;
+  height: auto;
+  margin-bottom: 30px;
   }
 
 
@@ -1259,7 +1433,7 @@ p{
 .progressContainer{
   position: absolute;
     display: flex;
-    height: 345px;
+    height: 250px;
     width: 300px;
     margin-left: initial;
 }
@@ -1274,19 +1448,20 @@ p{
 
 
 .animationHolder{
-    width: 95vw;
-  max-width: 1100px;
-  height: 90vh;
-  border: 0;
-  border-radius: 16px;
-  position: relative;
-  justify-content: center;
-  align-content: center;
-  background: rgba(129, 211, 240, 0.8);
-  backdrop-filter: none;
-  display: flex;
-  flex-direction: column;
-  padding: 40px;
+   width: 100vw;
+    max-width: 1100px;
+    height: 100vh;
+    border: 0;
+    border-radius: 16px;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    background: rgba(129, 211, 240, 0.8);
+    backdrop-filter: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: 9vw;
+  
 }
 
 
