@@ -1348,6 +1348,15 @@ width: 300px;
 }
 
 
+.textInfo{
+    position: absolute;
+    color: #6B1234;
+    font-family: PROXIMAREG;
+    font-size: 16px;
+
+}
+
+
 .mapView{
 width: 150px;
   height: 150px;

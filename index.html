@@ -67,6 +67,7 @@
                                 <h2>Accessible Athletic Prosthetics</h2>
                            </div>
 
+
                             <div class="shapeHolder1">
                                 <div class="shapeOne"></div>
                                 <div class="shapeTwo"></div>
@@ -74,11 +75,12 @@
                                 <div class="shapeFour"></div>
                                 
                              </div>
-                            <div class="buttonContainer">
-                             <button id="limbscan" onclick="document.getElementById('scan-modal').showModal()">
-                                  Get Started
-                                </button>
-                            </div>
+
+                            
+
+                            
+
+                             <div class="textInfo">Lower cost, fully customizable, adjustable, and lightweight—unlike traditional prosthetic brands, it’s built for user-driven flexibility.</div>
 
                                 <!-- Native HTML dialog -->
                                 <dialog id="scan-modal">
@@ -228,6 +230,11 @@
                                       });
                                 </script>
                     </div>
+                    <div class="buttonContainer" style="display: grid;justify-content: center;align-content: center;">
+                             <button id="limbscan" onclick="document.getElementById('scan-modal').showModal()">
+                                  Get Started
+                                </button>
+                            </div>
 
                                     
 
@@ -276,7 +283,7 @@
                         </div>
                     </div>
 
-                    <model-viewer id="socket" src="./socket/socket3.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="0" exposure="1.2" auto-rotate camera-orbit="0deg 75deg 3.013m" field-of-view="30deg" interaction-prompt="none" camera-orbit="calc(-1.5rad + env(window-scroll-y) * 4rad) 75deg 3m"> 
+                    <model-viewer id="socket" src="./socket/socket3.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="0" exposure="1.2" auto-rotate camera-orbit="0deg 75deg 3.013m" field-of-view="30deg" interaction-prompt="none"   camera-orbit="calc(-1.5rad + env(window-scroll-y) * 4rad) 75deg auto"> 
                     </model-viewer>
                         
                     

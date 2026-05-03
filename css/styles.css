@@ -231,22 +231,23 @@ appearance: none;
   border: none;
   background-color: #6b1234;
   border-radius: 12px;
-  display: inline-block;
   padding: 1rem 2rem;
-  width: 23vw;
+  width: 300px;
   height: 92px;
-
   box-sizing: border-box;
   color: #80D3F1;
   font-weight: normal;
   font-family: helvetica;
   cursor: pointer;
   position: relative;
-  top: 547px;
-  right: 376px;
   font-size: clamp(1rem, 2vw, 1.2rem);
   z-index: 9999;
   transition: color 300ms ease-in;
+  margin-left: auto;
+  justify-content: center;
+  align-content: center;
+  display: grid;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 
 
 
@@ -679,6 +680,14 @@ width: 95vw;
     
 }
 
+
+.textInfo{
+    position: relative;
+  color: #6B1234;
+  font-family: PROXIMAREG;
+  font-size: clamp(0.8rem, 2vw , 1rem);
+
+}
 
 
 .shapeHolder1{
@@ -1332,11 +1341,11 @@ model-viewer{
 
 
 .textBox2{
-    width: 17.688em;
+   width: 17.688em;
     height: 9.155em;
-    top: 28.6em;
+    top: 26.6em;
     position: relative;
-    margin-left: 9.625em;
+    margin-left: 13.6em;
 }
 
 
@@ -1373,6 +1382,12 @@ p{
 
   .modalHolder{
     flex-direction: column;
+  }
+
+  .textInfo{
+    order: -1;
+    width: 80vw;
+    margin-bottom: 20px;
   }
 
 
@@ -1489,6 +1504,7 @@ p{
   .buttonContainer{
     position: relative;
     display: flex;
+
   }
 
 
@@ -1516,7 +1532,7 @@ display: none;
 
 
 .textHolder{
- height: 4em;
+height: 4em;
     writing-mode: horizontal-tb !important;
     transform: none !important;
     width: auto;
@@ -1529,6 +1545,7 @@ display: none;
     margin-right: auto;
     gap: 7px;
     margin-bottom: 20px;
+    order: -1;
 }
 
 
@@ -1640,7 +1657,7 @@ model-viewer{
 .second{
     height: auto;
     display: flex;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: unset;
     background-repeat: unset;
     background-size: none;
@@ -1661,7 +1678,7 @@ model-viewer{
   display: block;
   position: absolute;
   z-index: -8;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 
