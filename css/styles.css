@@ -1375,9 +1375,98 @@ p{
 .container {
     padding-left: 16px;
     padding-right: 16px;
-    height: 55em;
+    height: auto;
+    min-height: 55em;
     min-width: unset;
   }
+
+
+  #scan-modal {
+        width: 100vw;
+        height: 100vh;
+        max-height: 100vh;
+        border-radius: 0;
+        overflow-y: auto; /* Enable scrolling if content is tall */
+    }
+
+    /* 2. Stack the Modal and Animation Holders */
+    .modalHolder, 
+    .animationHolder {
+        flex-direction: column;
+        width: 100% !important;
+        height: auto !important;
+        position: relative !important;
+        padding: 40px 20px !important;
+        margin: 0 !important;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    /* 3. Convert Vertical Text to Horizontal Headers */
+    .sideScan, 
+    .residualLimb {
+        writing-mode: horizontal-tb !important;
+        transform: none !important;
+        font-size: 2rem !important;
+        margin: 0 0 20px 0 !important;
+        align-self: center !important;
+        text-align: center;
+        width: 100%;
+    }
+
+    /* 4. Fix Section Widths and Spacing */
+    .middleModalSection, 
+    .secondMiddleSection, 
+    .thirdMiddleSection {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-left: 0 !important;
+        height: auto !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative !important;
+        top: 0 !important;
+    }
+
+    /* 5. Adjust Stats and Buttons */
+    .statHolder {
+        width: 100% !important;
+        justify-content: center !important;
+        gap: 10px !important;
+        height: 100%;
+    }
+
+    .statOne, .statTwo, .statThree, .statFour {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    #scan {
+        position: relative !important;
+        
+        margin: 0 auto !important;
+    }
+
+    .dashboardLogin {
+        width: 90% !important;
+        font-size: 0.8rem !important;
+    }
+
+    /* 6. Fix Progress Bar Layout */
+    .progressContainer {
+        margin-left: 0 !important;
+        height: 200px !important; /* Shorter for mobile */
+        margin-top: 50px;
+    }
+
+    .secondMiddleSection p {
+        position: relative !important;
+        width: 100% !important;
+        top: 0 !important;
+        margin-bottom: 20px;
+        text-align: center;
+    }
 
 
   .modalHolder{
