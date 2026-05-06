@@ -1,0 +1,857 @@
+@font-face {
+    font-family: 'TERMINABOLD';
+    src: url('../fonts/TerminaTest-Bold.woff') format('woff'),
+
+
+}
+
+@font-face {
+    font-family: 'TERMINADEMI';
+    src: url('../fonts/TerminaTest-Demi.woff') format('woff'),
+
+
+}
+
+
+@font-face {
+    font-family: 'TERMINAMEDI';
+    src: url('../fonts/TerminaTest-Medium.woff') format('woff'),
+
+
+}
+
+
+
+@font-face {
+    font-family: 'TERMINA';
+    src: url('../fonts/TerminaTest-Regular.woff') format('woff'),
+
+
+}
+
+
+@font-face {
+    font-family: 'PROXIMAREG';
+    src: url('../fonts/ProximaNova-Regular.woff') format('woff'),
+
+
+}
+
+@font-face {
+    font-family: 'PROXIMASEMI';
+    src: url('../fonts/ProximaNova-Semibold.woff') format('woff'),
+
+
+}
+
+@font-face {
+    font-family: 'PROXIMALIGHT';
+    src: url('../fonts/ProximaNova-Light.woff') format('woff'),
+
+
+}
+
+
+@font-face {
+    font-family: 'POPPINSMEDI';
+    src: url('../fonts/Poppins-Medium.woff') format('woff'),
+
+
+}
+
+
+@font-face {
+    font-family: 'POPPINSREG';
+    src: url('../fonts/Poppins-Regular.woff') format('woff'),
+
+
+}
+
+
+
+body{
+    background: #80D3F1 url('../images/gym.jpg');
+    overflow-x: hidden;
+    background-blend-mode: hard-light;
+    will-change: transform;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      
+    
+}
+
+.mainChat{
+    display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center;     /* Vertical centering */
+  height: 100vh;
+  margin: 0 auto;
+  width: 100vw;
+
+
+
+}
+
+
+.backArrow{
+      background-image:url('../images/ArrowLeft.png'); 
+      position: absolute;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 100px;
+      display: flex;
+      height: 100px;
+      transition: transform 0.3s ease-in-out;
+
+
+}
+
+
+.backArrow:hover{
+      transform: scale(1.2);
+
+
+}
+
+
+.backArrowTwo{
+      background-image:url('../images/ArrowLeft.png'); 
+      position: relative;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 50px;
+      display: flex;
+      height: 50px;
+      transition: transform 0.3s ease-in-out;
+
+}
+.backArrowTwo:hover{
+      transform: scale(1.2);
+
+
+}
+
+
+.logo{
+    background-image:url('../images/logo-blue.png'); 
+      position: relative;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 50px;
+      display: flex;
+      height: 50px;
+
+}
+
+
+.chatHolder{
+    position:  relative;
+     height: 600px; 
+    width: 1000px;
+    border-radius: 12px;
+    background-color: #6b1234;
+    margin-inline: 30px; 
+    animation-name: slideDownAnimation;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
+  animation-direction: normal;
+  animation-fill-mode: both;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+ box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.3);
+
+
+}
+
+
+
+@keyframes slideDownAnimation {
+  0% { transform: translateY(-100px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+
+
+.title{
+    padding: 40px 40px;
+    width: 100%;
+    height: 0px;
+    animation-name: slideDownAnimation;
+  animation-duration: 1.5s;
+  animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
+  animation-direction: normal;
+  animation-fill-mode: both;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 0 auto;
+
+
+}
+
+
+.main{
+    
+    width: 90%;
+    height: 80%;
+    animation-name: slideDownAnimation;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
+  animation-direction: normal;
+  animation-fill-mode: both;
+  display: flex;
+  gap: 20px;
+  border-radius: 12px;
+  background-color: #81D3F0;
+  position: relative;
+
+
+
+}
+
+
+.mainTwo{
+   width: 90%;
+    height: 80%;
+    animation-name: slideDownAnimation;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
+  animation-direction: normal;
+  animation-fill-mode: both;
+  display: flex;
+  gap: 20px;
+  border-radius: 12px;
+  background-color: #81D3F0;
+  position: relative;
+}
+
+
+.mainThree{
+   width: 90%;
+    height: 80%;
+    animation-name: slideDownAnimation;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
+  animation-direction: normal;
+  animation-fill-mode: both;
+  display: flex;
+  gap: 20px;
+  border-radius: 12px;
+  background-color: #81D3F0;
+  position: relative;
+}
+
+.mainFour{
+   width: 90%;
+    height: 80%;
+    animation-name: slideDownAnimation;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
+  animation-direction: normal;
+  animation-fill-mode: both;
+  display: flex;
+  gap: 20px;
+  border-radius: 12px;
+  background-color: #81D3F0;
+  position: relative;
+}
+.mainFive{
+   width: 90%;
+    height: 80%;
+    animation-name: slideDownAnimation;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
+  animation-direction: normal;
+  animation-fill-mode: both;
+  display: flex;
+  gap: 20px;
+  border-radius: 12px;
+  background-color: #81D3F0;
+  position: relative;
+}
+
+
+.answerTitle{
+    width: 95%;
+    height: 100%;
+    display: flex;
+
+
+
+
+}
+.answerTitleTwo{
+    width: 95%;
+    height: 100%;
+    display: flex;
+
+
+
+
+}
+
+
+.answerTitleThree{
+    width: 95%;
+    height: 100%;
+    display: flex;
+
+
+
+
+}
+.answerTitleFour{
+    width: 95%;
+    height: 100%;
+    display: flex;
+
+
+
+
+}
+
+.answerBox{
+ width: 100%;
+  height: 400px;
+  position: relative;
+  background-color: #6b1234;
+  border-radius: 12px;
+  color: #80D3F1;
+  font-family: PROXIMAREG;
+  margin: 20px;
+  padding: 20px 20px;
+  overflow: auto;
+   text-overflow: ellipsis;
+
+
+
+}
+
+
+
+.answerBoxTwo{
+ width: 100%;
+  height: 400px;
+  position: relative;
+  background-color: #6b1234;
+  border-radius: 12px;
+  color: #80D3F1;
+  font-family: PROXIMAREG;
+  margin: 20px;
+  padding: 20px 20px;
+  overflow: auto;
+   text-overflow: ellipsis;
+
+
+
+}
+
+
+.answerBoxThree{
+ width: 100%;
+  height: 400px;
+  position: relative;
+  background-color: #6b1234;
+  border-radius: 12px;
+  color: #80D3F1;
+  font-family: PROXIMAREG;
+  margin: 20px;
+  padding: 20px 20px;
+  overflow: auto;
+   text-overflow: ellipsis;
+
+
+
+}
+
+.answerBoxFour{
+ width: 100%;
+  height: 400px;
+  position: relative;
+  background-color: #6b1234;
+  border-radius: 12px;
+  color: #80D3F1;
+  font-family: PROXIMAREG;
+  margin: 20px;
+  padding: 20px 20px;
+  overflow: auto;
+   text-overflow: ellipsis;
+
+
+
+}
+
+.logoAI{
+     background-image:url('../images/logo.png'); 
+      position: relative;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 40px;
+      height: 40px;
+      margin: 30px 30px;
+      border-radius: 10px;
+      animation: slideAround 2s linear 2;
+      animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
+      animation-direction: alternate;
+     animation-fill-mode: both;
+        will-change: transform;
+      
+}
+.logoAITwo{
+     background-image:url('../images/logo.png'); 
+      position: relative;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 40px;
+      height: 40px;
+      margin: 30px 30px;
+      border-radius: 10px;
+      animation: slideAround 2s linear 2;
+      animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
+      animation-direction: alternate;
+     animation-fill-mode: both;
+        will-change: transform;
+      
+}
+
+.logoAIThree{
+     background-image:url('../images/logo.png'); 
+      position: relative;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 40px;
+      height: 40px;
+      margin: 30px 30px;
+      border-radius: 10px;
+      animation: slideAround 2s linear 2;
+      animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
+      animation-direction: alternate;
+     animation-fill-mode: both;
+        will-change: transform;
+      
+}
+
+.logoAIFour{
+     background-image:url('../images/logo.png'); 
+      position: relative;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 40px;
+      height: 40px;
+      margin: 30px 30px;
+      border-radius: 10px;
+      animation: slideAround 2s linear 2;
+      animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
+      animation-direction: alternate;
+     animation-fill-mode: both;
+        will-change: transform;
+      
+}
+
+@keyframes slideAround {
+  0% { rotate: 0deg; }
+   35% { rotate: 45deg; }
+  65% { rotate: -45deg; }
+   100% { rotate: 0deg; }
+}
+
+.recommended{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   
+}
+
+.questionHolder{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+    
+
+}
+
+.shape1{
+    width: 90%;
+    height: 100px;
+    background-color: #6b1234;
+    position: relative;
+    border-radius: 12px;
+    animation-name: slideDownAnimation;
+    animation-duration: 2.5s;
+  animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
+  animation-direction: normal;
+  animation-fill-mode: forwrds;
+  color: #81D3F0;
+  font-size: 0.9rem;
+  font-family: PROXIMAREG;
+  padding: 10px 10px;
+  transition: background-color 0.5s ease-in-out ;
+  cursor: pointer;
+  border: none;
+  appearance: none;
+
+
+}
+
+.shape1:hover{
+    background-color: #3DADD6;
+    color: #6b1234;
+
+    cursor: pointer;
+}
+
+.shape2{
+    width: 90%;
+    height: 100px;
+    background-color: #6b1234;
+    position: relative;
+    border-radius: 12px;
+    animation-name: slideDownAnimation;
+    animation-duration: 3s;
+  animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
+  animation-direction: normal;
+  animation-fill-mode: both;
+  color: #81D3F0;
+  font-size: 0.9rem;
+  font-family: PROXIMAREG;
+   padding: 10px 10px;
+   transition: background-color  ease-in-out 0.5s;
+  cursor: pointer;
+    border: none;
+  appearance: none;
+  
+}
+
+.shape2:hover{
+    background-color: #3DADD6;
+    color: #6b1234;
+
+    cursor: pointer;
+}
+.shape3{
+    width: 90%;
+    height: 100px;
+    background-color: #6b1234;
+    position: relative;
+    border-radius: 12px;
+    animation-name: slideDownAnimation;
+    animation-duration: 3.5s;
+  animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
+  animation-direction: normal;
+  animation-fill-mode: both;
+  color: #81D3F0;
+  font-size: 0.9rem;
+  font-family: PROXIMAREG;
+   padding: 10px 10px;
+   transition: background-color ease-in-out 0.5s;
+  cursor: pointer;
+    border: none;
+  appearance: none;
+ 
+}
+
+.shape3:hover{
+    background-color: #3DADD6;
+    color: #6b1234;
+
+    cursor: pointer;
+}
+
+.shape4{
+    width: 90%;
+    height: 100px;
+    background-color: #6b1234;
+    position: relative;
+    border-radius: 12px;
+    animation-name: slideDownAnimation;
+    animation-duration: 4s;
+  animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
+  animation-direction: normal;
+  animation-fill-mode: both;
+  color: #81D3F0;
+  font-size: 0.9rem;
+  font-family: PROXIMAREG;
+   padding: 10px 10px;
+   transition: background-color ease-in-out 0.5s;
+  cursor: pointer;
+    border: none;
+  appearance: none;
+ 
+}
+
+.shape4:hover{
+    background-color: #3DADD6;
+    color: #6b1234;
+
+    cursor: pointer;
+}
+
+h4{
+   font-size: 1rem;
+    color: #81D3F0;
+    font-family: PROXIMAREG;
+
+
+}
+
+
+h3{
+    font-size: 1.4rem;
+    color: #81D3F0;
+    font-family: PROXIMASEMI;
+
+}
+
+
+
+
+h2{
+   font-size: clamp(1.5rem, 4vw, 2.2rem);
+   color: #81D3F0;
+   font-family: POPPINSMEDI;
+
+
+}
+
+
+h1{
+    font-size: clamp(1.2rem, 4vw, 1.5rem);
+    color: #6b1234;
+    font-family: PROXIMASEMI;
+
+}
+
+
+p{
+     font-size: clamp(0.8rem, 4vw, 1rem);
+    color: #6b1234;
+    font-family: PROXIMAREG;
+}
+
+
+
+@media (max-width: 520px){
+    .chatHolder{
+        width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-sizing: border-box;
+    height: 80vh;
+    flex-direction: column;
+  }
+
+  .title{
+    width: 100%;
+    height: auto;
+    animation-name: slideDownAnimation;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
+    animation-direction: normal;
+    animation-fill-mode: both;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 20px 40px;
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .logoAI{
+    display: none;
+  }
+
+  .logoAITwo{
+    display: none;
+  }
+
+  .logoAIThree{
+    display: none;
+  }
+
+  .logoAIFour{
+    display: none;
+  }
+
+  .recommended{
+    position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 0px;
+  }
+
+  .questionHolder{
+    width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px !important;
+  }
+
+  .mainChat{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+  width: 100vw;
+  }
+
+  .main{
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+    height: 80vh;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+  
+  }
+  .mainTwo{
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+    height: 80vh;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+  
+  }
+
+  .mainThree{
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+    height: 80vh;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+  
+  }
+
+  .mainFour{
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+    height: 80vh;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+  
+  }
+
+  .mainFive{
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+    height: 80vh;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+  
+  }
+
+  .answerBox{
+    width: 100%;
+  height: 455px;
+  position: relative;
+  background-color: #6b1234;
+  border-radius: 12px;
+  color: #80D3F1;
+  font-family: PROXIMAREG;
+  margin: 0 auto;
+  padding: 10px 10px;
+  overflow: auto;
+  text-overflow: ellipsis;
+  top: 20px;
+  }
+
+
+  .answerBoxTwo{
+    width: 100%;
+  height: 455px;
+  position: relative;
+  background-color: #6b1234;
+  border-radius: 12px;
+  color: #80D3F1;
+  font-family: PROXIMAREG;
+  margin: 0 auto;
+  padding: 10px 10px;
+  overflow: auto;
+  text-overflow: ellipsis;
+  top: 20px;
+  }
+
+
+  .answerBoxThree{
+    width: 100%;
+  height: 455px;
+  position: relative;
+  background-color: #6b1234;
+  border-radius: 12px;
+  color: #80D3F1;
+  font-family: PROXIMAREG;
+  margin: 0 auto;
+  padding: 10px 10px;
+  overflow: auto;
+  text-overflow: ellipsis;
+  top: 20px;
+  }
+
+  .answerBoxFour{
+    width: 100%;
+  height: 455px;
+  position: relative;
+  background-color: #6b1234;
+  border-radius: 12px;
+  color: #80D3F1;
+  font-family: PROXIMAREG;
+  margin: 0 auto;
+  padding: 10px 10px;
+  overflow: auto;
+  text-overflow: ellipsis;
+  top: 20px;
+  }
+
+  h3{
+    text-align: left;
+  }
+
+  h4{
+    text-align: left;
+  }
+
+}
