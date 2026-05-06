@@ -1383,10 +1383,10 @@ p{
 
   #scan-modal {
         width: 100vw;
-        height: 100vh;
-        max-height: 100vh;
-        border-radius: 0;
-        overflow-y: auto; /* Enable scrolling if content is tall */
+    height: 100vh;
+    border-radius: 0;
+    overflow-y: auto;
+    overflow-x: auto;
     }
 
     /* 2. Stack the Modal and Animation Holders */
@@ -1698,7 +1698,7 @@ model-viewer{
     position: absolute;
     contain: strict;
     top: 10em;
-    scale: 0.5;
+    scale: 0.9;
     margin-left: 120px;
     z-index: 98;
   
@@ -1869,6 +1869,10 @@ ul{
   padding-top: 1.3rem;
   align-items: center;
   gap: 40px;
+}
+
+body{
+    overflow-x: hidden;
 }
 
 

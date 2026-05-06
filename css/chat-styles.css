@@ -644,11 +644,11 @@ p{
 
 @media (max-width: 520px){
     .chatHolder{
-        width: 100%;
+       width: 100%;
     padding-left: 0px;
     padding-right: 0px;
     box-sizing: border-box;
-    height: 80vh;
+    height: auto;
     flex-direction: column;
   }
 
@@ -686,12 +686,13 @@ p{
 
   .recommended{
     position: relative;
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  padding: 0px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0px;
+    top: 10px;
   }
 
   .questionHolder{
@@ -720,12 +721,13 @@ p{
     padding-left: 25px;
     padding-right: 25px;
     box-sizing: border-box;
-    height: 80vh;
+    height: auto;
     text-align: center;
     margin: 0 auto;
     align-items: center;
     justify-items: center;
     display: grid;
+    padding-bottom: 40px;
   
   }
   .mainTwo{
@@ -844,6 +846,17 @@ p{
   overflow: auto;
   text-overflow: ellipsis;
   top: 20px;
+  }
+
+  .backArrow{
+    background-image: url('../images/ArrowLeft.png');
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100px;
+  display: flex;
+  height: 100px;
+  transition: transform 0.3s ease-in-out;
   }
 
   h3{
