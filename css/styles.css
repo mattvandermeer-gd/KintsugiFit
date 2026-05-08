@@ -197,6 +197,19 @@ ul{
 }
 
 
+.iconHolder{
+    width: 100%;
+    height: 40px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    order: 0;
+    display: inline;
+    text-align: center;
+    top: 20px;
+}
+
+
 .modalHolder{
 width:80vw;
 max-width:1000px;
@@ -682,10 +695,12 @@ width: 95vw;
 
 
 .textInfo{
-    position: relative;
+   position: relative;
   color: #6B1234;
   font-family: PROXIMAREG;
   font-size: clamp(0.8rem, 2vw , 1rem);
+  min-width: 12vw;
+  max-width: 30vw;
 
 }
 
@@ -834,6 +849,7 @@ margin-left: 33rem;
   min-width: 420px;
   padding-left: 30px;
   padding-right: 30px;
+  flex-direction: column-reverse;
 
 }
 
@@ -1477,6 +1493,7 @@ p{
     order: -1;
     width: 80vw;
     margin-bottom: 20px;
+    max-width: 80vw;
   }
 
 
@@ -1843,6 +1860,21 @@ model-viewer{
 
 .shapeHolder2{
     display: none;
+
+}
+
+.iconHolder{
+    width: 100%;
+    height: 40px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    order: 999;
+    display: inline;
+    text-align: center;
+    top: 70px;
+    display: flex;
+    flex-direction: column-reverse;
 
 }
 
